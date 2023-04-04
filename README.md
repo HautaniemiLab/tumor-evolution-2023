@@ -14,8 +14,6 @@ cluster parameters in clu$Y.
 5. Using the old "clu$Y" and the new "X", "W" we map the two together. This is done in "kmeansw.R" L61-70. Now, new.clu$L will contain the cluster labels for the new data. 
 
 
-
-
 ## Contributors
 Sanaz Jamalzadeh   
 Antti Häkkinen
