@@ -56,7 +56,7 @@ colors <- c( 'no coexistence' = 'orange', 'competing' = 'red',
 	'maintaining' = 'green', 'adaptive' = 'blue' )
 
 	ig.pats <- c('EOC649')
-	ex.pats <- c('EOC165', 'H152', 'EOC310', 'EOC434', 'EOC49') 
+	ex.pats <- c('EOC165', 'EOC310', 'EOC136', 'EOC434', 'EOC49') 
 
 source('kmeansw.R')
 X <- cbind( avg$hcp, avg$dup )
