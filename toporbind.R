@@ -1,4 +1,5 @@
 
+#' author : Antti Häkkinen
 #' Merge data frame with topological variable sorting
 #'
 #' @param arg1 First data frame.
