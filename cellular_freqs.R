@@ -1,4 +1,4 @@
-# author: Sanaz Jamalzadeh, Antti Häkkinen
+# author: Sanaz Jamalzadeh
 
 # find models correspond to each patient from the phylogenetic tress as input
 models <- read.table('path to selected mutation tress from pyclone as csv file', 
