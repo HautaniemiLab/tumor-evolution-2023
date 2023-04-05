@@ -15,7 +15,7 @@ cluster parameters in clu$Y.
 
 4. We use the beginning of "test.R" to compute "X" and "W" (that is, avg$hcp and avg$dup) for the validation data (can include the discovery data too).
 
-5. Using the old "clu$Y" and the new "X", "W" we map the two together. This is done in "kmeansw.R" L61-70. Now, new.clu$L will contain the cluster labels for the new data. 
+5. Using the old "clu$Y" and the new "X", "W" we map the two together. This is done in "kmeansw.R" L57-79. Now, new.clu$L will contain the cluster labels for the new data. 
 
 
 ## Contributors
