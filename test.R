@@ -1,13 +1,15 @@
+#' author: Antti Häkkinen
 #!/usr/bin/env Rscript
 
-	set.seed(123L)  # deterministic clustering?
+set.seed(123L)  
 
-dat <- read.table('cellular_freqs-old.tsv',
+dat <- read.table('path to cellular frequencies from discovery set',
 	sep = '\t', header = T, row.names = 1L, stringsAsFactors = F)
 
-meta <- read.table('Coexistence_analysis_from_trees.csv',
+meta <- read.table('path to metadata including clinical data if is needed',
 	sep = ';', header = T, stringsAsFactors = F)
 
+# excluding cell lines and other irrelevant samples
 keep <- !grepl( '_CL\\d*', rownames(dat) ) &
 	      !grepl( '_sph', rownames(dat) )
 
@@ -16,6 +18,7 @@ dat <- dat[keep, ]
 dat$patient <- sub( '^(\\w+\\d+)_([pir])(.*)', '\\1', rownames(dat) )
 dat$phase <- sub( '^(\\w+\\d+)_([pir])(.*)', '\\2', rownames(dat) )
 
+# considering primary (diagnostic) samples only
 	use.phases <- c('p')
 #	use.phases <- 'i'
 #	use.phases <- c('i', 'r')
@@ -65,54 +68,7 @@ clu <- kmeansw( X, W, length(clu.colors), nstart = 1e3 )
 X1 <- clu$Y[ clu$L, ]
 X1[!is.na(X)] <- X[!is.na(X)]
 
-cc <- table( meta$COEXISTENCE_UNTREATED[ match(names(clu$L), meta$ID_old) ], clu$L )
-		assign <- function(CC) {
-			stopifnot( nrow(CC) >= ncol(CC) )
-			perm <- rep( 0L, ncol(CC) )
-			used <- rep( F, nrow(CC) )
-			for (k in order(CC, decreasing = T)) {
-				i <- ( (k-1) %%  nrow(CC) ) + 1L
-				j <- ( (k-1) %/% nrow(CC) ) + 1L
-				if (!used[i] && perm[j] == 0L) {
-					perm[j] <- i
-					used[i] <- T
-				}
-			}
-			return (perm)
-		}
- clu.names <- rownames(cc)[ assign(cc) ]
- clu.colors <- colors[clu.names]
-
- 	dump <- meta
-	if (file.exists('dump-new/dump.tsv'))
-		dump <- read.table('dump-new/dump.tsv', sep = ';', header = T, stringsAsFactors = F)
-	{
-		idxs <- match( dump$ID_old, avg$pat )
-		 nam <- paste( use.phases, collapse = '' )
-print(nam)
-		dump[sprintf('log.C.%s', nam)] <- avg$hcp[idxs]
-		dump[sprintf('log.D.%s', nam)] <- avg$dup[idxs]
-		dump[sprintf('clu.%s', nam)] <- clu.names[clu$L][idxs]
-	write.table(dump, 'dump-new/dump.tsv', sep = ';', row.names = F, col.names = T)
-	}
-
-col <- clu.colors[clu$L]
- col[ avg$patient %in% ig.pats ] <- 'black'
-pch <- rep('o', nrow(X1))
- pch[ rowSums( is.na(X) ) > 0 ] <- '*'
-
-lim <- c( 1, 5.5 )
-plot( exp(X1[,1]), exp(X1[,2]), log = 'xy', col = col, pch = pch,
-	xlim = lim, ylim = lim, xlab = 'eff clonality', ylab = 'eff clonal divergence' )
-	
-	msk <- avg$patient %in% ex.pats
-	points( exp(X1[,1])[msk], exp(X1[,2])[msk], col = col[msk], pch = 'x', cex = .75 )
-
-	#points( exp(clu$Y[,1]), exp(clu$Y[,2]), col = clu.colors, pch = '+' )
-
-	jx <- 0.025
-	jy <- 0.025
-text( exp( X1[,1]+jx ), exp( X1[,2]+jy ), avg$patient,
-	col = col, cex = 0.5, srt = +45 )
+clu.names <- rownames(cc)[ assign(cc) ]
+clu.colors <- colors[clu.names]
 
 
