@@ -77,7 +77,6 @@ kmeansw <- function(X, W = 1., k, nstart = 1L, iter.max = 1000L) {
 			}
 
 		}
-
 		# get cost
 		sum.res <- sum(d)
 #write(sprintf('final sum.res = %g', sum.res), file = stderr())
@@ -92,7 +91,7 @@ kmeansw <- function(X, W = 1., k, nstart = 1L, iter.max = 1000L) {
 	return (best)
 }
 
-#  bucket data
+#bucket data
 .kmeansw.bucket <- function(L, X, L.max = max(L), fill = NaN) {
 	Y <- matrix( fill, L.max, ncol(X) )
 	for (k in seq_len(L.max))
