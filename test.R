@@ -55,8 +55,8 @@ avg$patient <- rownames(avg)
 colors <- c( 'no coexistence' = 'orange', 'competing' = 'red',
 	'maintaining' = 'green', 'adaptive' = 'blue' )
 
-	ig.pats <- c('H086')
-	ex.pats <- c('H098', 'H152', 'H147', 'H233', 'H064') 
+	ig.pats <- c('EOC649')
+	ex.pats <- c('EOC165', 'H152', 'EOC310', 'EOC434', 'EOC49') 
 
 source('kmeansw.R')
 X <- cbind( avg$hcp, avg$dup )
