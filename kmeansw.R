@@ -1,4 +1,5 @@
 
+#' author : Antti Häkkinen
 #' K-means for weighted and missing data
 #'
 #' @param X Data matrix, rows are samples and columns are variables. NAs are
@@ -49,10 +50,6 @@ kmeansw <- function(X, W = 1., k, nstart = 1L, iter.max = 1000L) {
 
 		# optimize
 		for (iter in seq_len(iter.max)) {
-			#
-			# TODO: here, I have independent variables (no cov)
-			# should I estimate cov from data?
-			#
 
 			# infer centroids
 			Y[] <- .kmeansw.bucket( L, W*X, L.max = k ) / .kmeansw.bucket( L, W, L.max = k )
