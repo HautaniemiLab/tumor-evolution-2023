@@ -1,8 +1,8 @@
+# author: Sanaz Jamalzadeh, Antti Häkkinen
 
-# find models correspond to each patient
-models <- read.table('~/mnt/storageBig8/work/joikkone/evolution_s8/pyclone_2022/clonevol_outputs/mutTree_selected_models.csv', 
+# find models correspond to each patient from the phylogenetic tress as input
+models <- read.table('path to selected mutation tress from pyclone as csv file', 
                      sep = '\t', header = T)
-
 
 # 
 # this assembles the results from the frequency tables
@@ -10,7 +10,7 @@ models <- read.table('~/mnt/storageBig8/work/joikkone/evolution_s8/pyclone_2022/
 #
 
 # find files
-files <- list.files('~/mnt/storageBig8/work/joikkone/evolution_s8/pyclone_2022/clonevol_outputs/',
+files <- list.files('path to the generated trees',
 	pattern = '*_cellular_freqs.csv', recursive = T, full.names = T)
 
 results <- NULL
@@ -54,4 +54,4 @@ source('toporbind.R')
 results <- do.call(toporbind, results)
 
 # dump
-write.table( results, 'cellular_freqs-validation.tsv', sep = '\t', row.names = T, col.names = NA)
+write.table( results, 'cellular_freqs.tsv', sep = '\t', row.names = T, col.names = NA)
