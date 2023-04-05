@@ -6,7 +6,7 @@ This repository contains the R scripts calculating the tumor heterogeneity and a
 
 1. The "cellular_freqs.R" calculates the intra and inter-tumor heterogeneity using clonal mutational frequencies as input.
 
-2. The "clustering.R" script does the clustering usng "kmeansw.R" based on pre-assigned centroids described in the Method section of the paper.
+2. The "clustering.R" script extracts the divergence measurement and then does the clustering based on heterogeneity and divergence landscape usng "kmeansw.R". The "kmeansw.R" uses pre-assigned centroids described in the Method section of the paper.
 
 #### Validation set
 
