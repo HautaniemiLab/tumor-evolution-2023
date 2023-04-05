@@ -1,7 +1,7 @@
-##############33 clustering for new data -- validation set
+############## clustering for data -- discovery/validation set
 
 ## ------------ run the beginning of clustering code for new data
-set.seed(123L)  # deterministic clustering?
+set.seed(123L)  
 
 dat <- read.table('cellular_freqs-validation.tsv',
                   sep = '\t', header = T, row.names = 1L, stringsAsFactors = F)
