@@ -1,0 +1,36 @@
+{
+  "genome": { "name": "hg38" },
+  "data": { "url": "Census_allWed Apr 10 16_11_43 2019.tsv" },
+  "transform": [
+    {
+      "type": "regexExtract",
+      "field": "Genome Location",
+      "regex": "^(X|Y|\\d+):(\\d+)-(\\d+)$",
+      "as": ["chrom", "startpos", "endpos"],
+      "skipInvalidInput": true
+    },
+    {
+      "type": "flattenDelimited",
+      "field": "Role in Cancer",
+      "separator": ", "
+    },
+    {
+      "type": "stack",
+      "groupby": ["chrom", "startpos"],
+      "sort": { "field": "Role in Cancer" },
+      "offset": "normalize"
+    }
+  ],
+  "mark": "rect",
+  "encoding": {
+    "x": { "chrom": "chrom", "pos": "startpos", "type": "quantitative" },
+    "x2": { "chrom": "chrom", "pos": "endpos", "offset": 1 },
+    "y": { "field": "y0", "type": "quantitative", "axis": null },
+    "y2": { "field": "y1" },
+    "color": {
+      "field": "Role in Cancer",
+      "type": "nominal",
+      "scale": { "scheme": "category10" }
+    }
+  }
+}

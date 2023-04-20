@@ -1,0 +1,737 @@
+CHROM	POS	REF	ALT	ID	CADD_phred	COSMIC_ID	gnomAD_genome_FIN	Func	EOC160_pOme1_DNA1.AF	EOC160_pOva_DNA1.AF	EOC160_rMes1_DNA1.AF
+chr1	1437100	TACACCGAGTTCCCCTTCGGCCAGC	T		20.5			inframe_indel	0.105	0.057	0.086
+chr1	12084509	T	A		17.46			missense	0.263	0.4	0.182
+chr1	12478358	C	G	rs920252629	19.97			genic_other	0.172	0.111	0.208
+chr1	15435890	G	C		10.02			intergenic	0.25	0.154	0.1
+chr1	26409498	G	A		20.2			intergenic	0.552	0.469	0.414
+chr1	32275312	G	A		14.45			genic_other	0.095	0.333	0.115
+chr1	36393795	T	C		18.92			missense	0.241	0.105	0.263
+chr1	38561972	C	A		17.89			intergenic	0.083	0.214	0.241
+chr1	41505221	C	T		13.19			intergenic	0.188	0.111	0.286
+chr1	44164709	G	A		12.46			intergenic	0	0.133	0
+chr1	44336596	TA	T		18.59			genic_other	0.357	0.214	0.115
+chr1	50983368	T	C		10.93			intergenic	0.559	0.667	0.433
+chr1	60294164	C	T		18.19			intergenic	0.107	0.158	0.125
+chr1	71751612	C	A		10.22			genic_other	0.091	0.087	0.067
+chr1	72415066	T	A		12.72			intergenic	0.292	0.364	0.056
+chr1	84530581	T	C	rs1006138539	11.84		0	genic_other	0.35	0.3	0.167
+chr1	86140438	CT	C		13.63			genic_other	0.625	0.368	0.259
+chr1	88120087	A	G		12.06			intergenic	0.154	0.235	0.148
+chr1	95685696	C	A		13.71			intergenic	0.2	0.444	0.276
+chr1	96622582	G	A		13.79			intergenic	0.062	0.069	0.167
+chr1	96922553	T	C	rs1182888194	12.62		0	intergenic	0.143	0.417	0.174
+chr1	98133441	C	T		16.44			intergenic	0.3	0.4	0.1
+chr1	99635240	G	A		19.2			ncRNA	0.138	0.045	0.091
+chr1	101311737	T	C		19			intergenic	0	0.083	0.143
+chr1	106393250	G	T		17.47			intergenic	0.097	0	0.111
+chr1	110275357	A	T		10.19			intergenic	0.053	0.167	0.038
+chr1	112255552	G	T		12.35			intergenic	0.133	0.056	0.133
+chr1	112693535	T	C		10.43			genic_other	0.364	0.295	0.158
+chr1	117623202	G	C		23.8			missense	0.129	0.111	0
+chr1	121773217	A	T		10.26		0	intergenic	0	0.15	0.111
+chr1	122520660	G	A		11.87			intergenic	0	0.385	0
+chr1	122638681	G	C	rs1403949105	10.33			intergenic	0	0.579	0
+chr1	122707369	A	T		12.37			intergenic	0.4	1	0
+chr1	122737831	A	C	rs1450570586	12.58			intergenic	0.043	0.07	0
+chr1	122737844	T	A		12.48			intergenic	0	0.057	0
+chr1	122806988	G	A	rs1278370845	10.78			intergenic	0	0.267	0
+chr1	122861272	T	C		12.82			intergenic	0	0	0.667
+chr1	122915014	T	A		12.38			intergenic	0.025	0.088	0.048
+chr1	123023608	G	A	rs1234816383	11.11			intergenic	0.077	0.176	0.091
+chr1	123050002	C	A		11.36			intergenic	0.188	0	0.1
+chr1	123079757	C	T		11.71			intergenic	0.25	0	0.143
+chr1	123126970	G	C		11.13			intergenic	0	0.074	0
+chr1	123217036	C	A	rs1190928306	10.3			intergenic	0.103	0.051	0.093
+chr1	123261298	C	G	rs1321123335	11.63			intergenic	0	0.441	0
+chr1	123278961	A	G		13.07			intergenic	0.111	0.079	0
+chr1	123358601	T	C	rs1490785092	12.5			intergenic	0	0.233	0
+chr1	123444649	AG	CA		10.59			intergenic	0.125	0.364	0.125
+chr1	123444662	T	A		12.55			intergenic	0.1	0.25	0.083
+chr1	123462566	A	C		12.43			intergenic	0.041	0.012	0.071
+chr1	123560853	C	A	rs1280859706	10.73			intergenic	0	0.333	0
+chr1	123560864	C	T	rs1427072632	11.52			intergenic	0	0.5	0
+chr1	123630601	G	A	rs1462848155	11.05			intergenic	0	0.545	0
+chr1	123649862	A	T	rs1188965370	12.52			intergenic	0	0.652	0
+chr1	123651860	G	C		10.99			intergenic	0.286	0	0.091
+chr1	123763757	A	T		12.64			intergenic	0.012	0.067	0.024
+chr1	123794552	C	T		10.89			intergenic	0	0.25	0
+chr1	123801500	G	C		10.46			intergenic	0.091	0.167	0.1
+chr1	123808539	C	G	rs1382638557	10.88			intergenic	0	0.074	0
+chr1	123907081	A	T	rs1244217450	11.19			intergenic	0.062	0.2	0
+chr1	123927835	T	G		12.82			intergenic	0.091	0.375	0
+chr1	123960279	C	G		11.33			intergenic	0.3	0	0.083
+chr1	123972062	A	G		13.14			intergenic	0	0.5	0
+chr1	124020731	G	C	rs1339896631	10.59			intergenic	0.136	0.062	0.1
+chr1	124057616	T	C	rs1208927900	12.54			intergenic	0.045	0.158	0.059
+chr1	124060334	G	T	rs1470776281	10.73			intergenic	0.062	0.278	0.154
+chr1	124069226	T	A	rs1424875999	12.63			intergenic	0	0.167	0
+chr1	124079034	A	G		12.74			intergenic	0.081	0	0.16
+chr1	124109049	A	G		12.25			intergenic	0	0	0.273
+chr1	124177316	G	T	rs1315349167	10.06			intergenic	0.167	0.125	0.12
+chr1	124199778	G	T	rs1478731273	11.01			intergenic	0	0.195	0
+chr1	124244451	G	T		10.63			intergenic	0.176	0	0.067
+chr1	124248892	A	G		12.04			intergenic	0	0.415	0
+chr1	124270917	T	A		11.63			intergenic	0.069	0.25	0
+chr1	124280189	G	T		10.82			intergenic	0.046	0	0.019
+chr1	124314823	C	A	rs1372289966	11.05			intergenic	0.067	0	0.3
+chr1	124315064	C	A	rs1397385693	10.94			intergenic	0.062	0.375	0
+chr1	124326070	C	G	rs1173520049	10.77			intergenic	0	0.118	0
+chr1	124326077	A	G	rs1197693294	12.69			intergenic	0	0.353	0.032
+chr1	124385286	C	A	rs1312832551	10.91			intergenic	0	0.111	0
+chr1	124385309	T	G	rs1354659119	12.75			intergenic	0.042	0.033	0.138
+chr1	124518873	A	T	rs1163567317	12.52			intergenic	0.05	0.009	0.019
+chr1	124533678	G	T		10.48			intergenic	0.135	0	0.02
+chr1	124627659	G	C	rs1439397334	10.68			intergenic	0.286	0.524	0
+chr1	124643114	T	C		12.6			intergenic	0.333	0	0
+chr1	124725934	C	A	rs1471261857	11.09			intergenic	0	0.105	0
+chr1	125068837	C	T	rs1157550576	14.19			intergenic	0.033	0.312	0.071
+chr1	125122062	A	G	rs1439679573	10.39			intergenic	0.692	0.667	0.346
+chr1	125173919	C	G		15.34			intergenic	0.051	0.143	0.152
+chr1	143236968	G	T	rs1449136085	13.92		0.0236004	intergenic	0	0.25	0
+chr1	154912011	T	C		12.66			intergenic	0.071	0.071	0.05
+chr1	158674613	G	A	rs748917509	17.93	COSV63749018	0	missense	0.133	0.25	0.111
+chr1	158851420	C	T		14.65			intergenic	0.238	0.438	0.212
+chr1	159858262	G	A		12.22			synonymous	0.16	0.267	0.103
+chr1	163558434	A	G		10.98			intergenic	0.346	0.222	0.474
+chr1	163709666	T	C		10.14			intergenic	0.143	0.261	0.095
+chr1	166767498	T	C		10.65			intergenic	0.273	0.125	0.233
+chr1	167268625	C	T		20.8			genic_other	0.115	0.091	0.105
+chr1	176081279	G	T		10.31			synonymous	0.133	0	0
+chr1	190896668	A	G		15			intergenic	0.217	0.423	0.115
+chr1	193712667	C	T		17.57			intergenic	0.385	0.217	0.115
+chr1	197356902	T	A		25.4			missense	0.185	0.25	0.103
+chr1	199508051	G	A		20.9			intergenic	0.167	0.095	0.133
+chr1	205229823	G	A	rs1375855735	15.14			genic_other	0.192	0.179	0.083
+chr1	213312850	A	G		21.6			intergenic	0.192	0.2	0.161
+chr1	216740408	C	G		11.64			genic_other	0.038	0	0.125
+chr1	229372008	G	C		11.53			intergenic	0.147	0.071	0.074
+chr1	231958863	G	C		16.37			missense	0.148	0.056	0.1
+chr1	234724435	A	T		15.98			ncRNA	0.16	0.111	0.103
+chr1	242075106	TA	T		11.05			intergenic	0.5	0.486	0.031
+chr1	247712677	G	T		16.11			missense	0.167	0.294	0.04
+chr1	247720353	A	C		11.72			intergenic	0.125	0.182	0
+chr2	2323846	G	A		19.16			ncRNA	0.48	0.45	0.227
+chr2	5946613	C	CA		14.8			ncRNA	0.192	0.242	0.12
+chr2	14883233	G	C		14.6			intergenic	0.042	0.025	0.111
+chr2	18976773	C	T		21.7			intergenic	0.767	0.774	0.737
+chr2	22458862	G	A		18.48			intergenic	0.214	0	0.118
+chr2	45618013	T	C		11.81			intergenic	0.038	0.053	0.075
+chr2	49756723	T	C		13.51			intergenic	0.176	0.263	0.107
+chr2	50287514	C	A	rs1241901291	15.06		0	genic_other	0.321	0.375	0.13
+chr2	50751800	G	A		10.01			genic_other	0.043	0.182	0.037
+chr2	55719165	T	G		15.55			intergenic	0.036	0.118	0.125
+chr2	58798818	T	C		13.13			ncRNA	0.188	0.235	0.143
+chr2	59447420	T	A		19.49			intergenic	0.074	0.261	0.069
+chr2	60630257	T	C		16.37			intergenic	0.333	0.062	0.053
+chr2	63785799	T	G		10.19			intergenic	0.964	0.733	0.524
+chr2	65569023	C	G		13.75			intergenic	0.24	0.235	0.143
+chr2	70087956	T	C		14.6			synonymous	0	0	0.125
+chr2	71296362	G	C		12.23			intergenic	0.149	0	0.235
+chr2	74178473	C	G		10.61			genic_other	0.08	0.276	0.077
+chr2	75243679	T	A		15.19			intergenic	0.152	0.154	0.189
+chr2	76409443	T	C		10.95			intergenic	0.097	0.167	0.189
+chr2	77640353	G	T		10.88			intergenic	0.174	0.08	0.138
+chr2	83737875	T	C		13.21			intergenic	0.2	0.087	0.032
+chr2	84252287	A	T		14.46			intergenic	0.194	0.182	0.069
+chr2	84441437	G	C		24.4			missense	0.094	0.276	0.071
+chr2	88665222	A	C	rs1356500729	11.42		0	intergenic	0.088	0.219	0.062
+chr2	89803691	G	T		13.62			intergenic	0.057	0.095	0.03
+chr2	92319477	T	A	rs1197758983	10.95			intergenic	0.059	0.167	0
+chr2	92353644	T	G		11.16			intergenic	0.071	0.077	0.1
+chr2	92353649	T	C		11.57			intergenic	0.07	0.077	0.1
+chr2	92388539	C	T	rs1473015244	10.07			intergenic	0.048	0.167	0.115
+chr2	93437465	A	T	rs1252550625	10.62			intergenic	0.167	0.182	0.062
+chr2	93473622	T	G		10.92			intergenic	0.103	0	0.179
+chr2	101887207	A	C		11.64	COSV56333138		synonymous	0.13	0	0.087
+chr2	105153896	T	C		11.57			intergenic	0.429	0.316	0.19
+chr2	108659710	G	GCAC		20.7			inframe_indel	0.031	0.086	0.017
+chr2	108863802	G	A		10.43			genic_other	0.219	0.143	0.081
+chr2	121327678	C	CTTT		10.65			intergenic	0.1	0	0.176
+chr2	126460566	C	T		10.72			intergenic	0.118	0.053	0.206
+chr2	136934384	G	T		19.12			genic_other	0.087	0.091	0.045
+chr2	142954674	TC	T		12.93			genic_other	0.375	0.062	0.13
+chr2	145637136	A	C		22.1			intergenic	0.333	0.364	0.375
+chr2	146964513	A	G		16.09			intergenic	0.235	0.273	0.158
+chr2	154450490	A	G		19.97		0	missense	0.111	0.182	0.2
+chr2	155204250	T	A		16.4			intergenic	0.5	0.474	0.35
+chr2	162971940	G	T		15.57			intergenic	0.278	0.214	0.2
+chr2	163142595	G	A	rs567873848	17.84		0	intergenic	0.043	0.211	0
+chr2	169172163	T	C		10.22			genic_other	0.207	0.312	0.059
+chr2	170651821	G	GCCCCCC		19.14			genic_other	0.062	0.125	0.2
+chr2	172090348	CAGGTT	C		12.09			genic_other	0.375	0.486	0.485
+chr2	176276876	AATCTTTTGAAATAAGAACAATATCTGTTCTGTTCTTTATTTAGAAGCT	A		16.73			genic_other	0.027	0.143	0.114
+chr2	176562194	T	C		10.99			intergenic	0.1	0.222	0.125
+chr2	177192885	A	G		10.12			intergenic	0.133	0.143	0.032
+chr2	178196243	G	A	rs911694987	10.41		0	genic_other	0.1	0.25	0.167
+chr2	178407743	T	C		11.4			intergenic	0.095	0.056	0.091
+chr2	179589291	T	A		13.69			genic_other	0.1	0	0.174
+chr2	183521907	C	T	rs145006134	10.05		9.57488e-5	intergenic	0.162	0.25	0.189
+chr2	184738916	T	A		12.89			genic_other	0.219	0.111	0.048
+chr2	191132436	G	C		11.98			genic_other	0.451	0.475	0.44
+chr2	194817089	T	A		10.65			intergenic	0.368	0.231	0.316
+chr2	197719516	G	T		18.45			intergenic	0.538	0.786	0.238
+chr2	197867508	G	A		17.73			genic_other	0.1	0.3	0.115
+chr2	198385296	A	G		12.55			intergenic	0.16	0	0.16
+chr2	199155272	A	G		10.64			intergenic	0.462	0.2	0.273
+chr2	203402617	C	T		29.8			missense	0.2	0.1	0.222
+chr2	205483555	A	C		15.16			genic_other	0.095	0.353	0.286
+chr2	206621250	T	TC		13.11			genic_other	0.143	0.125	0.167
+chr2	206621252	CT	C		13.54			genic_other	0.143	0.125	0.167
+chr2	207767796	C	T		27.6			missense	0.583	0.087	0.2
+chr2	209602433	A	G		12.58			genic_other	0.278	0	0.129
+chr2	213127812	T	C	rs148207038	16.54		0	genic_other	0.24	0.294	0.154
+chr2	213868789	G	T		13.67			genic_other	0.091	0.25	0.185
+chr2	215000886	T	C	rs371116369	18.48		0	missense	0.077	0.077	0.1
+chr2	215384876	G	A		11.47			synonymous	0.3	0.174	0.067
+chr2	219418327	G	A		18.32			genic_other	0	0.19	0
+chr2	219561852	G	C		17.16			genic_other	0.059	0.214	0.118
+chr2	231767022	A	G		10.8			genic_other	0.333	0.429	0.412
+chr3	605274	T	C		14.71			ncRNA	0.269	0.105	0.042
+chr3	1910257	A	T		13.17			intergenic	0.353	0.258	0.19
+chr3	2899049	C	T	rs1376646260	11.19		0	genic_other	0.333	0.348	0.222
+chr3	4095727	A	C		18.06			intergenic	0.391	0.458	0.136
+chr3	4095731	ATGG	A		12.62			intergenic	0.364	0.462	0.136
+chr3	7079361	A	G	rs1314486083	14.03		0	genic_other	0.261	0.118	0.278
+chr3	12426659	G	C		11.36			genic_other	0.1	0.182	0.179
+chr3	21970075	T	C		11.08			ncRNA	0.095	0.167	0.083
+chr3	30202884	A	G		10.18			intergenic	0.179	0	0.05
+chr3	35918513	G	T		11.38			intergenic	0.12	0.308	0.1
+chr3	36461152	T	G		12.58			genic_other	0	0.111	0.143
+chr3	36992435	T	C		22.5			missense	0.647	0.261	0.182
+chr3	39498648	T	G		11.29			genic_other	0.185	0.25	0.214
+chr3	47406749	G	A	rs148327878	20.7		0	missense	0.143	0.333	0.192
+chr3	52650597	T	G		10.26			genic_other	0.257	0.222	0.176
+chr3	54047165	G	T		14.25			intergenic	0.071	0.053	0.073
+chr3	59353979	A	G		13.97			intergenic	0.429	0.286	0.25
+chr3	61358272	T	C	rs1420041816	10.96			intergenic	0.062	0.19	0.152
+chr3	62437806	C	A		16.52			genic_other	0.05	0	0.073
+chr3	67509019	C	G		16.18			genic_other	0.062	0.148	0.056
+chr3	67880359	T	G		12.82			ncRNA	0.068	0.137	0.061
+chr3	74607277	T	A		18.35			intergenic	0.25	0.333	0.37
+chr3	75706349	C	T		12.39			intergenic	0.047	0.023	0.043
+chr3	76780134	C	T		12.4			intergenic	0.207	0.32	0.297
+chr3	77571941	T	C		11.2			genic_other	0.172	0.412	0.176
+chr3	79073708	C	A		12.75			genic_other	0.265	0.179	0.344
+chr3	82609198	A	G	rs1010525164	14.15		0	intergenic	0.054	0.103	0.059
+chr3	82787798	C	A		18.2			intergenic	0.205	0.238	0.154
+chr3	82810725	T	A		11.16			intergenic	0.2	0.074	0
+chr3	83059349	T	G	rs775518184	11.33		9.54381e-5	intergenic	0.188	0.343	0.182
+chr3	83527916	G	A		19.67			intergenic	0.125	0.167	0.185
+chr3	93088935	T	C		11.39			intergenic	0.091	0.05	0.069
+chr3	102915395	T	C		11.16			intergenic	0.132	0	0.079
+chr3	104115082	A	T		14.05			intergenic	0.314	0.533	0.455
+chr3	111375600	G	A		11.51			intergenic	0.574	0.478	0.225
+chr3	111802503	C	T		14.57			genic_other	0.256	0.207	0.097
+chr3	115564295	T	C	rs1008337011	15.18			intergenic	0.478	0.613	0.523
+chr3	117761788	A	G		13.51			intergenic	0.147	0.114	0
+chr3	118257139	A	G		12.37			intergenic	0.111	0.111	0.115
+chr3	119490613	G	A		24			missense	0.483	0.25	0.179
+chr3	123271791	G	T		16.84			genic_other	0.068	0.14	0.051
+chr3	134837302	CTTATCTATTTGGTTACAAAAAAACAAGTTAATATTTTTTAAGTTGAAATTAATTTTAAACATGGATGTCTTAAAATCCAG	C		11.48			genic_other	0.548	0.474	0.293
+chr3	136828957	T	G		10.42			genic_other	0.205	0.242	0.258
+chr3	147333297	A	G		16.54			intergenic	0.25	0.333	0.219
+chr3	149473827	TTGGTCCAGGCG	T		14.9			genic_other	0.085	0.122	0.116
+chr3	154889821	A	T		12.57			intergenic	0.184	0	0.042
+chr3	155744223	C	T		22.2			genic_other	0.139	0.071	0.103
+chr3	156622210	A	G		12.72			intergenic	0.075	0.125	0.096
+chr3	158076696	C	T		13.33			intergenic	0.152	0.083	0.125
+chr3	161135075	T	C		14.42			intergenic	0.07	0.147	0.143
+chr3	164998629	C	T	rs145246112	25.5	COSV52283575	1.91424e-4	missense	0.343	0.267	0.256
+chr3	171966846	A	T		10.3			intergenic	0.089	0.107	0.067
+chr3	174117151	T	C		10.18			genic_other	0.094	0.107	0.111
+chr3	180744263	G	A		18.76			ncRNA	0.158	0.167	0.114
+chr3	180744291	G	C		18.47			ncRNA	0.135	0.125	0.098
+chr3	182944644	G	T		14.82			genic_other	0.057	0	0.056
+chr3	184602786	T	A		10.62			intergenic	0.543	0.619	0.833
+chr3	190857843	ATTCTCT	A		18.71			inframe_indel	0.689	0.645	0.629
+chr4	48705	A	G		11.34			intergenic	0.074	0.045	0.047
+chr4	990332	C	T	rs200417386	17.91	COSV56104948	0	missense	0.333	0.217	0.32
+chr4	20172519	C	G		10.85			intergenic	0.217	0.429	0.179
+chr4	21965565	G	A		14			intergenic	0.217	0.263	0.2
+chr4	22388471	G	A	rs778214023	23.6			missense	0.226	0.333	0.231
+chr4	23349810	A	T		11.35			intergenic	0.16	0.053	0.129
+chr4	23793820	G	T	rs1384858059	14.33		0	genic_other	0.094	0.207	0.118
+chr4	27742885	G	A		11.8			intergenic	0.176	0	0.107
+chr4	31118594	C	G		10.95			genic_other	0.267	0.238	0.071
+chr4	36677211	C	A		19.44			intergenic	0.292	0.333	0.034
+chr4	42301706	C	G		11.23			ncRNA	0.161	0.136	0.128
+chr4	44423428	A	C		18.36			genic_other	0.176	0.12	0.103
+chr4	49098045	A	C		11.1		0	intergenic	0.021	0.071	0.042
+chr4	51263035	T	A		11.06			intergenic	0.143	0.05	0.2
+chr4	55035631	A	G		13.53			intergenic	0.185	0.217	0.152
+chr4	56279954	T	C		10.31			genic_other	0.5	0.294	0.321
+chr4	73077550	A	T		12.6			genic_other	0.217	0.19	0.036
+chr4	75398173	G	A	rs560843557	10.48		0	intergenic	0	0.25	0
+chr4	79184131	A	G		13.7			ncRNA	0.333	0.208	0.304
+chr4	79385230	A	G	rs1039657001	13.73			intergenic	0.333	0.333	0.2
+chr4	97696290	C	T		10.35			genic_other	0.278	0.692	0.2
+chr4	99631859	A	C		12.69			intergenic	0.25	0.167	0.056
+chr4	105502574	G	T		13.04			intergenic	0.19	0.133	0.031
+chr4	111205661	G	A		11.38			intergenic	0.286	0.381	0
+chr4	111904073	G	T		12.83			intergenic	0.222	0	0.105
+chr4	130803828	T	C		10.79			intergenic	0.091	0.308	0.375
+chr4	132167085	T	A		14.12			intergenic	0.333	0.476	0.133
+chr4	152961912	CAAACTTGTGGGCATGGTAGAAACATTTCTTATCTGGTCATCCTTCCA	C		13.24			genic_other	0.37	0.364	0.2
+chr4	153988767	G	A	rs370067275	13.87		9.55475e-5	intergenic	0.286	0.167	0.067
+chr4	154045033	C	A		12.57			intergenic	0.222	0.471	0.074
+chr4	154744026	G	A		11.4			genic_other	0	0.25	0.087
+chr4	162873261	T	A	rs1229077476	11.56			intergenic	0.105	0.222	0.03
+chr4	178467813	A	T		21.9			intergenic	0.6	0.083	0.111
+chr4	181363390	A	C		15.13			intergenic	0.062	0.231	0
+chr4	190110456	C	G		13.89			intergenic	0.023	0	0.033
+chr5	2799873	A	G		21.7			intergenic	0.35	0.417	0
+chr5	9911672	C	A		12.2			intergenic	0.2	0.136	0.154
+chr5	10565652	A	G		10.6			genic_other	0.261	0.2	0
+chr5	15344697	G	C		17.61			intergenic	0.25	0.222	0.125
+chr5	18164913	T	A		10.19			intergenic	0.261	0.462	0.19
+chr5	21697496	A	C		11.77			intergenic	0.5	0.545	0.19
+chr5	21856715	T	C		11.27			genic_other	0.385	0.389	0.2
+chr5	28101199	T	A		14.01			intergenic	0.1	0.333	0.083
+chr5	30897916	A	T		13.34			intergenic	0.435	0.5	0.348
+chr5	31640324	G	T		16.18			genic_other	0.312	0.233	0.125
+chr5	37967276	A	C		16.18			intergenic	0.077	0.13	0.13
+chr5	40276318	T	C		14.13			intergenic	0.2	0.421	0.348
+chr5	42756811	G	A		14.04			genic_other	0.083	0.167	0.045
+chr5	55735363	A	C		10.99			intergenic	0.619	0.529	0.194
+chr5	62268739	A	C		11.66			intergenic	0.5	0.684	0.148
+chr5	65027381	G	A		14.8			intergenic	0	0	0.15
+chr5	67981141	T	C		21.4			intergenic	0.5	0.429	0.304
+chr5	73224924	A	T		10.75			intergenic	0.133	0.167	0.167
+chr5	78702131	A	C		16.67			intergenic	0.067	0.071	0.217
+chr5	83210139	G	A		13.56			genic_other	0.375	0.345	0.357
+chr5	83538501	T	C		11.7			missense	0.294	0.524	0.429
+chr5	89709472	G	T		13.46		0	intergenic	0.407	0.476	0.296
+chr5	92082454	C	T	rs896747380	20.9		0	intergenic	0.174	0.083	0.069
+chr5	92922659	C	T		10.86			intergenic	0.391	0.455	0.207
+chr5	94038652	G	C		16.65			genic_other	0.2	0.7	0.182
+chr5	108459171	C	T		14.32			intergenic	0.667	0.5	0.059
+chr5	119230635	C	G		12.83			genic_other	0.389	0.3	0.27
+chr5	121598270	T	A		13.96			intergenic	0.176	0.125	0.077
+chr5	122561781	T	C		15.47			intergenic	0.458	0.35	0.308
+chr5	123145921	G	C		18.88			genic_other	0.125	0.231	0.136
+chr5	141856037	C	T		16.02			genic_other	0.2	0.227	0.167
+chr5	153802877	T	A		14.42			genic_other	0.25	0.115	0.125
+chr5	156040748	A	C		16.97			intergenic	0.19	0.286	0.138
+chr5	158166614	C	A		16.09			intergenic	0.261	0.143	0.091
+chr5	166293718	C	T	rs1159005291	11.91		0	intergenic	0.28	0.6	0.16
+chr5	169671137	T	G		28			missense	0.188	0.091	0.211
+chr5	180792394	A	C		25.3			missense	0.409	0.353	0.167
+chr6	291674	A	C		10.26			genic_other	0.061	0.09	0.094
+chr6	1610796	C	A		15.91			missense	0.067	0.192	0.048
+chr6	1745655	C	G		18.72			genic_other	0.143	0.08	0.067
+chr6	1778406	G	C		13.56			genic_other	0.029	0.172	0
+chr6	7978343	A	T		12.36			ncRNA	0.071	0	0.172
+chr6	8238975	A	C		12.65			intergenic	0.064	0	0.062
+chr6	8331513	G	C		10.22			intergenic	0.077	0.081	0.028
+chr6	9381674	A	T		14.84			intergenic	0.143	0.077	0.026
+chr6	16773629	C	G		16.45			intergenic	0.062	0.064	0.103
+chr6	23536965	G	C		11.27			intergenic	0.108	0.059	0.133
+chr6	36223515	T	C		17.87			genic_other	0.143	0.077	0.047
+chr6	43175167	G	A		10.12			genic_other	0.103	0.029	0.179
+chr6	44576648	A	C		14.97			intergenic	0.093	0.08	0.107
+chr6	45678125	C	T		17.45			intergenic	0.158	0.029	0.079
+chr6	49002218	A	T		10.17			intergenic	0.073	0.176	0.081
+chr6	50405690	C	G		17.52			intergenic	0.119	0.097	0.062
+chr6	50699004	G	T		14.04			intergenic	0.122	0.182	0.111
+chr6	53287064	A	G		11.95			genic_other	0.2	0.25	0.231
+chr6	63556695	T	A		12.85			intergenic	0.235	0.462	0.037
+chr6	65875920	A	C		10.44			intergenic	0.273	0.167	0.143
+chr6	73374497	T	G		13.55			intergenic	0.065	0.037	0.08
+chr6	77613331	G	A		11.93			intergenic	0.192	0.167	0.136
+chr6	78578954	T	G		12.96			intergenic	0.24	0.375	0.053
+chr6	83512530	C	T	rs954699048	10.59			genic_other	0.471	0.375	0.25
+chr6	90924575	A	G		11.4			intergenic	0.615	0.529	0.227
+chr6	91817918	T	A		17.04			intergenic	0.263	0.143	0.167
+chr6	93139749	C	A	rs915308599	15.76		0	intergenic	0.095	0.25	0.208
+chr6	93999052	A	G		10.81			intergenic	0.235	0.235	0.097
+chr6	94903543	T	A		10.19			intergenic	0.182	0.316	0.143
+chr6	97626949	G	T		19.02			ncRNA	0.438	0.467	0.333
+chr6	98963841	A	G		15.08			intergenic	0.136	0.12	0.136
+chr6	104022166	A	G		14.88			intergenic	0	0.304	0.174
+chr6	105095749	G	A		10.18			intergenic	0.125	0.214	0.263
+chr6	122663468	G	A	rs1296708241	10.09		0	genic_other	0.455	0.529	0.091
+chr6	123529432	A	G		10.54			genic_other	0.238	0.375	0.111
+chr6	128513923	T	C		14.41			genic_other	0.136	0.227	0
+chr6	129538638	C	G		17.52			intergenic	0.154	0.105	0.1
+chr6	139373831	G	A		12.46	COSV62726218	0	synonymous	0.067	0	0.087
+chr6	139373879	A	G		13.65	COSV62726314		synonymous	0.038	0	0.115
+chr6	139373891	A	G		10.24	COSV62726318		synonymous	0.04	0	0.12
+chr6	143385044	G	T		16.83			intergenic	0.087	0.259	0.227
+chr6	145159978	T	A		11.03			intergenic	0.154	0.538	0.077
+chr6	156832025	A	G		10.23			genic_other	0.182	0	0.12
+chr6	157408144	T	A		14.54			genic_other	0.2	0.167	0.086
+chr6	163828735	C	T		14			intergenic	0.308	0.455	0.15
+chr7	8441575	G	A		18.57			genic_other	0.094	0.105	0.194
+chr7	9636122	A	G		21			genic_other	0.321	0.154	0
+chr7	15382457	T	A		13.37			genic_other	0.385	0.471	0.15
+chr7	15686746	A	T		20.4			genic_other	0.312	0.258	0.19
+chr7	18352976	G	C	rs1167060703	13.4		0	genic_other	0.194	0.086	0.115
+chr7	18902583	C	G		12.83			genic_other	0.042	0.1	0.28
+chr7	19215713	G	A		20.4			intergenic	0.4	0.45	0.067
+chr7	21299367	C	A		14.15			intergenic	0.464	0.25	0.214
+chr7	22118546	G	C	rs1452131908	15.46			genic_other	0.217	0.176	0
+chr7	22811826	A	T		14.92			genic_other	0.353	0.316	0.138
+chr7	24176193	G	A		14.94			intergenic	0.25	0.237	0.286
+chr7	24458736	A	C		16.63			intergenic	0.24	0.235	0.077
+chr7	25124430	T	C	rs1484341821	14.91			genic_other	0.393	0.111	0.04
+chr7	27723157	C	T		10.77			intergenic	0.292	0.136	0.069
+chr7	30200887	A	C		14.67			intergenic	0.318	0.1	0.143
+chr7	30349105	A	G		10.27			genic_other	0.45	0.29	0.219
+chr7	33591531	C	T	rs762726496	11.44		0	genic_other	0.167	0.158	0.226
+chr7	39228779	G	C		15.84			genic_other	0.333	0.324	0.038
+chr7	39317785	G	A		12.17			genic_other	0.417	0.045	0.13
+chr7	41066050	G	T		14.21			intergenic	0.308	0.267	0.171
+chr7	56540230	G	A		10.21		0	intergenic	0.143	0.444	0.1
+chr7	57328592	G	A	rs140662235	21.4		0	intergenic	0.474	0.529	0.36
+chr7	59611430	T	C		12.05			intergenic	0.182	0.154	0.067
+chr7	60756914	C	G	rs1422982604	10.24			intergenic	0.273	0	0
+chr7	68993015	G	T		10.55			intergenic	0.069	0.143	0.182
+chr7	82916461	G	T		21.8			missense	0.231	0.241	0.086
+chr7	85814190	T	C		10.58			intergenic	0.516	0.316	0.333
+chr7	94425641	G	A	rs746504964	32	COSV51956931	0	missense	0.381	0.095	0.105
+chr7	100142259	A	C		11.57			intergenic	0.052	0.14	0.045
+chr7	110967038	G	T		13.46			genic_other	0.172	0.174	0.133
+chr7	112864741	G	T		12.58			genic_other	0.462	0.379	0.167
+chr7	114766083	G	T		14.37			intergenic	0.206	0.143	0.048
+chr7	115454538	A	C		12.33			intergenic	0.227	0.394	0.067
+chr7	121186789	T	C		12.55			genic_other	0.12	0.238	0.148
+chr7	126321675	A	T		11.92			intergenic	0.192	0.176	0.143
+chr7	129786082	C	A		11.29			intergenic	0.3	0.308	0.276
+chr7	135024415	C	T		14.89			genic_other	0.211	0.077	0.2
+chr7	145482474	A	G		11.07			intergenic	0.05	0.238	0.12
+chr7	148687840	T	C		12.33			intergenic	0.258	0.455	0.118
+chr7	155802170	G	T		14.38			genic_other	0.1	0.062	0.158
+chr8	3807474	G	C		16.1			genic_other	0.727	0.857	0.3
+chr8	10208065	T	A		11.06			genic_other	0.854	0.885	0.653
+chr8	31961112	A	T		11.58			genic_other	0.667	0.733	0.316
+chr8	33838925	C	G		12.1			intergenic	0.038	0.083	0.097
+chr8	36522783	T	A		13.22			intergenic	0.541	0.684	0.368
+chr8	37236197	A	G		18.97			intergenic	0.074	0.194	0.231
+chr8	37521074	A	G	rs1218246803	19.41			ncRNA	0.571	0.696	0.593
+chr8	44382353	G	C		10.09			intergenic	0.133	0	0.214
+chr8	48788980	A	C		22.5			intergenic	0.651	0.816	0.444
+chr8	55102122	C	A		14.38	COSV59308976		genic_other	0	0.143	0
+chr8	55102128	G	C		18.58			genic_other	0	0.154	0
+chr8	55519346	G	T		10.43			ncRNA	0.269	0.217	0.29
+chr8	60909130	A	G	rs1238760084	16.59		0	intergenic	0.4	0.536	0.417
+chr8	60926468	C	T		10.48			intergenic	0	0.162	0.037
+chr8	62101479	A	T	rs1053022116	10.2		0	intergenic	0.2	0.185	0.034
+chr8	65171360	A	T		12.75			ncRNA	0.206	0.222	0.069
+chr8	68080824	G	T		45			stopgain	0.097	0.062	0.037
+chr8	69156641	A	G		21.8			intergenic	0.129	0.16	0.038
+chr8	72896156	T	C		18.36			genic_other	0.48	0.76	0.304
+chr8	75312437	T	C		15.38			intergenic	0.158	0.421	0.1
+chr8	76179651	T	C		10.1			intergenic	0.241	0.143	0.241
+chr8	78252135	G	T		19.71			intergenic	0.35	0.474	0.286
+chr8	85242233	C	G		13.59			intergenic	0.296	0.344	0.357
+chr8	87903638	G	A		13.32			intergenic	0.111	0.143	0.167
+chr8	92684809	C	G		15.98			intergenic	0.211	0.226	0
+chr8	93078294	A	T		18.02			intergenic	0.206	0.091	0.077
+chr8	94211913	A	C		10.12			genic_other	0.63	0.647	0.2
+chr8	98930998	C	CCT		12.12			genic_other	0.227	0.316	0.087
+chr8	99700968	A	C		10.84			genic_other	0.231	0.105	0.273
+chr8	100268171	G	T		10.94			genic_other	0.24	0.333	0.182
+chr8	106183517	T	A		16.27			intergenic	0.111	0.19	0
+chr8	112659170	G	T		12.71			genic_other	0.346	0.227	0.214
+chr8	127009061	A	G	rs141525279	19.34		2.86478e-4	intergenic	0.276	0.303	0.258
+chr8	144264610	CA	C		14.6			frameshift_indel	0.286	0.16	0.222
+chr9	27070615	G	A		12.12			intergenic	0.111	0.179	0.161
+chr9	35078121	C	T		11.07			genic_other	0.167	0.263	0.091
+chr9	43422457	T	C	rs1260674844	10.83			intergenic	0.154	0.2	0
+chr9	43627931	A	G	rs1421515802	10.27			intergenic	0.167	0.2	0.071
+chr9	66172905	G	A	rs1218668066	10.04		0	intergenic	0.222	0.37	0.087
+chr9	74500956	C	T		10.44			genic_other	0	0.333	0
+chr9	74749208	G	A		11.47			genic_other	0.211	0.207	0.133
+chr9	75486011	G	T		12.87			intergenic	0.538	0.556	0.308
+chr9	79286958	A	T		14.14			intergenic	0.261	0.433	0.12
+chr9	80300567	G	T		10			intergenic	0.158	0.172	0.107
+chr9	80714891	C	A		16.63			intergenic	0.258	0.13	0.045
+chr9	82405037	G	C		14.25			intergenic	0.276	0.143	0.19
+chr9	83903539	C	T		26.5			missense	0.133	0.048	0.05
+chr9	93307024	C	T	rs933352563	11.12		0	genic_other	0.167	0.071	0.182
+chr9	103508021	T	A		12.83			intergenic	0.143	0.25	0.179
+chr9	113564351	C	T		10.59			genic_other	0.588	0.529	0.227
+chr9	116549507	C	A		11.57			ncRNA	0.375	0.417	0.077
+chr9	119819788	G	C		12.69			intergenic	0	0	0.132
+chr9	124521767	T	A		11.26			genic_other	0.25	0.385	0.19
+chr9	132655863	A	C		14.42			genic_other	0.655	0.615	0.357
+chr9	136505312	G	A		24.1			synonymous	0.19	0	0.053
+chr10	2650973	A	T		10.63			intergenic	0.182	0.061	0.2
+chr10	4710413	G	C		16.98			intergenic	0.211	0.05	0.065
+chr10	15983963	A	T		13.69			intergenic	0.038	0.118	0.24
+chr10	26023089	G	C		10.86			genic_other	0.231	0.115	0.146
+chr10	27398736	A	G	rs763891854	24.9			missense	0.189	0.226	0.286
+chr10	37132297	T	A		20.6			missense	0.545	0.725	0.597
+chr10	40483367	C	T	rs1391303822	10.45			intergenic	0	0.471	0
+chr10	41011217	T	C	rs1213623079	12.02			intergenic	0	0.2	0
+chr10	42085333	A	C		15.73		0	intergenic	0.286	0	0
+chr10	42085347	T	C		16.67			intergenic	0.333	0	0
+chr10	65637266	T	C		13.97			ncRNA	0.524	0.45	0.348
+chr10	72273633	A	G		21.8			genic_other	0.458	0.45	0.379
+chr10	91580888	A	C		10.7			ncRNA	0.263	0.308	0
+chr10	100551111	G	C	rs1233196942	15.13		0	genic_other	0.385	0.263	0.13
+chr10	101545710	A	T		11.23			genic_other	0.227	0.118	0.103
+chr10	105181784	C	T	rs1338644288	10.36		0	genic_other	0.16	0.609	0.038
+chr10	119853169	C	T	rs1206454226	23.4		0	missense	0.438	0.36	0.333
+chr10	121437443	C	A		11.66			intergenic	0	0.3	0
+chr11	379867	G	A		14.66			synonymous	0.562	0.583	0.222
+chr11	9568908	G	A		14.66			intergenic	0.118	0.042	0.176
+chr11	15379995	G	C		21.7			intergenic	0.182	0.478	0.286
+chr11	16099736	T	C		16.33			genic_other	0.438	0.048	0.211
+chr11	19589760	G	A		10.07			genic_other	0	0.194	0
+chr11	20753617	A	C		13.59			genic_other	0.174	0.138	0.067
+chr11	26355268	A	T		13.56			genic_other	0.87	0.846	0.478
+chr11	28621230	G	C		11.29			intergenic	0.526	0.846	0.269
+chr11	31509586	G	A		10.74	COSV53445414		genic_other	0.65	0.562	0.381
+chr11	33341686	G	A		35			missense	0.031	0.042	0.057
+chr11	33785914	C	A		11.79			intergenic	0.111	0.188	0.143
+chr11	42707029	A	G		12.51			intergenic	0.08	0.2	0.118
+chr11	47415084	C	G		27	COSV100099296		missense	0.353	0.2	0.238
+chr11	49768387	G	A	rs1346651095	10.44			ncRNA	0.316	0.368	0.278
+chr11	51154331	T	C	rs1380866511	12.59			intergenic	0	0.084	0
+chr11	51212172	T	A		11.86			intergenic	0	0	0.2
+chr11	51887510	C	A	rs1326391843	10.12			intergenic	0.097	0.385	0.038
+chr11	52192631	T	A	rs1186076271	11.33			intergenic	0.05	0	0.074
+chr11	52192635	T	C	rs1263274367	11.96			intergenic	0.05	0	0.074
+chr11	58191258	C	G		22.9			missense	0.278	0.25	0.05
+chr11	59806669	C	A		24.5			missense	0.211	0.25	0.1
+chr11	62671747	T	C	rs1388517088	24.1				0.214	0.333	0.111
+chr11	62947791	T	C		13.79			intergenic	0.143	0.227	0.105
+chr11	65413509	A	T		14.48			genic_other	0.304	0.455	0.25
+chr11	66864989	C	A		15.81			genic_other	0.263	0.286	0.069
+chr11	72759227	T	A		12.97			genic_other	0.143	0.042	0
+chr11	78000555	A	C		10.83			intergenic	0.235	0	0.083
+chr11	78051280	T	G		17.61			genic_other	0	0.087	0
+chr11	84248021	T	C		17.85			genic_other	0.407	0.471	0.179
+chr11	92415276	T	C		12.86			genic_other	0.4	0.333	0.182
+chr11	92656729	T	A		17.8			genic_other	0.524	0.444	0.174
+chr11	92931067	C	T		14.26			intergenic	0.897	0.812	0.513
+chr11	97248723	T	A		10.28			intergenic	0.545	0.706	0.333
+chr11	99070059	A	C		15.04			genic_other	0.08	0.185	0.152
+chr11	101045179	A	C		11.17			genic_other	0.143	0.294	0.136
+chr11	104164227	G	T		15.21			genic_other	0.375	0.3	0.083
+chr11	108511543	G	C		15.98			missense	0.087	0.3	0.296
+chr11	110382684	G	T		11.27			ncRNA	0.471	0.35	0.087
+chr11	122979394	C	A		29.9			missense	0.12	0.211	0.1
+chr11	125265773	C	A		15.66			genic_other	0.107	0.24	0.087
+chr11	126953796	T	G		17.22			genic_other	0.667	0.393	0.276
+chr11	127768073	T	G		12.81			intergenic	0.227	0.235	0.208
+chr11	133175428	G	A	rs1051287363	12.85		0	genic_other	0.105	0.115	0.222
+chr12	4448674	C	T		15.85		0	intergenic	0.348	0.286	0.148
+chr12	13448909	A	C		11.34			intergenic	0.118	0.5	0.045
+chr12	16880025	G	T		19.6			intergenic	0.267	0.571	0.143
+chr12	17060560	G	A		14.16			intergenic	0.308	0.536	0.214
+chr12	33161246	T	C		13.56			intergenic	0.083	0.222	0.056
+chr12	34848139	T	C		11.31			intergenic	0.179	0.242	0.286
+chr12	35021723	A	G	rs1301270680	11.86			intergenic	0.158	0.1	0.222
+chr12	35274838	A	G	rs1263851050	10.71			intergenic	0.048	0.071	0.154
+chr12	35510862	A	G	rs1433593008	11.15			intergenic	0.538	0.647	0.25
+chr12	35581244	A	T		11.25			intergenic	0.182	0	0
+chr12	37040510	A	C		10.98			intergenic	0.045	0.292	0.056
+chr12	43004363	C	T		17.62			intergenic	0.345	0.227	0
+chr12	46369527	C	CA		13.45			genic_other	0.216	0.143	0.097
+chr12	48897178	C	G		15.21			intergenic	0.125	0.1	0.115
+chr12	51109142	G	T		26.4			missense	0.444	0.562	0.353
+chr12	56248227	G	A		13.17			genic_other	0.28	0.114	0.038
+chr12	57211775	C	G	rs746302045	24.1			missense	0.25	0.105	0.1
+chr12	57233304	C	G		25.8			missense	0.25	0.214	0.033
+chr12	61909052	T	A		16.52			genic_other	0.207	0.125	0.136
+chr12	69338125	A	C		12.09			intergenic	0.567	0.407	0.176
+chr12	73667927	A	C		13.56			intergenic	0.114	0.526	0.259
+chr12	75431333	T	G		12.78			genic_other	0.148	0.261	0.308
+chr12	76805340	G	A	rs566563533	22.9	COSV58353844	0	missense	0.208	0.083	0.067
+chr12	87465065	C	T		16.26			intergenic	0.318	0.19	0.2
+chr12	89060139	C	T		11.47			intergenic	0.086	0	0.095
+chr12	92155966	C	T		12.42			ncRNA	0.136	0.161	0.231
+chr12	106172708	A	G		11.61			intergenic	0.233	0.5	0.12
+chr12	112575481	G	A		15.97		0	genic_other	0.273	0.3	0
+chr12	112684861	G	A	rs994955642	14.09			genic_other	0.059	0	0.154
+chr12	112860521	A	C		14.68			genic_other	0.25	0	0.111
+chr12	116927235	T	C		18.73			genic_other	0.219	0.318	0.192
+chr12	118845853	T	A		13.01			intergenic	0.5	0.609	0.333
+chr12	120127714	G	T		15.45			genic_other	0.679	0.574	0.41
+chr12	126678275	T	A		10.32			ncRNA	0.24	0.286	0.103
+chr12	128947408	G	A	rs759619312	24	COSV55878029	0	missense	0.333	0.267	0.16
+chr13	16457198	A	T		11.59			intergenic	0.1	0.043	0.059
+chr13	16666634	A	G		11.75			intergenic	0.133	0	0.143
+chr13	16814183	T	G	rs1258003992	11			intergenic	0.25	0	0.286
+chr13	17022557	A	G	rs1473228429	11.89			intergenic	0.364	0.222	0.25
+chr13	17107581	T	G	rs1357097812	11.47			intergenic	0.049	0.04	0.045
+chr13	17265619	T	C	rs1250689100	11.83			intergenic	0.102	0	0.051
+chr13	17317446	A	T		10.96			intergenic	0	0.25	0.15
+chr13	17382679	C	T		10.42			intergenic	0.071	0.25	0.111
+chr13	17403667	C	T		10.23			intergenic	0.069	0.065	0.048
+chr13	17630091	T	C		11.87			intergenic	0.111	0.4	0.083
+chr13	17797942	C	T	rs1341966216	10.05			intergenic	0	0.273	0.143
+chr13	18938339	T	A		10.2			intergenic	0.375	0.318	0.13
+chr13	20094756	C	CT		12.41			intergenic	0.407	0.579	0.316
+chr13	40755991	T	C		17.14			genic_other	0.233	0.562	0.172
+chr13	58500510	G	C		10.51			intergenic	0.15	0.4	0.1
+chr13	77265072	T	TTTCACTATGTTGTC		17.79			genic_other	0.1	0	0
+chr13	81792584	A	C		13.6			intergenic	0.263	0.176	0.083
+chr13	91362013	A	G	rs1369740002	16.37		0	intergenic	0.471	0.261	0.263
+chr13	93301396	A	G		13.69			genic_other	0.227	0.062	0.214
+chr13	97346848	C	A		11.15			synonymous	0.067	0	0.111
+chr13	97346869	C	G		11.12			synonymous	0.071	0	0.059
+chr13	97393628	A	G		15.75			genic_other	0.211	0.214	0.059
+chr13	99845251	C	G		20.7			ncRNA	0.579	0.533	0.333
+chr13	99854715	G	A	rs778999117	14.3		0	ncRNA	0.077	0.1	0.133
+chr13	106218261	T	C	rs1446398741	10.37			intergenic	0	0.222	0
+chr14	26286925	C	G		14.63			intergenic	0.103	0.364	0.095
+chr14	26324892	A	G		15.49			intergenic	0.143	0.333	0.067
+chr14	27227988	A	G		12.55			intergenic	0.188	0.214	0.111
+chr14	27857972	A	T		15.72			intergenic	0.12	0.281	0.083
+chr14	37627579	T	G		12.81			genic_other	0.105	0.2	0.048
+chr14	44962101	T	G		17.44			genic_other	0.184	0.182	0.115
+chr14	47236936	C	G		15.76			genic_other	0.321	0.259	0.133
+chr14	50459516	T	A		10.11			genic_other	0.2	0.043	0.129
+chr14	50787256	G	A	rs1285693956	17.54		0	genic_other	0.067	0.25	0.067
+chr14	51671150	T	C		13.21			genic_other	0.129	0.053	0.125
+chr14	56907932	T	C		11.55			ncRNA	0.467	0.697	0.475
+chr14	59648305	C	T		13.68			genic_other	0.192	0	0.129
+chr14	63581243	CTT	C		16.18			intergenic	0.1	0	0.037
+chr14	80137947	T	A		14.15			intergenic	0.226	0.25	0.2
+chr14	84750941	T	C		18.28			intergenic	0.2	0.25	0.179
+chr14	86769516	A	G		14.09			intergenic	0.6	0.667	0.231
+chr14	87706956	T	C	rs115502522	14.2		0	intergenic	0.171	0.115	0.036
+chr14	89792395	T	G		11.45			intergenic	0	0.217	0.087
+chr14	91463978	G	C		10.88			genic_other	0.182	0.136	0
+chr15	24869166	T	C		10.46			ncRNA	0.125	0.238	0.056
+chr15	38091426	A	G		14.51			intergenic	0.477	0.588	0.379
+chr15	39202893	T	A		10.39			intergenic	0.154	0.167	0.033
+chr15	41474677	A	T		36			stopgain	0.292	0.289	0.179
+chr15	42629410	T	A		11.55			genic_other	0.346	0.222	0.1
+chr15	43023679	A	C		13.17			genic_other	0.111	0.238	0.034
+chr15	50265819	C	T	rs1190326453	18.08			genic_other	0.074	0.04	0.048
+chr15	60763909	G	C		17.68			genic_other	0.103	0	0.125
+chr15	71813554	G	A		25.9			missense	0.091	0.233	0.174
+chr15	73557998	G	A		11.76			genic_other	0.091	0.267	0.074
+chr15	77690928	G	A		14.59			genic_other	0.125	0.192	0.037
+chr15	86453544	A	G		17.64			genic_other	0.324	0.208	0.156
+chr15	87148289	T	G		11.66			intergenic	0.091	0.095	0.138
+chr15	95377570	G	A		10.89			intergenic	0.027	0.111	0.083
+chr15	97111008	A	T		11.37			intergenic	0	0.13	0.2
+chr16	2206205	C	A		22.4			missense	0.143	0.267	0.105
+chr16	5644020	C	T	rs187207903	17.71		0	intergenic	0.353	0.3	0.238
+chr16	17107674	C	G		13.22			genic_other	0	0.208	0.029
+chr16	25752666	C	A		16.32			genic_other	0.412	0.294	0.409
+chr16	30474279	G	A	rs1273830278	24.9		0	missense	0.25	0.533	0.125
+chr16	35089337	G	A		14.68			intergenic	0.545	0.3	0.167
+chr16	36350881	A	T	rs1423890280	11.02			intergenic	0.55	0.286	0.278
+chr16	46826839	A	G		15			genic_other	0.269	0.316	0.188
+chr16	49639290	A	T		11.83			genic_other	0.312	0.389	0.107
+chr16	50035767	T	G		19.08			genic_other	0.208	0.103	0.062
+chr16	54425925	T	C	rs1372897603	16.93			intergenic	0.143	0.25	0.091
+chr16	64611186	T	A		10.26			intergenic	0.167	0.444	0.304
+chr16	64702161	A	C		11.44			intergenic	0.5	0.4	0.188
+chr16	70267774	G	C		10.61	COSV55749693		missense	0.095	0	0.182
+chr17	7675085	C	T	rs786202962	27.4	COSV52660760		missense	0.84	0.727	0.438
+chr17	8120325	G	T		20.2			genic_other	0.692	0.56	0.45
+chr17	19335228	C	G		12.94			genic_other	0.286	0	0.071
+chr17	22148009	A	C		11.36			intergenic	0.107	0.103	0.093
+chr17	22926657	C	T	rs1280665959	10.07			intergenic	0.158	0.167	0.19
+chr17	22943908	A	T		10.78			intergenic	0.5	0.333	0.25
+chr17	23144504	G	A	rs1487851995	10.04			intergenic	0	0.19	0
+chr17	32324225	A	T		10.44			genic_other	0.556	0.545	0.125
+chr17	34637173	C	G		10.83			genic_other	0.048	0.316	0.13
+chr17	40017294	G	T		12.07			genic_other	0.056	0.077	0.083
+chr17	40034856	C	A		16.7			genic_other	0.333	0.5	0.1
+chr17	43758582	TG	CT		22.5			inframe_indel	0.696	0.536	0.464
+chr17	48550946	G	A		12.4	COSV57485793		synonymous	0.227	0.125	0.053
+chr17	57370695	G	A	rs1007668459	15.77		0	genic_other	0.308	0.214	0.077
+chr17	59681400	T	C		11.65			synonymous	0	0	0.077
+chr17	61158253	C	A		15.52			genic_other	0.808	0.85	0.538
+chr17	61660818	C	G	rs144311911	10.7		0	intergenic	0.673	0.6	0.558
+chr17	61662964	C	G		15.4			intergenic	0.681	0.722	0.433
+chr17	61784312	C	A		26.5			missense	0.032	0.107	0.075
+chr17	66349876	C	T		18.27			genic_other	0.049	0.121	0.021
+chr17	66354782	G	T		14.91			genic_other	0.265	0.255	0.098
+chr17	69719753	C	T		12.25			ncRNA	0.122	0.179	0.054
+chr17	75600669	T	A		10.4			genic_other	0	0.333	0
+chr18	2412552	A	C		16.62			intergenic	0.412	0.286	0.333
+chr18	3278272	AAATGCAATGTAATGGCAAGTTAAACAAATGATTGATAGGTGGGGGT	A		15.65			genic_other	0.385	0.667	0.125
+chr18	4351186	C	A		13.25			genic_other	0.263	0.15	0.103
+chr18	7014033	C	A		10.32	COSV67545501		missense	0.043	0.154	0.053
+chr18	12839903	C	A		14.9			genic_other	0.667	0.52	0.278
+chr18	15495512	T	A	rs1249464132	11.62			intergenic	0.152	0.094	0.067
+chr18	15543462	T	C		11.85			intergenic	0.15	0.2	0.143
+chr18	15668787	C	A	rs1348465121	10.07			intergenic	0	0.095	0.2
+chr18	15734578	C	G	rs1196192425	10.2			intergenic	0.259	0.231	0.118
+chr18	17122621	T	A	rs1282814406	11.12			intergenic	0.036	0	0.085
+chr18	18318128	A	C		11.02			intergenic	0.273	0.125	0
+chr18	18537696	C	T	rs1202013758	10.25			intergenic	0.045	0.031	0.15
+chr18	19838334	T	G	rs1225716692	11.34			intergenic	0.1	0.182	0.4
+chr18	22733513	A	G		14.43			ncRNA	0.2	0.2	0.36
+chr18	25182210	A	AAAATC		17.28			genic_other	0	0.182	0
+chr18	25182212	C	G		17.54			genic_other	0	0.182	0
+chr18	26455840	T	A		24.9			missense	0.095	0.1	0.12
+chr18	30678944	T	A		14.31			intergenic	0.19	0.278	0.15
+chr18	41318644	T	C		18.43			intergenic	0.5	0.389	0.2
+chr18	41347337	A	C		10.22			intergenic	0.083	0.15	0.081
+chr18	41418683	C	T		20.6			intergenic	0.471	0.444	0.135
+chr18	41500800	C	A		17.13			ncRNA	0.105	0.4	0.037
+chr18	41558944	G	A		17.35		0	intergenic	0	0.143	0.059
+chr18	45554360	C	A		20.8			genic_other	0.545	0.462	0.129
+chr18	47457108	G	A		15.95			ncRNA	0.267	0.167	0.091
+chr18	53938150	G	GC		14.25			intergenic	0.133	0.2	0.036
+chr18	54223440	TCCCTGG	T		12.2			genic_other	0.5	0.467	0.2
+chr18	67041589	C	G		13.31			intergenic	0.071	0.5	0
+chr18	70768900	G	A		10.21			intergenic	0.286	0.25	0
+chr18	72123855	G	T		10.76			intergenic	0.19	0.267	0.08
+chr19	2986999	C	G		17.9			missense	0.273	0.071	0.074
+chr19	8117584	C	T	rs774181301	14.97	COSV99561137	0	missense	0.138	0.2	0.12
+chr19	12394189	G	C		12.08			genic_other	0.211	0.25	0.273
+chr19	21988828	A	G	rs1302624852	20.4		0	missense	0.414	0.25	0.129
+chr19	23070563	C	T	rs549601265	14.06		0	intergenic	0.049	0.026	0.04
+chr19	23259482	T	G		12.31			ncRNA	0.032	0	0.037
+chr19	29177317	G	T		14.59			intergenic	0.844	0.802	0.733
+chr19	31577329	G	A		20.2			intergenic	0.067	0.062	0.026
+chr19	38880680	C	A		20.1			genic_other	0.05	0.097	0.08
+chr19	42188048	G	T		10.33			intergenic	0.143	0.308	0.05
+chr19	42281781	G	T		13.76			genic_other	0.069	0.25	0.292
+chr19	48345299	G	A	rs201880614	23.1	COSV99507301	0	missense	0.105	0.059	0.062
+chr19	49758450	G	T		12.79		0	genic_other	0.273	0.286	0.195
+chr19	53892582	G	T		31			missense	0.235	0.133	0
+chr19	58531618	C	A		10.86			genic_other	0.267	0.12	0.105
+chr20	612128	G	C		12.34			intergenic	0.194	0.109	0.111
+chr20	6715828	A	C		12.55			intergenic	0.106	0.2	0.048
+chr20	17693794	G	A	rs1032484437	12.68			genic_other	0.205	0.215	0.31
+chr20	17813269	G	A		10.66			intergenic	0.108	0.127	0.064
+chr20	19496115	G	T		18.09			genic_other	0.077	0.214	0.059
+chr20	26816044	T	C	rs1316143808	12.85			intergenic	0.091	0.333	0.4
+chr20	27212822	G	T		10.08			intergenic	0.15	0	0.238
+chr20	28318758	T	C	rs1405193583	11.91			intergenic	0	0.095	0
+chr20	29462280	T	C		10.92			intergenic	0.058	0.059	0.051
+chr20	29574543	T	A		12.48			intergenic	0.048	0.057	0.022
+chr20	32527753	CTCACCGCTCGG	C		26			stopgain	0.393	0.316	0.351
+chr20	41784387	G	A		14.32			intergenic	0.192	0.116	0.083
+chr20	42197918	G	A		10.61			genic_other	0.067	0.103	0.026
+chr20	46237322	G	A	rs1246533453	16.84		0	genic_other	0.212	0.278	0.238
+chr20	51629006	G	A		46			stopgain	0.044	0.012	0.031
+chr20	52369009	A	T		20.8			intergenic	0.092	0.078	0.06
+chr20	53491375	G	A		10.34			genic_other	0.275	0.317	0.241
+chr20	54514317	C	T	rs1243562020	16.32			genic_other	0.077	0.019	0.038
+chr20	62346965	G	GAAGCC		25.5			frameshift_indel	0.176	0.133	0.121
+chr21	10351837	AC	GT		11.65			intergenic	0.081	0.06	0.047
+chr21	16663704	A	G		11.6			intergenic	0.111	0.094	0.088
+chr21	20550321	G	C		16.25			intergenic	0.323	0.091	0.293
+chr21	23106646	T	A		12.23			intergenic	0.375	0.5	0.138
+chr21	29892397	A	G		18.28			genic_other	0.2	0.091	0.167
+chr21	32849676	G	A		18.84			intergenic	0	0.273	0
+chr21	38077372	ACTAATGGGC	A		11.48			ncRNA	0.217	0.417	0.15
+chr21	46569894	TGTAACATAAACCCTCTCAGGGATTTATTTTTTCTTTTTAA	T		15.32			genic_other	0.368	0.6	0.158
+chr22	10734264	G	T		11.59			intergenic	0.06	0.034	0.016
+chr22	11039560	G	A		11.57			intergenic	0.123	0.101	0.054
+chr22	49773406	G	T	rs754248909	14.88			genic_other	0.667	0.75	0.318
+chrX	226542	T	C	rs1358993567	10.8		0	intergenic	0.286	0	0
+chrX	17487445	C	G		10.74			genic_other	0.133	0.111	0.105
+chrX	21561790	A	G		11.4			genic_other	0	0	0.222
+chrX	30122386	C	T		12			intergenic	0.7	0.615	0.389
+chrX	49848872	C	T		10.98			intergenic	0.5	0.556	0.318
+chrX	97461639	G	A	rs1040316855	17.44			genic_other	0.444	0	0.059
+chrX	123029731	C	G		11.6			intergenic	0.273	0.067	0.056
+chrX	140513783	G	C		15.48		0	intergenic	0	0.111	0.125
+chrX	148641345	A	C		12.97			genic_other	0.364	0.222	0.167
+chrX	148641346	T	TG		10.78			genic_other	0.364	0.222	0.167
+chrX	149889341	T	C		10.45			ncRNA	0.375	0.154	0.091
+chrX	155064657	G	C		10.04			genic_other	0.389	0.222	0.143

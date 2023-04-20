@@ -1,0 +1,102 @@
+{
+  "$schema": "https://unpkg.com/@genome-spy/core/dist/schema.json",
+  "name": "platinum-resistance-genes",
+
+  "title": {
+    "text": "Platinum resistance genes",
+    "style": "track-title"
+  },
+
+  "description": "Huang, D., Savage, S.R., Calinawan, A.P. *et al*. A highly annotated database of genes associated with platinum resistance in cancer. *Oncogene* **40**, 6395–6405 (2021). https://doi.org/10.1038/s41388-021-02055-2",
+
+  "height": 12,
+
+  "data": { "url": "platinum_resistance.tsv" },
+
+  "layer": [
+    {
+      "data": { "values": [{}] },
+      "mark": {
+        "type": "rule",
+        "y": 0.5,
+        "color": "lightgray",
+        "strokeDash": [2, 5],
+        "tooltip": null
+      }
+    },
+    {
+      "mark": {
+        "type": "rect",
+        "minWidth": 2.0,
+        "minOpacity": 0.5,
+        "cornerRadius": 3,
+        "yOffset": -0.5
+      },
+
+      "encoding": {
+        "x": {
+          "chrom": "_chrom",
+          "pos": "_start",
+          "type": "locus",
+          "axis": null
+        },
+        "x2": { "chrom": "_chrom", "pos": "_end" },
+
+        "opacity": {
+          "field": "Scores",
+          "type": "quantitative",
+          "scale": {
+            "domain": [1, 5],
+            "range": [0.1, 1]
+          }
+        },
+
+        "color": {
+          "field": "Promotes res\\.",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "DOWN",
+              "DOWN/methylated promoter",
+              "DOWN/PHOS",
+              "DOWN/stroma immune cells",
+              "DOWN/UP",
+              "DOWN/UP/cytoplasm",
+              "DOWN/UP/DEPHOS/mutation",
+              "DOWN/UP/PHOS",
+              "DOWN/UP/stroma immune cells/cancer cells",
+              "DOWN/UP/Ub",
+              "UP",
+              "UP/PHOS",
+              "UP/Ub",
+              "PHOS",
+              "UNKNOWN",
+              "CLEAVED TO ACTIVATE APOPTOSIS",
+              "DEPHOS/out of nuclear"
+            ],
+
+            "range": [
+              "#3182bd",
+              "#3182bd",
+              "#3182bd",
+              "#3182bd",
+              "#808080",
+              "#808080",
+              "#808080",
+              "#808080",
+              "#808080",
+              "#808080",
+              "#e6550d",
+              "#e6550d",
+              "#e6550d",
+              "#74c476",
+              "#74c476",
+              "#74c476",
+              "#74c476"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

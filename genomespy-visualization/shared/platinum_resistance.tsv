@@ -1,0 +1,933 @@
+Gene	_chrom	_start	_end	Mechanism	Promotes res.	Scores
+AATF	chr17	36948874	37056871	Apoptotic signaling, DDR, p53 signaling	UP	1
+ABCA8	chr17	68867286	68955392	Platinum efflux	UP	1
+ABCB1	chr7	87503862	87713323	Platinum efflux	UP	4
+ABCB5	chr7	20615621	20757014	Platinum efflux	UP	4
+ABCC1	chr16	15949576	16143073	Platinum efflux	UP	4
+ABCC2	chr10	99782639	99852594	Platinum efflux	UP	5
+ABCC3	chr17	50634856	50691702	Platinum efflux	UP	4
+ABCC4	chr13	95019828	95301446	PKA signaling, Platinum efflux	UP	1
+ABCC5	chr3	183919935	184017960	Platinum efflux	UP	2
+ABCD2	chr12	39551219	39620041	Platinum efflux	UP	4
+ABCF2	chr7	151207836	151227374	Platinum efflux	UP	1
+ABCG2	chr4	88090263	88231626	CSC, Hedgehog signaling, Platinum efflux	UP	4
+ABHD2	chr15	89088149	89202360	Apoptotic signaling, Calcium signaling	DOWN	4
+ABL1	chr9	130713880	130887675	Apoptotic signaling, Oncogene signaling	DEPHOS/out of nuclear	2
+ABRAXAS2	chr10	124801784	124836670	DDR/HR	UP	4
+ACSS2	chr20	34874962	34927966	Metabolism/Lipid, Metabolism/OXPHOS, Transcription/Epigenetics	UP	4
+ACTA2	chr10	88935073	88991397	ECM/stroma	UP	3
+ACTN4	chr19	38647615	38730532	ECM signaling, EMT, WNT signaling	UP	3
+ACVR1C	chr2	157526766	157628887	Apoptotic signaling, TGF-β signaling	DOWN	4
+ADAM10	chr15	58595203	58749978	ECM signaling, NF-kB signaling, Notch signaling	UP	1
+ADAM17	chr2	9488485	9555830	Immune response, Oncogene signaling	UP	4
+ADAM9	chr8	38996985	39105260	ECM signaling, EMT, Oncogene signaling	UP	4
+AGR3	chr7	16859405	16881989	Detox	UP	4
+AIFM1	chrX	130129362	130165887	Apoptosis	DOWN	1
+AKR1B10	chr7	134527591	134541414	Redox	UP	1
+AKR1C1	chr10	4963261	4977966	Redox	UP	4
+AKR1C2	chr10	4987775	5018033	Oncogene signaling/AKT, Redox	UNKNOWN	5
+AKR1C3	chr10	5048765	5107686	Redox	UP	4
+AKT1	chr14	104769349	104795743	AMPK signaling, mTOR signaling, Oncogene signaling	UP/PHOS	5
+AKT1S1	chr19	49869032	49878356	ECM signaling, mTOR signaling, Oncogene signaling	UNKNOWN	1
+AKT2	chr19	40230316	40285395	AMPK signaling, mTOR signaling, Oncogene signaling	UP/PHOS	2
+ALDH1A1	chr9	72900661	72953317	CSC, Redox	UP	5
+ALDH3A1	chr17	19737984	19748433	CSC, Redox	UP	2
+ALDOA	chr16	30064278	30072216	Metabolism/Glycolysis	UP	1
+ALKBH3	chr11	43880806	43920275	Cell cycle, DDR/direct repair	UP	2
+AMBRA1	chr11	46396411	46594069	Autophagy	UP	4
+AMFR	chr16	56361451	56425538	ECM signaling, Oncogene signaling	UP	3
+ANKRD1	chr10	90912099	90921275	Cell cycle, p53 signaling, TGF-β signaling, WNT signaling	UP	4
+ANXA2	chr15	60347150	60397986	ECM signaling, Oncogene signaling/MAPK, p53 signaling	UP	5
+ANXA3	chr4	78551587	78610451	Calcium signaling, Oncogene signaling	UP	1
+ANXA4	chr2	69643804	69826477	ECM signaling, Platinum efflux	UP	4
+APAF1	chr12	98645299	98735433	Apoptosis	DOWN	1
+APC	chr5	112707504	112846239	CSC, Platinum efflux, WNT signaling	DOWN	4
+APEX1	chr14	20455130	20457772	Apoptotic signaling, DDR/BER, Redox	DOWN/UP	1
+AQP2	chr12	49950740	49958881	Platinum uptake	DOWN	1
+AREG	chr4	74445097	74455009	CSC, Oncogene signaling/EGFR	UP	5
+ARHGDIB	chr12	14942014	14961770	Apoptotic signaling, ECM signaling	UP	2
+ARID1A	chr1	26696032	26782110	Platinum efflux, Transcription/Epigenetics	DOWN	4
+ARID3B	chr15	74541176	74598131	CSC	UP	4
+ARIH1	chr15	72474325	72586555	Autophagy, Translation	UP	4
+ARL6IP5	chr3	69084938	69106088	DDR, Redox/Glutathione	DOWN	4
+ARNT	chr1	150809704	150876768	Hypoxia signaling	UP	2
+ASS1	chr9	130444706	130501274	DDR/nucleotide synthesis, Metabolism/amino acid, Oncogene signaling/PKG, Redox	DOWN/UP	4
+ATF2	chr2	175072249	175168206	Apoptotic signaling, DDR, Oncogene signaling/MAPK, PKA signaling	UP	1
+ATF3	chr1	212565333	212620777	Apoptotic signaling, ER stress response, Immune response, PKA signaling, Transcription	DOWN	1
+ATF4	chr22	39520558	39522686	PKA signaling, Redox/Glutathione, Transcription	UP	2
+ATF6	chr1	161766243	161964070	Autophagy, ER stress response, PKA signaling	DOWN/UP	4
+ATG12	chr5	115828196	115841851	Autophagy	UP	1
+ATG14	chr14	55366390	55411858	Autophagy	UP	2
+ATG5	chr6	106184476	106325820	Autophagy	UP	1
+ATG7	chr3	11272323	11564652	Autophagy	UP	1
+ATM	chr11	108222831	108369099	Cell cycle, DDR, Redox	UP	3
+ATMIN	chr16	81035852	81047346	DDR/HR	DOWN	4
+ATP11B	chr3	182793502	182921633	Platinum efflux	UP	5
+ATP1A1	chr1	116373172	116404776	Platinum uptake	DOWN	1
+ATP1B1	chr1	169106708	169132722	PKA signaling, Platinum uptake	DOWN	1
+ATP6V0B	chr1	43974647	43978300	pH/Pt-toxicity	UP	1
+ATP6V0D1	chr16	67438013	67481186	pH/Pt-toxicity	UP	1
+ATP6V1A	chr3	113747018	113812058	pH/Pt-toxicity	UP	1
+ATP6V1B2	chr8	20197192	20221696	pH/Pt-toxicity	UP	1
+ATP6V1C1	chr8	103021019	103073057	pH/Pt-toxicity	UP	1
+ATP6V1E1	chr22	17592135	17628822	pH/Pt-toxicity	UP	1
+ATP7A	chrX	77910655	78050395	Platinum efflux	UP	4
+ATP7B	chr13	51932670	52011494	Platinum efflux	UP	4
+ATR	chr3	142449234	142578826	Cell cycle, DDR	UP/PHOS	1
+ATRIP	chr3	48446709	48465655	DDR	UP/PHOS	1
+AURKA	chr20	56369388	56392337	NF-kB signaling, p53 signaling, WNT signaling	UP	5
+AXL	chr19	41219198	41261767	Apoptotic signaling, Oncogene signaling	UP	4
+BAD	chr11	64269827	64284704	Apoptosis, Oncogene signaling/AKT, PKA signaling	DOWN/PHOS	4
+BAG3	chr10	119651369	119677817	Apoptosis, Autophagy	UP	4
+BAK1	chr6	33572545	33580293	Apoptosis	DOWN	1
+BAP1	chr3	52401003	52410105	Apoptotic signaling, DDR, Redox/Glutathione	DOWN	4
+BARD1	chr2	214725645	214809711	DDR/HR	UP	1
+BAX	chr19	48954859	48961798	Apoptosis	DOWN	4
+BBC3	chr19	47220821	47232766	Apoptosis, p53 signaling	DOWN	2
+BCAT1	chr12	24810023	24949459	Redox/Glutathione	UP	4
+BCL2	chr18	63123345	63319380	Apoptosis	UP	4
+BCL2A1	chr15	79960889	79971301	Apoptosis	UP	1
+BCL2L1	chr20	31664451	31723999	Apoptosis, p53 signaling	UP	5
+BCL2L11	chr2	111120913	111168445	Apoptosis, Oncogene signaling/AKT	DOWN	1
+BCL2L2	chr14	23306761	23311759	Apoptosis	UP	2
+BECN1	chr17	42810131	42824316	Autophagy	UP	4
+BEX3	chrX	103376322	103378164	CSC	UP	2
+BHLHE40	chr3	4979411	4985180	Apoptosis	DOWN	4
+BID	chr22	17734139	17774665	Apoptosis	DOWN	2
+BIK	chr22	43110747	43129712	Apoptosis	DOWN	1
+BIN1	chr2	127048022	127107327	Apoptotic signaling, Cell cycle, DDR	DOWN	1
+BIRC2	chr11	102347181	102378670	Apoptosis, NF-kB signaling, ubiquitin	UP	5
+BIRC3	chr11	102317449	102339403	Apoptosis, NF-kB signaling, ubiquitin	UP	5
+BIRC5	chr17	78214195	78225635	Apoptosis, Oncogene signaling/AKT	UP	4
+BIRC7	chr20	63235882	63240507	Apoptosis	UP	1
+BLM	chr15	90717326	90815462	DDR/HR	DOWN	4
+BMI1	chr10	22321209	22331485	Cell cycle, CSC, ECM signaling	UP	2
+BMP4	chr14	53949735	53956891	EMT, TGF-β signaling	UP	4
+BMPR1A	chr10	86756638	86925188	TGF-β signaling	UP	4
+BNIP3	chr10	131967682	131982013	Apoptosis, Autophagy	DOWN/UP	1
+BOK	chr2	241558730	241574138	Apoptosis	DOWN/UP	4
+BRCA1	chr17	43044294	43125483	DDR, DDR/DNA replication, DDR/HR	UP	5
+BRCA2	chr13	32315479	32399672	DDR/DNA replication, DDR/FA, DDR/HR	UP	5
+BRD9	chr5	863734	892824	DDR/HR, Immune response, MYC signaling, Transcription/Epigenetics	UP	1
+BRIP1	chr17	61679185	61863559	DDR/HR, ECM signaling	DOWN	5
+BSG	chr19	571276	583493	Autophagy, NF-kB signaling, Oncogene signaling	UP	4
+C1QBP	chr17	5432778	5439151	Apoptotic signaling, DDR/HR, Hypoxia signaling, Metabolism/OXPHOS	DOWN/UP	4
+CAD	chr2	27217389	27243792	DDR/NER, DDR/nucleotide synthesis	UP	3
+CAMK2D	chr4	113451031	113761927	Calcium signaling, Detox, Hypoxia signaling, PKA signaling	UP	4
+CAPN1	chr11	65181214	65212006	Apoptotic signaling	DOWN	1
+CAPNS1	chr19	36139925	36150353	Apoptosis	DOWN	1
+CARD10	chr22	37490361	37519203	NF-kB signaling	UP	4
+CASP12	chr11	104885717	104898670	Apoptotic signaling, ER stress response	DOWN	2
+CASP14	chr19	15049479	15058292	Apoptosis	UP	4
+CASP2	chr7	143288214	143307696	Apoptosis	DOWN	1
+CASP3	chr4	184627695	184649475	Apoptosis, Oncogene signaling/AKT	DOWN	1
+CASP4	chr11	104942866	104968598	Apoptotic signaling, ER stress response, Immune response	DOWN	1
+CASP6	chr4	109688628	109703473	Apoptosis, p53 signaling	DOWN	2
+CASP7	chr10	113679161	113730909	Apoptosis, p53 signaling	DOWN	1
+CASP8	chr2	201233442	201287711	Apoptosis	DOWN	1
+CASP9	chr1	15491400	15524790	Apoptosis	DOWN	1
+CAV1	chr7	116524784	116561185	Notch signaling, TGF-β signaling	UP	1
+CAVIN3	chr11	6318945	6320510	Apoptotic signaling, Immune response, Oncogene signaling/AKT	DOWN	4
+CBS	chr21	43053190	43076861	Redox/Glutathione	UP	4
+CCDC69	chr5	151181051	151224093	Cell cycle, p53 signaling	DOWN/UP	4
+CCL2	chr17	34255276	34257201	EMT, Immune response	UP	5
+CCL25	chr19	8052761	8062663	Immune response, Oncogene signaling	UP	4
+CCL5	chr17	35871490	35880373	Immune response	UP	5
+CCN1	chr1	85580760	85583965	ECM signaling	UP	4
+CCN2	chr6	131948176	131951378	ECM signaling	UP	2
+CCNA2	chr4	121816443	121824001	Cell cycle, DDR/HR	UP	5
+CCND1	chr11	69641104	69654474	Cell cycle	UP	4
+CCNE1	chr19	29811993	29824317	Cell cycle	UP	4
+CCNI	chr4	77048020	77075972	Apoptotic signaling, Cell cycle	UP	4
+CCR9	chr3	45886503	45903175	Immune response, Oncogene signaling	UP	4
+CD24	chr6	106969830	106976855	CSC, EMT, NF-kB signaling, Oncogene signaling/AKT	UP	5
+CD274	chr9	5450502	5470567	ECM signaling, Immune response	UP	4
+CD40	chr20	46118253	46129745	Apoptotic signaling, Immune response, Redox	DOWN	4
+CD40LG	chrX	136648176	136660390	Immune response	DOWN	4
+CD44	chr11	35138869	35232402	CSC, ECM signaling	UP	5
+CD55	chr1	207321471	207360966	CSC, Immune response	UP	2
+CD8A	chr2	86784604	86808396	ECM/stroma, Immune response, Redox/Glutathione	DOWN	4
+CD8B	chr2	86815336	86861924	ECM/stroma, Immune response, Redox/Glutathione	DOWN	4
+CDC37	chr19	10391132	10403595	Chaperone	UP	1
+CDC42	chr1	22052626	22092943	ECM signaling	UP	1
+CDC7	chr1	91500846	91525764	Cell cycle, DDR	UP	1
+CDCP1	chr3	45082273	45146422	Oncogene signaling	UP	5
+CDH1	chr16	68737289	68835542	CSC, EMT, Hippo signaling	DOWN	4
+CDH2	chr18	27950962	28177446	CSC, EMT	UP	4
+CDK12	chr17	39461510	39534565	DDR/HR	UP	1
+CDK2	chr12	55966768	55972789	Cell cycle, DDR/HR	UP	4
+CDK4	chr12	57747726	57752447	Cell cycle	UP	5
+CDK5	chr7	151053811	151057965	Apoptotic signaling, Cell cycle, ECM signaling, Immune response	UP	1
+CDK7	chr5	69234794	69277430	Cell cycle, DDR/NER	UP	4
+CDKN1A	chr6	36676459	36687339	Cell cycle, p53 signaling	DOWN/UP/cytoplasm	4
+CDKN1B	chr12	12717269	12722382	Cell cycle	DOWN	4
+CDKN1C	chr11	2883217	2885765	Cell cycle	DOWN	4
+CDKN2A	chr9	21967751	21995043	Cell cycle, p53 signaling	DOWN/UP	1
+CDKN2C	chr1	50968694	50974637	Cell cycle	UP	1
+CEBPB	chr20	50190582	50192691	Apoptotic signaling, ECM signaling, Immune response, Transcription	DOWN/UP	1
+CFLAR	chr2	201116103	201172688	Apoptosis	UP	1
+CHD4	chr12	6570081	6607476	DDR/DNA replication	DOWN	4
+CHEK1	chr11	125625135	125676256	Cell cycle, DDR	UP	5
+CHEK2	chr22	28687742	28741834	Cell cycle, DDR	DOWN/UP	4
+CHMP2B	chr3	87227262	87255548	Platinum efflux	DOWN	1
+CHUK	chr10	100188297	100229610	NF-kB signaling, Notch signaling	UP	5
+CIP2A	chr3	108549870	108589644	EMT, MYC signaling, Oncogene signaling	UP	5
+CLDN1	chr3	190305700	190322446	Autophagy, ECM signaling, EMT	DOWN/UP	1
+CLDN3	chr7	73768996	73770270	EMT, Platinum uptake, WNT signaling	DOWN/UP	2
+CLDN4	chr7	73830862	73832693	EMT, Platinum uptake, WNT signaling	DOWN/UP	5
+CLDN7	chr17	7259902	7263193	EMT, WNT signaling	UP	4
+CLIC1	chr6	31730580	31737318	DDR/nucleotide synthesis, ECM signaling, Redox	UP	5
+CLN3	chr16	28466652	28492302	Platinum efflux, vesicle trafficking	UP	1
+CLOCK	chr4	55427900	55546909	Redox/Glutathione	UP	4
+CLPTM1L	chr5	1317743	1345070	Apoptotic signaling, Hormone receptor signaling, Oncogene signaling	UP	4
+CLU	chr8	27596916	27614811	Apoptotic signaling, Autophagy, NF-kB signaling, Oncogene signaling	UP	5
+COL11A1	chr1	102876466	103108496	ECM signaling, NF-kB signaling, Oncogene signaling/AKT	UP	4
+COL1A1	chr17	50184095	50201639	ECM signaling	DOWN/UP	4
+COL3A1	chr2	188974372	189012746	CSC, ECM signaling	UP	4
+COL6A3	chr2	237324011	237414207	ECM signaling	UP	4
+COX17	chr3	119669524	119677396	Metabolism/OXPHOS	UP	1
+COX7A2	chr6	75237674	75250298	Metabolism/OXPHOS	UP	4
+CPT2	chr1	53196428	53214197	Metabolism/Lipid, Metabolism/OXPHOS	DOWN	1
+CREB1	chr2	207529891	207605989	Apoptotic signaling, PKA signaling	DOWN	1
+CRYAB	chr11	111908619	111913213	Apoptotic signaling, Chaperone	UP	4
+CSF1	chr1	109910610	109930994	Oncogene signaling/AKT, Oncogene signaling/MAPK	UP	5
+CSF1R	chr5	150053290	150113372	Oncogene signaling/AKT, Oncogene signaling/MAPK	UP	5
+CTNNA1	chr5	138753385	138935034	EMT	UP	4
+CTNNB1	chr3	41199423	41240453	ECM signaling, WNT signaling	UP	4
+CUEDC2	chr10	102423244	102432666	Cell cycle, Immune response, NF-kB signaling, ubiquitin	UP	4
+CUL3	chr2	224470149	224585397	Redox, ubiquitin	UP	4
+CUL4A	chr13	113208192	113267108	DDR/NER	UP	5
+CUZD1	chr10	122832154	122846175	Oncogene signaling/EGFR	UP	4
+CXCL10	chr4	76021115	76023536	Immune response	UP	5
+CXCL12	chr10	44370152	44385097	Immune response, NF-kB signaling	UP	4
+CXCL8	chr4	73740505	73743716	Immune response	UP	4
+CXCR4	chr2	136114348	136118155	Immune response, Oncogene signaling/MAPK	UP	4
+CYP1B1	chr2	38067602	38076181	Redox	UP	4
+CYP2E1	chr10	133527362	133539116	ER stress response, Metabolism/Lipid, Redox	DOWN	5
+DACT1	chr14	58634067	58648320	Autophagy, WNT signaling	DOWN	2
+DAPK1	chr9	87497227	87708634	Apoptosis, p53 signaling	DOWN	1
+DAPK3	chr19	3958452	3971123	Apoptosis	DOWN	4
+DAXX	chr6	33318557	33323016	p53 signaling, TGF-β signaling, Transcription, ubiquitin	UP	5
+DCLRE1A	chr10	113834723	113854404	DDR/HR	UP	1
+DCLRE1B	chr1	113904618	113914086	DDR/FA, DDR/HR, DDR/telomere	UP	1
+DCLRE1C	chr10	14897563	14954432	DDR/NHEJ	UP	1
+DDB1	chr11	61299446	61333212	Apoptotic signaling, CSC, DDR/NER, EMT	DOWN	1
+DDB2	chr11	47214941	47239218	Apoptotic signaling, CSC, DDR/NER, EMT, NF-kB signaling	DOWN	5
+DDIAS	chr11	82901694	82934657	Apoptosis, DDR	UP	1
+DDIT3	chr12	57516587	57520517	Apoptotic signaling, ER stress response	DOWN	5
+DDR1	chr6	30882612	30900156	CSC, ECM signaling	UP	4
+DERL1	chr8	123013163	123042423	ER stress response, Oncogene signaling/EGFR	UP	4
+DHFR	chr5	80626225	80654981	DDR/nucleotide synthesis, Metabolism/amino acid, Metabolism/One carbon	UP	1
+DIAPH3	chr13	59665588	60163985	ECM signaling	UP	4
+DICER1	chr14	95086227	95158010	Apoptotic signaling, RNA processing	DOWN	4
+DIRAS3	chr1	68045961	68051631	Apoptosis, Autophagy	DOWN	5
+DKK1	chr10	52314182	52317657	WNT signaling	UP	4
+DKK3	chr11	11962995	12009370	WNT signaling	UP	5
+DNMT1	chr19	10133343	10195135	CSC, Oncogene signaling/EGFR, Transcription/Epigenetics	UP	2
+DOK2	chr8	21908872	21913708	Immune response, Oncogene signaling/EGFR	DOWN	4
+DRAM1	chr12	101877326	101923623	Apoptotic signaling, Autophagy, p53 signaling	DOWN	1
+DSG1	chr18	31318088	31359246	ECM signaling	UP	3
+DUOXA1	chr15	45117365	45129877	Redox	UP	5
+DUSP1	chr5	172768089	172771200	DDR, Oncogene signaling/MAPK	UP	1
+DUSP6	chr12	89347824	89352859	Oncogene signaling/MAPK	DOWN	2
+DVL2	chr17	7225341	7234544	WNT signaling	UP	1
+DVL3	chr3	184155376	184173614	WNT signaling	UP	4
+DYNLL1	chr12	120469856	120498495	DDR/HR	DOWN	4
+DYRK2	chr12	67648731	67662664	Apoptotic signaling, CSC, EMT, p53 signaling	DOWN	5
+E2F1	chr20	33675485	33686404	Cell cycle, DDR/HR	UP	4
+E2F2	chr1	23506427	23531220	Cell cycle	UP	4
+E2F4	chr16	67192164	67198918	Cell cycle, Transcription	DOWN	4
+E2F7	chr12	77021245	77065580	Cell cycle, DDR/HR	DOWN	4
+EDNRA	chr4	147480916	147544954	CSC	UP	5
+EGF	chr4	109912883	110013079	Cell cycle, Hypoxia signaling, Oncogene signaling/EGFR	UP	1
+EGFR	chr7	55019020	55208080	Oncogene signaling/EGFR	UP	4
+EGLN1	chr1	231363750	231425044	Hypoxia signaling	DOWN	4
+EGLN3	chr14	33924214	33951078	Hypoxia signaling	DOWN	1
+EGR1	chr5	138465491	138469315	Apoptotic signaling, Autophagy, DDR/NER, Immune response, Oncogene signaling	DOWN	5
+EHD1	chr11	64852726	64879713	Platinum efflux	UP	4
+EIF2AK3	chr2	88556739	88627576	ER stress response, Platinum efflux, Redox	UP	2
+EIF2S1	chr14	67360316	67386516	Apoptotic signaling/MAPK, ER stress response, Translation	PHOS	1
+EIF3A	chr10	119033671	119080884	DDR/NER, Translation	DOWN	4
+EIF3G	chr19	10115013	10119924	Apoptotic signaling, Translation	CLEAVED TO ACTIVATE APOPTOSIS	1
+EIF4E	chr4	98871683	98930637	EMT, Hypoxia signaling, Oncogene signaling, Translation	UP	2
+EIF4EBP1	chr8	38030501	38060365	Apoptotic signaling, mTOR signaling, Oncogene signaling, Translation	DOWN/PHOS	2
+EIF4G2	chr11	10797045	10809035	Apoptotic signaling, Translation	UP	4
+EME1	chr17	50373219	50381459	DDR/HR	UP	4
+EMSY	chr11	76445024	76552899	DDR/HR	DOWN	4
+EMX2	chr10	117542444	117549546	EMT, WNT signaling	DOWN	4
+ENG	chr9	127815011	127854773	TGF-β signaling	UP	5
+ENO1	chr1	8860999	8878686	Metabolism/Glycolysis, Oncogene signaling/AKT	UP	2
+ENPP2	chr8	119557076	119673576	Oncogene signaling	UP	4
+EP300	chr22	41092609	41180077	Apoptotic signaling, ECM signaling, p53 signaling, PKA signaling, Transcription/Epigenetics	DOWN	4
+EPCAM	chr2	47369147	47387028	CSC, EMT, Oncogene signaling, WNT signaling	UP	5
+EPHA2	chr1	16124336	16156109	ECM signaling, Oncogene signaling	UP	1
+ERBB2	chr17	39688083	39728662	Oncogene signaling/EGFR	UP	5
+ERBB3	chr12	56080024	56103507	Oncogene signaling/EGFR	UP/PHOS	4
+ERBB4	chr2	211375716	212538628	Oncogene signaling/EGFR	UP	4
+ERCC1	chr19	45407332	45423919	DDR/NER	UP	4
+ERCC2	chr19	45351390	45370587	DDR/NER	UP	4
+ERCC3	chr2	127257289	127294176	DDR/NER	UP	4
+ERCC4	chr16	13920156	13952348	DDR/HR, DDR/NER	UP	4
+ERCC5	chr13	102845840	102876001	DDR/NER	UP	4
+ERCC6	chr10	49454479	49539538	DDR/NER	UP	4
+ERCC8	chr5	60873831	60945078	DDR/NER	UP	4
+ERN1	chr17	64039141	64130142	ER stress response	UP	1
+ETS1	chr11	128458760	128587558	CSC, ECM signaling, EMT, NF-kB signaling	UP	4
+EXO1	chr1	241848190	241889939	DDR/HR	UP	4
+EZH2	chr7	148807371	148884349	Autophagy, Platinum uptake, Transcription	UP	4
+EZR	chr6	158765740	158819424	CSC, ECM signaling, EMT, NF-kB signaling, Oncogene signaling/AKT	UP	4
+FAAP100	chr17	81539884	81552403	DDR/FA	UP	1
+FAAP24	chr19	32972216	32977495	DDR/FA	UP	1
+FADD	chr11	70203162	70207402	Apoptotic signaling/DR	DOWN/UP/PHOS	4
+FAM168A	chr11	73400477	73598189	DDR, NF-kB signaling, Oncogene signaling/AKT	UP	4
+FAM83B	chr6	54846770	54945099	Oncogene signaling/EGFR, WNT signaling	DOWN	4
+FAN1	chr15	30903851	30943107	DDR/FA	UP	1
+FANCA	chr16	89737548	89816658	DDR/FA	UP	4
+FANCB	chrX	14843406	14873069	DDR/FA	UP	1
+FANCC	chr9	95099053	95317709	DDR/FA	UP	1
+FANCD2	chr3	10026386	10101937	DDR/FA	UP	4
+FANCE	chr6	35452360	35467104	DDR/FA	UP	1
+FANCF	chr11	22622532	22625841	DDR/FA	UP	1
+FANCG	chr9	35073837	35080016	DDR/FA, DDR/TLS	UP	1
+FANCI	chr15	89243962	89317131	DDR/FA	DOWN/UP	4
+FANCL	chr2	58159242	58241380	DDR/FA	UP	1
+FANCM	chr14	45135938	45200890	DDR/FA	UP	3
+FAP	chr2	162170683	162243557	ECM signaling	UP	4
+FAS	chr10	88990558	89017061	Apoptotic signaling/DR	DOWN	4
+FASLG	chr1	172659007	172666872	Apoptotic signaling/DR	DOWN/UP	4
+FASN	chr17	82078337	82098230	Metabolism/Lipid	UP	4
+FAT1	chr4	186587782	186723833	ECM signaling, Redox/Glutathione, WNT signaling	UP	1
+FAU	chr11	65120626	65122200	Apoptotic signaling	DOWN	4
+FBXO32	chr8	123497886	123541253	TGF-β signaling	DOWN	5
+FEN1	chr11	61792636	61797242	DDR/BER, DDR/FA, DDR/NER	UP	4
+FGF1	chr5	142592177	142698070	Hippo signaling, Oncogene signaling/FGF	UP	4
+FGF2	chr4	122826707	122898236	Oncogene signaling/FGF	UP	1
+FGFR2	chr10	121478329	121598458	Hippo signaling, Oncogene signaling/FGF	UP	1
+FH	chr1	241497556	241519785	DDR/HR, Hypoxia signaling, Metabolism/OXPHOS	UP	5
+FLNA	chrX	154348531	154374638	DDR	UP	2
+FLT4	chr5	180601505	180649624	DDR, Oncogene signaling/VEGF	DOWN/UP	5
+FN1	chr2	215360439	215436070	CSC, ECM signaling, WNT signaling	UP	4
+FOLR1	chr11	72189557	72196323	Platinum uptake	DOWN	4
+FOLR2	chr11	72216774	72221950	DDR/nucleotide synthesis, Metabolism/amino acid, Metabolism/One carbon	UP	1
+FOS	chr14	75278777	75282234	Cell cycle, Oncogene signaling/MAPK, Transcription	UP	4
+FOSB	chr19	45467994	45475179	Cell cycle, Oncogene signaling/MAPK, Transcription	UP	4
+FOSL1	chr11	65892135	65900526	Oncogene signaling/MAPK	UP	4
+FOXC2	chr16	86566828	86569727	EMT, Oncogene signaling	UP	5
+FOXM1	chr12	2857680	2877155	DDR/HR	UP	4
+FOXO1	chr13	40555663	40666597	AMPK signaling, Apoptotic signaling, Cell cycle, Oncogene signaling, Redox	DOWN/UP	4
+FOXO3	chr6	108559822	108684768	AMPK signaling, Apoptotic signaling, Redox	DOWN/PHOS	5
+FOXP1	chr3	70954713	71583989	CSC, Immune response, Oncogene signaling/MAPK, Transcription	DOWN/UP	5
+FSTL1	chr3	120394213	120451071	Immune response, Oncogene signaling	UP	1
+FUBP1	chr1	77944050	77979205	MYC signaling, WNT signaling	UP	4
+FZD8	chr10	35638248	35641434	WNT signaling	UP	2
+G6PD	chrX	154531389	154547586	DDR/nucleotide synthesis, Metabolism/PPP, Redox	UP	4
+GABPA	chr21	25734946	25772460	Cell cycle, CSC, Metabolism/OXPHOS, Transcription	DOWN	1
+GADD45A	chr1	67685176	67688338	Apoptotic signaling/MAPK, Cell cycle, DDR/NER	UP	4
+GADD45GIP1	chr19	12954155	12957254	Cell cycle	DOWN	4
+GAS6	chr13	113820548	113864103	Immune response, Oncogene signaling	UP	4
+GCLC	chr6	53497340	53545129	Redox/Glutathione	UP	4
+GCLM	chr1	93885199	93909598	Redox/Glutathione	UP	2
+GDF15	chr19	18385959	18389177	NF-kB signaling, Oncogene signaling, TGF-β signaling	UP	4
+GFRA1	chr10	116056930	116273645	AMPK signaling, Autophagy, Oncogene signaling	UP	4
+GGNBP2	chr17	36544887	36589846	Cell cycle, Immune response, Transcription	DOWN	4
+GGT1	chr22	24583749	24629005	Redox/Glutathione	UP	1
+GJA1	chr6	121435645	121449727	Apoptotic signaling, bystander effect, EMT	DOWN	4
+GLI1	chr12	57460134	57472264	Hedgehog signaling, PKA signaling	UP	4
+GLI2	chr2	120797290	120992653	CSC, Hedgehog signaling	UP	4
+GLS	chr2	190880820	190965544	Metabolism/Glutaminolysis, Redox/Glutathione	UP	4
+GLS2	chr12	56470943	56488414	Metabolism/Glutaminolysis, Redox/Glutathione	UP	4
+GNPTG	chr16	1351898	1363351	Glycosylation, Platinum efflux	UP	1
+GOLPH3	chr5	32124717	32174319	WNT signaling	UP	5
+GOLPH3L	chr1	150646224	150697196	NF-kB signaling	UP	5
+GPBP1	chr5	57173947	57264679	DDR/HR, Transcription	DOWN	4
+GPRC5A	chr12	12891021	12913666	ECM signaling, Hippo signaling, Hypoxia signaling	UP	5
+GPX3	chr5	151020411	151028993	Redox, Redox/Glutathione	UP	2
+GPX4	chr19	1103925	1106789	Metabolism/OXPHOS, Redox	UP	2
+GREB1	chr2	11534115	11642786	Hormone receptor signaling	DOWN	4
+GREM1	chr15	32718003	32734669	CSC	UP	2
+GSK3B	chr3	119821954	120094417	Oncogene signaling/AKT, WNT signaling	DOWN	1
+GSN	chr9	121201482	121332842	Apoptotic signaling	UP	4
+GSR	chr8	30678062	30727999	Redox/Glutathione	UP	4
+GSS	chr20	34928431	34956027	Redox/Glutathione	UP	4
+GSTA1	chr6	52791379	52803967	Redox/Glutathione	UP	1
+GSTK1	chr7	143263428	143269129	Redox/Glutathione	UP	1
+GSTM1	chr1	109687795	109693745	Redox/Glutathione	UP	1
+GSTM4	chr1	109656075	109665501	Redox/Glutathione	UP	4
+GSTP1	chr11	67583594	67586653	Redox/Glutathione	UP	4
+H6PD	chr1	9234803	9271335	DDR/nucleotide synthesis, Metabolism/PPP, Redox	UP	1
+HBEGF	chr5	140332842	140346603	DDR/NER, Oncogene signaling/EGFR	UP	2
+HCFC1R1	chr16	3022619	3024286	EMT, Oncogene signaling/AKT	UP	4
+HDAC1	chr1	32292106	32333623	MYC signaling, Transcription/Epigenetics	UP	5
+HDAC3	chr5	141620875	141636856	Apoptotic signaling, Immune response, Transcription	DOWN	4
+HDAC4	chr2	239048167	239400949	Immune response, Transcription	UP	4
+HECTD3	chr1	45002547	45011355	Apoptotic signaling, Oncogene signaling/EGFR	UP	5
+HELQ	chr4	83407342	83455883	DDR/HR	UP	4
+HEY1	chr8	79764009	79767863	Notch signaling	UP	1
+HGF	chr7	81699007	81770198	Oncogene signaling/HGF	DOWN/UP	1
+HIC1	chr17	2055098	2059687	Apoptotic signaling, p53 signaling	DOWN/methylated promoter	3
+HIF1A	chr14	61695400	61748259	Hypoxia signaling, Immune response	UP	4
+HIPK2	chr7	139561569	139777894	Apoptotic signaling, p53 signaling	DOWN	1
+HK2	chr2	74832654	74893354	Apoptosis, Autophagy, Metabolism/Glycolysis	UP	2
+HMGB1	chr13	30457915	30617597	Autophagy, DDR/BER, DDR/NER, Redox	UP	4
+HMGB2	chr4	173331375	173334444	Autophagy, DDR/BER, DDR/NER, Redox	UP	1
+HMGCR	chr5	75337167	75362116	AMPK signaling, Metabolism/Lipid	UP	2
+HMOX1	chr22	35381066	35394214	CSC, Hypoxia signaling, Redox	UP	4
+HNF1B	chr17	37686430	37745078	EMT, TGF-β signaling, Transcription	DOWN/UP	4
+HOXA13	chr7	27196879	27200106	EMT, Transcription, WNT signaling	UP	4
+HOXA4	chr7	27128506	27130780	CSC, Immune response, Redox, Transcription	UP	4
+HOXB13	chr17	48724764	48728749	EMT, NF-kB signaling, Oncogene signaling, Transcription	UP	4
+HOXB3	chr17	48548869	48582622	Cell cycle, Redox, Transcription	UP	4
+HOXB4	chr17	48575506	48578381	Oncogene signaling/AKT, Platinum efflux, Transcription	UP	1
+HOXB7	chr17	48607232	48611021	DDR/NHEJ, Transcription	UP	4
+HOXD8	chr2	176129693	176132695	CSC, EMT, Hypoxia signaling, Transcription	UP	4
+HSF1	chr8	144291568	144314726	Chaperone, Transcription	UP	4
+HSP90AA1	chr14	102080737	102139749	Chaperone	UP	5
+HSP90AB1	chr6	44246165	44253888	Chaperone	UP	4
+HSPA1A	chr6	31815513	31817942	Chaperone	UP	5
+HSPA1B	chr6	31827734	31830254	Chaperone	UP	2
+HSPA5	chr9	125234847	125241387	Apoptotic signaling, Chaperone, ER stress response, Oncogene signaling, p53 signaling	UP	5
+HSPB1	chr7	76302557	76304301	Autophagy, Chaperone	UP	4
+HSPD1	chr2	197486583	197500274	Chaperone	UP	1
+HTRA2	chr2	74529404	74533556	Apoptotic signaling	DOWN	4
+ICAM1	chr19	10270840	10286615	Immune response	UP	1
+ID1	chr20	31605282	31606514	Autophagy, Cell cycle, Immune response, NF-kB signaling, TGF-β signaling	UP	4
+IFNG	chr12	68154769	68159741	Immune response	DOWN	5
+IGF1	chr12	102395866	102480645	AMPK signaling, ECM signaling, Oncogene signaling/EGFR	UP	2
+IGF1R	chr15	98648538	98964530	AMPK signaling, ECM signaling, Oncogene signaling/EGFR	UP	2
+IGF2	chr11	2129111	2149603	Oncogene signaling/EGFR	UP	1
+IGF2BP1	chr17	48997411	49056145	CSC, Oncogene signaling, RNA processing	UP	1
+IGF2BP3	chr7	23310208	23470376	Oncogene signaling, Platinum uptake, RNA processing	UP	4
+IGF2R	chr6	159969098	160111502	Oncogene signaling/EGFR	DOWN	4
+IKBKB	chr8	42271301	42332653	EMT, NF-kB signaling	UP	2
+IKBKE	chr1	206470242	206496890	NF-kB signaling	UP	4
+IL11	chr19	55364381	55370463	Immune response	UP	4
+IL17A	chr6	52186374	52190638	Immune response	UP	1
+IL1A	chr2	112773914	112785398	Immune response, Platinum uptake	DOWN/UP	2
+IL1B	chr2	112829759	112836779	Immune response	UP	1
+IL22	chr12	68248241	68253604	Immune response	UP	1
+IL24	chr1	206897442	206904139	Immune response	DOWN	1
+IL25	chr14	23372808	23376403	Immune response	UP	2
+IL6	chr7	22727141	22732002	Immune response	UP	5
+IL6R	chr1	154405192	154469450	Immune response	UP	5
+IL7	chr8	78732771	78805523	Immune response	DOWN/UP	4
+ILK	chr11	6603707	6610874	ECM signaling	UP	1
+IRF1	chr5	132481608	132490773	Apoptotic signaling, Immune response, Platinum efflux	DOWN/UP	4
+ITGA5	chr12	54395260	54419266	ECM signaling, Metabolism/Glycolysis	UP	4
+ITGA6	chr2	172427353	172506455	CSC, ECM signaling	UP	4
+ITGB1	chr10	32900317	32958365	ECM signaling	UP	4
+ITGB5	chr3	124761948	124901411	ECM signaling, Metabolism/Glycolysis	UP	2
+ITGB6	chr2	160099665	160200313	ECM signaling	UP	1
+ITGB8	chr7	20331101	20415759	ECM signaling	UP	2
+ITM2A	chrX	79360383	79367552	Autophagy, lysosomes	DOWN	5
+ITPR1	chr3	4493347	4847840	Apoptotic signaling, Calcium signaling	DOWN	1
+JAG1	chr20	10637683	10673999	Notch signaling, WNT signaling	UP	5
+JAK2	chr9	4985085	5128183	Immune response	UP	5
+JUN	chr1	58780790	58784113	Apoptotic signaling, Cell cycle, Oncogene signaling/MAPK, Transcription	DOWN/UP	5
+JUNB	chr19	12791495	12793311	Apoptotic signaling, Cell cycle, Oncogene signaling/MAPK, Transcription	DOWN/UP	2
+JUND	chr19	18279693	18281656	Apoptotic signaling, Cell cycle, Oncogene signaling/MAPK, Transcription	DOWN/UP	1
+KAT2B	chr3	20040031	20154404	Cell cycle, EMT, Transcription/Epigenetics	UP	1
+KAT5	chr11	65712001	65719606	Apoptotic signaling, DDR, Platinum efflux, Transcription/Epigenetics	DOWN/UP	1
+KAT8	chr16	31117663	31131393	Apoptotic signaling, DDR, Oncogene signaling, Transcription/Epigenetics	UP	1
+KCNMA1	chr10	76869600	77637819	Apoptotic signaling	DOWN	4
+KDM3A	chr2	86441147	86492716	Cell cycle, CSC, p53 signaling	UP	2
+KDM5A	chr12	280056	389455	Oncogene signaling/EGFR, p53 signaling, Transcription/Epigenetics, Translation	UP	1
+KDR	chr4	55078480	55125595	Oncogene signaling/VEGF	UP	1
+KEAP1	chr19	10486119	10503378	NF-kB signaling, Redox	DOWN	4
+KIF20A	chr5	138178727	138187715	Hedgehog signaling, Immune response	UP	4
+KISS1	chr1	204190340	204196491	EMT, NF-kB signaling, Oncogene signaling/PKC, Redox/Glutathione	DOWN	4
+KIT	chr4	54657927	54740715	CSC	UP	5
+KLF4	chr9	107484851	107489720	CSC, EMT, Transcription	DOWN	4
+KLF5	chr13	73054975	73077542	Apoptotic signaling, CSC, DDR, EMT, Transcription	UP	4
+KMT2B	chr19	35718018	35738880	DDR/DNA replication	DOWN	1
+KMT2C	chr7	152134924	152436005	DDR/HR	DOWN/UP	1
+KRAS	chr12	25204788	25250931	Oncogene signaling/EGFR, Oncogene signaling/MAPK	DOWN	4
+KRT1	chr12	52674735	52680407	ECM signaling	UP	1
+KRT10	chr17	40818116	40822611	Cell cycle, ECM signaling, Oncogene signaling/MAPK	DOWN	1
+KRT18	chr12	52948870	52952901	CSC, ECM signaling, EMT	UP	4
+KRT5	chr12	52514574	52520459	ECM signaling	UP	4
+KRT8	chr12	52897186	52949866	CSC, ECM signaling, EMT	UP	2
+L1CAM	chrX	153861513	153886174	ECM signaling, EMT	UP	4
+LAMTOR5	chr1	110401254	110407924	mTOR signaling	UP	5
+LATS1	chr6	149658152	149718256	Hippo signaling	UNKNOWN	1
+LCK	chr1	32251238	32286167	CSC, DDR	UP/PHOS	1
+LDLR	chr19	11089361	11133829	Metabolism/Lipid, Oncogene signaling/FGF, Platinum efflux	UP	4
+LGALS3	chr14	55129216	55145430	CSC, Notch signaling	UP	1
+LIG3	chr17	34980497	35005069	DDR/BER, DDR/HR, DDR/NER	UP	1
+LIG4	chr13	108207443	108218368	DDR/NHEJ	UP	1
+LIN28A	chr1	26410767	26429728	Cell cycle, CSC, Oncogene signaling, RNA processing	UP	4
+LIN28B	chr6	104957047	105083332	CSC, Oncogene signaling, Platinum uptake, RNA processing	UP	4
+LMO4	chr1	87328467	87348923	Immune response, Oncogene signaling/AKT	UP	1
+LNPEP	chr5	96935641	97029411	Oncogene signaling/EGFR	UP	4
+LRP1	chr12	57128498	57213342	ECM signaling, endocytosis, p53 signaling	UP	1
+LRRC8A	chr9	128882111	128918038	Platinum uptake	DOWN	4
+LRRC8D	chr1	89821013	89936430	Platinum uptake	DOWN	4
+LRRFIP1	chr2	237627580	237781647	EMT, Platinum efflux, Transcription, WNT signaling	UP	1
+LTB4R2	chr14	24310150	24312053	Immune response	UP	2
+LUC7L3	chr17	50719543	50756213	RNA processing	UNKNOWN	1
+MACC1	chr7	20134655	20217390	Oncogene signaling/HGF	UP	1
+MAD2L2	chr1	11674479	11691621	DDR/TLS	UP	2
+MAFG	chr17	81918268	81927711	Redox	UP	4
+MAL	chr2	95025654	95053992	CSC	UP	4
+MALT1	chr18	58671385	58754477	NF-kB signaling	UP	1
+MAP1LC3A	chr20	34546883	34560345	Autophagy	UP	4
+MAP1LC3B	chr16	87392194	87404774	Autophagy	UP	1
+MAP2K1	chr15	66386872	66491544	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	UP	4
+MAP2K3	chr17	21284655	21315239	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	DOWN	1
+MAP2K4	chr17	12020817	12143831	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	DOWN	1
+MAP3K1	chr5	56815072	56896151	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	DOWN	1
+MAP3K5	chr6	136557048	136792518	Apoptotic signaling/MAPK, Immune response, Oncogene signaling/MAPK	DOWN	1
+MAP3K7	chr6	90513572	90587301	NF-kB signaling, Oncogene signaling/MAPK	UP	1
+MAPK1	chr22	21759657	21867680	Apoptotic signaling/MAPK, DDR, Oncogene signaling/MAPK	DOWN/UP	1
+MAPK11	chr22	50263712	50270393	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	DOWN/UP	1
+MAPK12	chr22	50252900	50261810	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	DOWN/UP	1
+MAPK13	chr6	36130483	36144524	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	DOWN	1
+MAPK14	chr6	36027676	36111236	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	DOWN	1
+MAPK3	chr16	30114104	30123309	Apoptotic signaling/MAPK, DDR, Oncogene signaling/MAPK	DOWN/UP	1
+MAPK8	chr10	48306638	48439359	Apoptotic signaling/MAPK, Oncogene signaling/MAPK	DOWN/UP	1
+MAPK9	chr5	180233580	180292083	Apoptotic signaling/MAPK, Oncogene signaling/MAPK, Platinum efflux	UP/PHOS	1
+MAST1	chr19	12838444	12874952	ECM signaling, Oncogene signaling/MAPK	UP	5
+MBNL1	chr3	152268467	152465780	Redox, RNA processing	DOWN	1
+MCL1	chr1	150574550	150579738	Apoptosis	UP	4
+MCM8	chr20	5950651	5995206	DDR/HR	UP	1
+MCM9	chr6	118813448	118935162	DDR/HR	UP	2
+MDM2	chr12	68808171	68845544	p53 signaling	UP	4
+MDM4	chr1	204516378	204558120	p53 signaling	UP	1
+MELK	chr9	36572861	36677683	Apoptotic signaling, Cell cycle	UP	4
+MEN1	chr11	64803513	64811294	Oncogene signaling/AKT	DOWN	1
+MET	chr7	116672358	116798386	Oncogene signaling/HGF	DOWN/UP	1
+METTL6	chr3	15409759	15427547	CSC, Translation	DOWN	4
+MGAT1	chr5	180790540	180815616	Glycosylation, Platinum efflux	UP	1
+MGAT5	chr2	134254258	134454621	Glycosylation, Platinum efflux	UP	1
+MGMT	chr10	129467240	129770983	DDR/direct repair	UP	4
+MICU1	chr10	72367325	72626191	Apoptotic signaling, Calcium signaling, Metabolism/Glycolysis	UP	5
+MIEN1	chr17	39728499	39730563	Apoptotic signaling, NF-kB signaling, Oncogene signaling/AKT	UP	1
+MITF	chr3	69739434	69968337	Apoptotic signaling, Cell cycle, EMT, Transcription	UP	1
+MLH1	chr3	36993349	37050846	Apoptotic signaling/MMR, DDR/MMR, DDR/NHEJ	DOWN	4
+MME	chr3	155024123	155183729	CSC	DOWN	1
+MMP10	chr11	102770501	102780628	CSC, WNT signaling	UP	4
+MMP19	chr12	55835429	55842983	ECM signaling	UP	1
+MMP2	chr16	55478829	55506691	ECM signaling, Immune response, Oncogene signaling/EGF_FGF, TGF-β signaling	UP	4
+MMP20	chr11	102576834	102625332	ECM signaling	UP	1
+MMP7	chr11	102520507	102530753	Apoptotic signaling, ECM signaling, EMT, WNT signaling	UP	4
+MMP9	chr20	46008907	46016561	CSC, ECM signaling, Immune response, TGF-β signaling	UP	4
+MNAT1	chr14	60734740	60968680	DDR/NER, Oncogene signaling, p53 signaling	UP	1
+MOAP1	chr14	93182195	93184904	Apoptotic signaling, Immune response	DOWN	1
+MRE11	chr11	94417300	94493908	DDR/HR	UP	4
+MSH2	chr2	47403066	47483228	Apoptotic signaling/MMR, DDR/MMR	DOWN	4
+MSH3	chr5	80654647	80876815	DDR/HR, DDR/MMR	UP	1
+MSH5	chr6	31739947	31762678	DDR/HR, DDR/MMR	UP	1
+MSH6	chr2	47783081	47806953	Apoptotic signaling/MMR, DDR/MMR	DOWN	4
+MSLN	chr16	760764	768865	ECM signaling, EMT, NF-kB signaling	UP	1
+MSX1	chr4	4859664	4863933	Apoptotic signaling, p53 signaling, WNT signaling	DOWN	4
+MT1A	chr16	56638665	56640088	Detox	UP	4
+MT2A	chr16	56608532	56609497	Detox	UP	4
+MT3	chr16	56589336	56591088	Detox	UP	1
+MTDH	chr8	97644183	97730260	NF-kB signaling, Oncogene signaling/AKT	UP	4
+MTOR	chr1	11106530	11262551	Autophagy, mTOR signaling, Oncogene signaling, Translation	UP	2
+MTRR	chr5	7869103	7901131	Autophagy, Metabolism/One carbon, Transcription/Epigenetics	UP	5
+MUC1	chr1	155185823	155192915	ECM signaling, Immune response, NF-kB signaling, Oncogene signaling	UP	2
+MUC16	chr19	8848843	8981342	Apoptotic signaling, ECM signaling, EMT, Immune response	UP	1
+MUC5B	chr11	1223064	1262176	ECM signaling, WNT signaling	UP	4
+MUS81	chr11	65860400	65867652	DDR/HR	UP	2
+MUTYH	chr1	45329241	45340470	Apoptotic signaling, DDR/BER, p53 signaling	DOWN/UP	1
+MVP	chr16	29820393	29848039	Immune response, Notch signaling, Oncogene signaling, Platinum efflux	UP	4
+MYC	chr8	127735433	127742951	Cell cycle, MYC signaling	DOWN/UP	5
+MYD88	chr3	38138660	38143021	CSC, EMT, Immune response, NF-kB signaling	UP	4
+MZF1	chr19	58561916	58573575	CSC, DDR/NER, EMT, Transcription	DOWN	1
+NACC1	chr19	13118287	13141147	Autophagy, EMT, ER stress response, Transcription	UP	4
+NANOG	chr12	7789395	7796061	CSC, EMT, Transcription	UP	4
+NAP1L3	chrX	93670925	93673683	TGF-β signaling, Transcription	UP	4
+NAPSA	chr19	50358471	50365830	p53 signaling	UP	1
+NAV3	chr12	77831288	78213012	Immune response, Oncogene signaling	DOWN	4
+NBN	chr8	89933335	89984724	DDR/HR	UP	1
+NCOA3	chr20	47501856	47656877	Cell cycle, ECM signaling, NF-kB signaling, Oncogene signaling	UP	3
+NDUFA13	chr19	19516209	19528204	Apoptotic signaling, Immune response, Metabolism/OXPHOS	DOWN	4
+NEDD4	chr15	55826918	55993746	Oncogene signaling, ubiquitin	UP	1
+NEDD4L	chr18	58044377	58401540	TGF-β signaling, ubiquitin	DOWN	1
+NEDD8	chr14	24216850	24232370	Cell cycle, Oncogene signaling, ubiquitin	UP	5
+NEIL2	chr8	11769624	11787355	DDR/BER	UP	3
+NEK11	chr3	131026849	131350465	Apoptotic signaling, Cell cycle, DDR	DOWN	1
+NES	chr1	156668762	156677397	Cell cycle, CSC, EMT, Oncogene signaling, Redox	UP	4
+NF1	chr17	31094926	31377677	Oncogene signaling, PKA signaling	DOWN	2
+NF2	chr22	29603555	29698600	Hippo signaling, Oncogene signaling	DOWN	3
+NFE2L2	chr2	177230302	177265131	Platinum efflux, Redox, Transcription	UP	4
+NFKB1	chr4	102501328	102617302	NF-kB signaling	UP	4
+NFKB2	chr10	102394109	102402529	NF-kB signaling	UP	1
+NID1	chr1	235975831	236065181	ECM signaling, EMT	UP	1
+NKX2-8	chr14	36580010	36582614	Metabolism/Lipid, Metabolism/OXPHOS, NF-kB signaling, Oncogene signaling	DOWN	4
+NOS1	chr12	117208141	117361802	Oncogene signaling/VEGF, Platinum efflux, Redox	UP	1
+NOS2	chr17	27756765	27800529	Apoptotic signaling, Oncogene signaling/PKG, p53 signaling, Redox	DOWN	1
+NOS3	chr7	150991055	151014599	Oncogene signaling/VEGF, Platinum efflux, Redox	UP	1
+NOTCH1	chr9	136494432	136546048	CSC, Notch signaling, WNT signaling	UP	2
+NOTCH3	chr19	15159632	15200981	Notch signaling	UP	4
+NOX5	chr15	68930499	69057161	Calcium signaling, Oncogene signaling/AKT, Redox	DOWN/UP	2
+NPM1	chr5	171387115	171410884	DDR/BER, p53 signaling	UP	3
+NQO1	chr16	69709400	69726668	Redox	UP	4
+NR1I2	chr3	119780483	119818485	Oncogene signaling/AKT, Platinum efflux, Transcription	UP	1
+NR4A1	chr12	52022831	52059507	Apoptotic signaling, Apoptotic signaling/MAPK	DOWN	5
+NRAS	chr1	114704463	114716894	Oncogene signaling/MAPK	UP	1
+NRP2	chr2	205682499	205798133	Oncogene signaling/VEGF	UP	1
+NT5E	chr6	85449583	85495791	DDR/nucleotide synthesis	UP	4
+NTHL1	chr16	2039814	2047869	DDR/BER	UP	1
+NTRK3	chr15	87876756	88256731	Apoptotic signaling, Oncogene signaling	DOWN	3
+NTS	chr12	85874294	85882992	WNT signaling	UP	4
+NTSR1	chr20	62708836	62762771	Oncogene signaling/MAPK, WNT signaling	UP	4
+NUP62	chr19	49906825	49929731	Cell cycle, Transcription/Epigenetics	DOWN	1
+ORAI1	chr12	121626549	121642040	Apoptotic signaling, Calcium signaling, PKA signaling	DOWN/UP	1
+P4HB	chr17	81843157	81860668	Detox	UP	1
+PAK1	chr11	77322014	77474063	ECM signaling, EMT, WNT signaling	UP	4
+PAK5	chr20	9537389	9839039	Apoptotic signaling, Oncogene signaling/MAPK, WNT signaling	UP	4
+PALB2	chr16	23603161	23641357	DDR/HR	DOWN/UP	4
+PALLD	chr4	168497065	168928457	actin cytoskeleton, EMT	UP	2
+PAPSS1	chr4	107613665	107720263	Detox	UP	5
+PAQR3	chr4	78917939	78939428	DDR, Oncogene signaling/MAPK, Redox	DOWN	1
+PARG	chr10	49818273	49942027	DDR/HR	UP	1
+PARK7	chr1	7961653	7985282	Oncogene signaling/AKT, p53 signaling, Redox	UP	4
+PARP1	chr1	226360690	226408100	DDR/HR	UP	2
+PARP2	chr14	20343613	20357904	DDR/HR	UP	1
+PAX2	chr10	100735708	100829941	Apoptotic signaling	UP	2
+PAXIP1	chr7	154943689	155002972	DDR/DNA replication	DOWN	2
+PBX1	chr1	164559359	164886047	CSC, Immune response	UP	4
+PBXIP1	chr1	154944082	154956163	CSC, Oncogene signaling/AKT	UP	4
+PCLAF	chr15	64365011	64387687	DDR, DDR/TLS	UP	4
+PCNA	chr20	5114952	5126622	DDR, DDR/TLS	DOWN/UP/Ub	5
+PDCD4	chr10	110871794	110900006	Apoptotic signaling, Oncogene signaling, Translation	DOWN	2
+PDGFD	chr11	103907185	104164299	Oncogene signaling	UP	3
+PDGFRA	chr4	54229088	54298247	Oncogene signaling/PDGF	UP	1
+PDGFRB	chr5	150113838	150155859	Oncogene signaling/PDGF	UP	4
+PDIA3	chr15	43746391	43772606	Chaperone, Detox, ER stress response	UP	1
+PDK1	chr2	172555372	172625623	Hypoxia signaling, Metabolism/Glycolysis, Oncogene signaling/EGFR	UP	5
+PDK4	chr7	95583496	95596613	Metabolism/Glycolysis	UP	2
+PDPK1	chr16	2537963	2603190	Oncogene signaling/AKT	UP	1
+PDXK	chr21	43719096	43762307	Redox/Glutathione	DOWN	4
+PDXP	chr22	37658729	37666932	Redox/Glutathione	UP	1
+PDZK1	chr1	145670852	145707400	Platinum efflux	UP	1
+PEA15	chr1	160205318	160215376	Apoptotic signaling, Oncogene signaling/AKT, Oncogene signaling/MAPK	UP/PHOS	2
+PER2	chr2	238244037	238288566	EMT, Immune response, Oncogene signaling/AKT, Platinum efflux	DOWN	2
+PFKFB3	chr10	6144877	6254648	AMPK signaling, Hypoxia signaling, Metabolism/Glycolysis	UP	2
+PGD	chr1	10398991	10420511	DDR/nucleotide synthesis, Metabolism/PPP, Redox	UP	4
+PGK1	chrX	78104168	78126827	Chaperone, DDR, Metabolism/Glycolysis	UP	4
+PGRMC1	chrX	119236244	119244466	Autophagy, Hormone receptor signaling, Platinum efflux	DOWN	2
+PHB	chr17	49404047	49414905	Cell cycle, Chaperone, p53 signaling	DOWN/UP	4
+PHGDH	chr1	119711795	119744226	Metabolism/amino acid, Redox, Redox/Glutathione	DOWN/UP	2
+PIK3CA	chr3	179148522	179240093	Oncogene signaling/AKT	UP	5
+PIK3CB	chr3	138652697	138759359	Oncogene signaling/AKT	DOWN/UP	1
+PIK3CG	chr7	106865277	106908978	Oncogene signaling/AKT	UP	1
+PIK3R1	chr5	68215755	68301821	Metabolism/Glycolysis, Oncogene signaling/AKT	UP	2
+PIK3R2	chr19	18153177	18170533	Oncogene signaling/AKT	UP	2
+PIM1	chr6	37170145	37175428	Apoptotic signaling, Immune response, MYC signaling	UP	1
+PIM2	chrX	48913181	48919136	Apoptotic signaling, MYC signaling	UP	1
+PINK1	chr1	20633454	20651511	Autophagy, NF-kB signaling	UP	2
+PIWIL2	chr8	22275279	22356866	RNA processing	UP	1
+PKM	chr15	72199028	72231624	Apoptotic signaling, Metabolism/Glycolysis, Metabolism/PPP, Redox	DOWN/UP	4
+PLAA	chr9	26903369	26947473	Apoptotic signaling, Immune response	DOWN	4
+PLK1	chr16	23678771	23690367	Autophagy, Cell cycle, DDR	UP	5
+PLK2	chr5	58453982	58460139	Apoptotic signaling, Cell cycle, p53 signaling	UP	4
+PMAIP1	chr18	59899959	59904306	Apoptotic signaling, p53 signaling	DOWN	1
+PMEL	chr12	55954104	55966712	EMT, WNT signaling	UP	1
+PML	chr15	73994672	74047814	Apoptotic signaling	DOWN	2
+PMS2	chr7	5970925	6009106	Apoptotic signaling/MMR, DDR/MMR	DOWN	4
+PNKP	chr19	49861202	49867565	DDR/BER, DDR/NHEJ	UP	1
+PODXL	chr7	131500261	131556617	ECM signaling	UP	1
+POLB	chr8	42338454	42371813	DDR, DDR/BER, DDR/TLS	DOWN	4
+POLD1	chr19	50384322	50418018	DDR	UP	4
+POLD2	chr7	44114679	44123570	DDR	UP	4
+POLD3	chr11	74592529	74643060	DDR	UP	4
+POLE3	chr9	113407238	113410749	DDR	UP	2
+POLH	chr6	43576140	43620523	DDR/TLS	UP	1
+POLK	chr5	75511749	75605819	DDR/TLS	UP	1
+POLM	chr7	44072061	44082540	DDR	UP	1
+POLN	chr4	2071957	2242164	DDR	UP	1
+POLQ	chr3	121431425	121546006	DDR	UP	1
+POSTN	chr13	37562581	37598844	ECM signaling, ECM/stroma, WNT signaling	UP	4
+POU5F1	chr6	31164336	31170693	CSC	UP	4
+PPARGC1A	chr4	23792020	24472829	Metabolism/OXPHOS	UP	1
+PPARGC1B	chr5	149730251	149855022	Metabolism/OXPHOS, mitochondria/synthesis	UP	1
+PPL	chr16	4882506	4937135	ECM signaling, Oncogene signaling/AKT	UP	1
+PPM1D	chr17	60600182	60666279	DDR, p53 signaling	UP	2
+PPP2CA	chr5	134196251	134226259	AMPK signaling, Autophagy	DOWN	4
+PPP2R2A	chr8	26291490	26372679	AMPK signaling, DDR	DOWN	1
+PRDX3	chr10	119167698	119178865	NF-kB signaling, Redox	UP	4
+PRKAA1	chr5	40759378	40798195	AMPK signaling, Autophagy	UP/PHOS	4
+PRKAA2	chr1	56645316	56715335	AMPK signaling, Metabolism/Glycolysis, Metabolism/OXPHOS, p53 signaling	DOWN/UP	1
+PRKAB1	chr12	119667955	119681624	AMPK signaling, Autophagy	UP	1
+PRKAB2	chr1	147155105	147172589	AMPK signaling, Autophagy	UP	1
+PRKAR1A	chr17	68413622	68551316	PKA signaling	DOWN	4
+PRKCA	chr17	66302807	66810744	Apoptotic signaling/PKC, Oncogene signaling/PKC	DOWN/UP	1
+PRKCB	chr16	23835978	24220611	Apoptotic signaling/PKC, Oncogene signaling/PKC	DOWN/UP	1
+PRKCD	chr3	53161206	53192717	Apoptotic signaling/PKC	DOWN	4
+PRKDC	chr8	47773107	47960183	Cell cycle, DDR/HR, DDR/NHEJ	DOWN/UP	4
+PRKG1	chr10	50990887	52298350	CSC, Hippo signaling, Oncogene signaling/MAPK, PKA signaling	UP	4
+PRKRA	chr2	178431413	178451240	NF-kB signaling, RNA processing	UP	2
+PROM1	chr4	15968225	16084000	CSC, ECM signaling, Notch signaling, WNT signaling	UP	5
+PRR13	chr12	53441648	53446643	Autophagy	UP	5
+PRSS1	chr7	142749467	142753076	ECM signaling, Oncogene signaling/MAPK, proteasome	UP	4
+PSMB10	chr16	67934503	67936877	proteasome	UP	1
+PSMB9	chr6	32854160	32859851	proteasome	UP	1
+PTAFR	chr1	28147165	28193936	ECM signaling, Immune response, PKA signaling	UP	2
+PTCH1	chr9	95442979	95517057	Hedgehog signaling, PKA signaling, Platinum efflux, WNT signaling	UP	1
+PTEN	chr10	87863437	87971930	ECM signaling, Oncogene signaling/AKT	DOWN	5
+PTGER3	chr1	70852352	71047808	Immune response, Oncogene signaling, Platinum efflux, WNT signaling	UP	2
+PTGS2	chr1	186671811	186680427	Immune response, Oncogene signaling, Platinum efflux, WNT signaling	UP	3
+PTK2	chr8	140658381	141002079	ECM signaling	UP	4
+PTPN3	chr9	109375693	109498313	Oncogene signaling/EGFR	UP	2
+PXN	chr12	120210438	120265771	ECM signaling	UP/PHOS	5
+RAB18	chr10	27504173	27542237	EMT, Immune response	UP	1
+RAB25	chr1	156061148	156070514	Hypoxia signaling	UP	2
+RAB5C	chr17	42124975	42155044	endocytosis, Platinum uptake	DOWN	1
+RAB7A	chr3	128726135	128814798	Hypoxia signaling, Platinum efflux	DOWN	4
+RAB8A	chr19	16111679	16133635	endocytosis, exocytosis, Platinum efflux	UP	1
+RAC1	chr7	6374494	6403967	ECM signaling	UP	2
+RAD23B	chr9	107283235	107332194	DDR/NER	UP	1
+RAD50	chr5	132556923	132644621	DDR/HR	UP	1
+RAD51	chr15	40695128	40732158	DDR/FA, DDR/HR	UP	2
+RAD51B	chr14	67819778	68683106	DDR/HR	UP	1
+RAD51C	chr17	58692572	58734342	DDR/FA, DDR/HR	UP	4
+RAD51D	chr17	35099792	35119869	DDR/HR	UP	1
+RAD52	chr12	911735	990041	DDR/DNA replication, DDR/HR	UP	4
+RAD54L	chr1	46247694	46278473	DDR/HR	UP	3
+RADX	chrX	106611929	106679443	DDR/DNA replication	DOWN	1
+RASSF1	chr3	50329785	50340936	Apoptotic signaling, DDR, Hippo signaling	DOWN	4
+RB1	chr13	48303746	48481890	Cell cycle	DOWN/UP	4
+RBBP8	chr18	22933331	23026486	DDR/HR	UP	4
+RBM17	chr10	6088985	6117459	Apoptotic signaling/DR, Oncogene signaling/MAPK, RNA processing	UP	1
+RBM3	chrX	48574352	48581165	RNA processing	DOWN	4
+RBMS3	chr3	29281311	30010395	RNA processing, WNT signaling	DOWN	2
+RECQL	chr12	21468909	21501669	DDR/HR	UP	2
+RECQL4	chr8	144511283	144517826	DDR/HR	UP	4
+RELA	chr11	65653595	65662972	Apoptotic signaling, Hypoxia signaling, NF-kB signaling	UP	5
+RELB	chr19	45001448	45038198	Apoptotic signaling, Hypoxia signaling, NF-kB signaling	UP	4
+RET	chr10	43077026	43130349	ECM signaling, Oncogene signaling	UP	2
+REV1	chr2	99400474	99490056	DDR/TLS	UP	4
+REV3L	chr6	111299030	111483715	DDR/TLS	UP	4
+RFC1	chr4	39287448	39366381	DDR	UP	1
+RFC2	chr7	74231501	74254458	DDR	UP	1
+RGS10	chr10	119499826	119542710	Oncogene signaling/AKT	DOWN	1
+RGS17	chr6	153010896	153131254	Oncogene signaling/AKT	DOWN	1
+RHOA	chr3	49359135	49412097	ECM signaling, Hippo signaling, Hypoxia signaling	DOWN/UP	5
+RHOJ	chr14	63204383	63293512	DDR, ECM signaling	UP	1
+RIF1	chr2	151409882	151477346	DDR/NER	UP	4
+RIPK1	chr6	3063840	3115192	Apoptotic signaling/DR, NF-kB signaling	UP/Ub	4
+RIPK3	chr14	24336020	24340036	Apoptotic signaling, Immune response	DOWN	4
+RNASET2	chr6	166922114	166956550	RNA processing	DOWN	4
+RNF2	chr1	185045418	185102608	Cell cycle, DDR/DNA replication, Oncogene signaling/MAPK, Transcription/Epigenetics	UP	5
+ROR1	chr1	63774018	64181496	NF-kB signaling, WNT signaling	UP	1
+ROR2	chr9	91722595	91950162	WNT signaling	UP	4
+RORC	chr1	151806070	151831872	ECM signaling, Immune response, TGF-β signaling, Transcription	UP	2
+RPA1	chr17	1829970	1899554	DDR	UP	1
+RPA2	chr1	27891525	27914797	DDR	PHOS	1
+RPL36	chr19	5690260	5691667	Oncogene signaling/AKT, Translation	UP	1
+RPL37	chr5	40831327	40835285	p53 signaling	UP	1
+RPS20	chr8	56068179	56074581	Cell cycle, p53 signaling, Translation	DOWN	4
+RPS4X	chrX	72272602	72277291	mTOR signaling, Translation	DOWN	4
+RPS6KA1	chr1	26529757	26575029	mTOR signaling, Oncogene signaling/MAPK, Translation	UP	1
+RPS6KA3	chrX	20149910	20266632	mTOR signaling, Oncogene signaling/MAPK, Translation	UP	1
+RPS6KB1	chr17	59893045	59950425	mTOR signaling, Oncogene signaling/MAPK, Translation	UP/PHOS	1
+RPS6KB2	chr11	67428463	67435408	mTOR signaling, Oncogene signaling/MAPK, Translation	UP/PHOS	1
+RPS7	chr2	3575259	3580920	Oncogene signaling, Translation	DOWN	1
+RPSA	chr3	39406688	39412541	ECM signaling	UP	1
+RRM2	chr2	10122567	10131419	DDR/nucleotide synthesis, Redox/Glutathione	UP	1
+RUNX3	chr1	24899510	24965010	Immune response, TGF-β signaling	UP	4
+S100A4	chr1	153543618	153545806	EMT	UP	1
+S100A7	chr1	153457743	153460661	Hippo signaling, Immune response, NF-kB signaling	UP	4
+S100A9	chr1	153357853	153361027	Immune response	UP	5
+S100B	chr21	46598617	46605122	CSC, ECM signaling, p53 signaling	UP	1
+SAT1	chrX	23783157	23786223	Redox	DOWN	1
+SAV1	chr14	50633579	50668353	Hippo signaling	DOWN	2
+SCAI	chr9	124942608	125143559	DDR/HR, DDR/NHEJ, ECM signaling, EMT	DOWN	5
+SCRIB	chr8	143790919	143815379	Immune response, Redox	DOWN	4
+SDHB	chr1	17018725	17054170	DDR/HR, Metabolism/OXPHOS	UP	1
+SDHC	chr1	161314375	161364745	DDR/HR, Metabolism/OXPHOS	UP	1
+SDHD	chr11	112086823	112095801	DDR/HR, Metabolism/OXPHOS	UP	1
+SENP1	chr12	48042897	48106308	Hypoxia signaling	DOWN/UP	1
+SERPINB2	chr18	63887704	63903890	ECM signaling, Immune response, Oncogene signaling	DOWN	4
+SERPINB3	chr18	63655196	63661963	Apoptotic signaling, Metabolism/OXPHOS, Redox	UP	4
+SERPINE1	chr7	101127088	101139266	CSC, Hypoxia signaling	UP	1
+SESN1	chr6	108986436	109094505	mTOR signaling, Redox	UP	1
+SETD2	chr3	47016407	47163977	Apoptotic signaling/MMR, Transcription, WNT signaling	DOWN	1
+SFN	chr1	26863137	26864457	DDR, Oncogene signaling, p53 signaling	UP	1
+SFRP5	chr10	97766750	97771999	CSC, WNT signaling	DOWN	5
+SGK1	chr6	134169245	134318058	CSC, NF-kB signaling, WNT signaling	UP	2
+SHC1	chr1	154962297	154974483	Apoptotic signaling, p53 signaling, Redox	DOWN	1
+SHCBP1	chr16	46578592	46621402	TGF-β signaling, WNT signaling	UP	1
+SIK2	chr11	111602390	111726917	Oncogene signaling/AKT, PKA signaling	UP	1
+SIRT1	chr10	67884668	67918390	DDR, p53 signaling, Redox	UP	5
+SIRT3	chr11	215029	236362	Redox	UP	1
+SIX1	chr14	60644698	60649437	Apoptotic signaling, EMT, TGF-β signaling, Transcription/Epigenetics	UP	4
+SLC19A1	chr21	45512566	45563115	DDR/nucleotide synthesis, Metabolism/One carbon	UP	1
+SLC1A5	chr19	46774882	46788585	Redox/Glutathione	UP	1
+SLC22A1	chr6	160121830	160158718	Platinum uptake	DOWN	1
+SLC22A2	chr6	160216761	160258931	Platinum uptake	DOWN	4
+SLC22A3	chr6	160348372	160452579	Platinum uptake	DOWN	1
+SLC25A1	chr22	19175574	19178863	Metabolism/Lipid, Metabolism/OXPHOS, Redox	UP	5
+SLC27A2	chr15	50182195	50236392	Metabolism/Lipid, Platinum efflux, Transcription	DOWN	4
+SLC2A1	chr1	42925374	42958868	Metabolism/Glycolysis	UP	4
+SLC2A14	chr12	7812511	7891196	Metabolism/Glycolysis	UNKNOWN	4
+SLC31A1	chr9	113221527	113264492	Platinum uptake	DOWN	4
+SLC31A2	chr9	113150957	113164142	Platinum uptake	UP	4
+SLC39A4	chr8	144412413	144416895	ECM signaling	UP	1
+SLC3A2	chr11	62856011	62888883	ECM signaling, mTOR signaling, Redox/Glutathione	DOWN	2
+SLC40A1	chr2	189560589	189580811	Platinum uptake, Redox	DOWN	1
+SLC46A1	chr17	28394641	28406212	DDR/nucleotide synthesis, Metabolism/amino acid, Metabolism/One carbon	UP	1
+SLC7A11	chr4	138164093	138242349	Platinum efflux, Redox/Glutathione	UP	4
+SLC7A5	chr16	87830015	87869499	Metabolism/amino acid, mTOR signaling	UP	1
+SLC9A3R1	chr17	74748611	74769360	ECM signaling, WNT signaling	DOWN	5
+SLCO1B3	chr12	20810703	20916909	Platinum uptake	DOWN	1
+SLFN11	chr17	35350309	35373701	DDR, DDR/DNA replication, DDR/HR	DOWN	4
+SLX1A	chr16	29454500	29458224	DDR/HR	UP	1
+SLX4	chr16	3581182	3611606	DDR/HR	UP	1
+SMAD4	chr18	51030212	51085041	TGF-β signaling	DOWN/UP	4
+SMARCA2	chr9	2015218	2193623	DDR, Transcription/Epigenetics	UP	4
+SMARCA4	chr19	10960921	11062282	DDR, Oncogene signaling, Redox, Transcription/Epigenetics	UP	4
+SMARCE1	chr17	40627727	40647851	Cell cycle, Hormone receptor signaling, Platinum efflux, Transcription/Epigenetics	UP	1
+SMO	chr7	129188871	129213544	Hedgehog signaling	UP	5
+SMPD1	chr11	6390413	6394998	Apoptotic signaling/ceramide	DOWN	2
+SMURF2	chr17	64544616	64662268	TGF-β signaling	UP	1
+SNAI1	chr20	49982975	49988883	CSC, EMT	UP	1
+SNAI2	chr8	48917680	48921440	CSC, EMT	UP	1
+SOD1	chr21	31659621	31668930	Redox	UP	1
+SOD2	chr6	159679063	159762529	Redox	UP	4
+SOX1	chr13	112067598	112071706	Autophagy, Transcription, WNT signaling	DOWN	1
+SOX10	chr22	37972311	37984532	Cell cycle, ECM signaling, EMT, Oncogene signaling	UP	4
+SOX17	chr8	54457934	54460896	WNT signaling	DOWN	5
+SOX2	chr3	181711923	181714435	CSC	UP	4
+SOX8	chr16	981807	986979	WNT signaling	UP	4
+SOX9	chr17	72121019	72126419	CSC, Redox, WNT signaling	UP	4
+SPARC	chr5	151661095	151687054	ECM signaling	UP	5
+SPINK7	chr5	148312426	148315918	Apoptotic signaling, ECM signaling, p53 signaling	DOWN	1
+SPP1	chr4	87975649	87983411	Immune response, Oncogene signaling/AKT	UP	1
+SQSTM1	chr5	179806387	179838077	Autophagy, NF-kB signaling, Redox	UP/PHOS	1
+SRC	chr20	37344684	37405432	ECM signaling, EMT, Oncogene signaling/AKT	UP	2
+SREBF2	chr22	41833078	41907308	Metabolism/cholesterol, Transcription	UP	1
+SRPK1	chr6	35833033	35921180	RNA processing	DOWN/UP	1
+SRPK2	chr7	105116373	105389390	RNA processing	UP	1
+SRSF2	chr17	76734114	76737411	Apoptotic signaling, RNA processing	UP	4
+SRSF4	chr1	29147737	29182125	RNA processing	DOWN	1
+ST6GAL1	chr3	186930525	187078553	Apoptotic signaling/DR, Glycosylation, Oncogene signaling	UP	1
+STAT1	chr2	190969035	191014250	Immune response, Transcription	DOWN/UP/PHOS	4
+STAT3	chr17	42313324	42388495	Hypoxia signaling, Immune response, Transcription	UP	4
+STAT5A	chr17	42287546	42311942	Immune response, Oncogene signaling	UP	4
+STAT5B	chr17	42199176	42276406	Immune response, Oncogene signaling	UP	4
+STAT6	chr12	57095404	57111413	Immune response	DOWN/stroma immune cells	4
+STIM1	chr11	3855702	4093210	Apoptotic signaling, Calcium signaling, Oncogene signaling	DOWN/UP	4
+STK11	chr19	1205798	1228435	AMPK signaling, Apoptotic signaling, p53 signaling	DOWN	2
+STK17A	chr7	43583092	43627379	Apoptotic signaling, Detox, Redox	DOWN	1
+STK4	chr20	44966469	45079977	Hippo signaling	DOWN	1
+SUSD2	chr22	24181475	24189106	Autophagy, CSC, Notch signaling	UP	5
+TAB1	chr22	39399753	39437127	Apoptotic signaling/MAPK, p53 signaling, TGF-β signaling	DOWN	1
+TAB3	chrX	30827441	30889394	NF-kB signaling, TGF-β signaling	UP	1
+TAP1	chr6	32845208	32853971	Immune response	DOWN/UP/stroma immune cells/cancer cells	1
+TBCE	chr1	235367359	235448968	Chaperone	UP	1
+TBX2	chr17	61399895	61409466	Cell cycle, EMT, WNT signaling	UP	4
+TEAD1	chr11	12674421	12944737	CSC, Hippo signaling	UP	1
+TEAD3	chr6	35473596	35497084	CSC, Hippo signaling	UP	1
+TEAD4	chr12	2959311	3040676	CSC, Hippo signaling	UP	1
+TERT	chr5	1253171	1295047	CSC, DDR/telomere	UP	4
+TET1	chr10	68560359	68694482	CSC, DDR/direct repair, EMT, Hypoxia signaling, Transcription/Epigenetics	UP	4
+TET2	chr4	105145874	105279803	DDR, Immune response, TGF-β signaling, Transcription/Epigenetics	DOWN/UP	1
+TFAM	chr10	58385142	58399230	Metabolism/OXPHOS, mitochondria/DNA	UP	4
+TFRC	chr3	196049283	196082161	endocytosis, Hypoxia signaling, Platinum uptake	DOWN	1
+TGFB1	chr19	41330322	41353883	CSC, TGF-β signaling	DOWN/UP	5
+TGFB2	chr1	218345283	218444619	CSC, TGF-β signaling	UP	1
+TGFB3	chr14	75958060	75983011	CSC, TGF-β signaling	UP	4
+TGFBI	chr5	136028894	136063818	Oncogene signaling/AKT, TGF-β signaling	DOWN	4
+TGFBR1	chr9	99105088	99154191	CSC, TGF-β signaling	UP	1
+TGFBR2	chr3	30606501	30694141	CSC, TGF-β signaling	UP	1
+TGM2	chr20	38127386	38166578	ECM signaling, EMT, Hypoxia signaling, NF-kB signaling	UP	1
+TGM3	chr20	2295966	2341079	EMT	DOWN	3
+THBS1	chr15	39581078	39598921	Apoptotic signaling, ECM signaling, ER stress response, TGF-β signaling	DOWN	4
+TIE1	chr1	43300894	43323110	DDR/NER	UP	4
+TIGAR	chr12	4321192	4360024	DDR/nucleotide synthesis, Metabolism/Glycolysis, Metabolism/PPP, Redox	UP	1
+TIMELESS	chr12	56416372	56449465	DDR, WNT signaling	UP	2
+TIMP2	chr17	78852976	78925390	ECM signaling	DOWN	4
+TIMP3	chr22	32800815	32863041	ECM signaling	DOWN	5
+TLK1	chr2	170990822	171231314	DDR	UP	1
+TLR4	chr9	117704174	117717491	Immune response, NF-kB signaling	DOWN	2
+TLX3	chr5	171309283	171312134	EMT, Immune response, Transcription, WNT signaling	DOWN	4
+TMEM205	chr19	11342775	11346305	Platinum efflux	UP	1
+TMEM88	chr17	7855065	7856099	WNT signaling	UP	2
+TMEM97	chr17	28319094	28328685	Calcium signaling, Metabolism/Lipid, Oncogene signaling/PKC	UP	3
+TMEM98	chr17	32927909	32941649	Oncogene signaling/AKT	UP	5
+TNF	chr6	31575566	31578335	CSC, Immune response, NF-kB signaling	DOWN/UP	1
+TNFAIP8	chr5	119268691	119394604	Autophagy, Immune response, NF-kB signaling	UP	4
+TNFAIP8L2	chr1	151156628	151159749	Autophagy, NF-kB signaling, Platinum efflux	DOWN	4
+TNFRSF10A	chr8	23191456	23225167	Apoptotic signaling/DR	DOWN	1
+TNFRSF10B	chr8	23020135	23069187	Apoptotic signaling/DR	DOWN	5
+TNFRSF12A	chr16	3020311	3022382	Apoptotic signaling, p53 signaling	DOWN	4
+TNFSF10	chr3	172505507	172523507	Apoptotic signaling/DR	DOWN	4
+TOP1	chr20	41028817	41124486	DDR	UP	3
+TOP2A	chr17	40388520	40417950	DDR	UP	3
+TOP3A	chr17	18271428	18315092	DDR	UP	4
+TOP3B	chr22	21957024	21982843	DDR	UP	3
+TOPBP1	chr3	133600604	133661921	DDR	UP	4
+TP53	chr17	7668401	7687550	Apoptotic signaling, Cell cycle, p53 signaling	DOWN/UP/DEPHOS/mutation	5
+TP53BP1	chr15	43403063	43510728	DDR/HR, DDR/NHEJ, Oncogene signaling/AKT	DOWN/UP	4
+TP53INP1	chr8	94925971	94949387	Apoptotic signaling, Autophagy, p53 signaling	DOWN	1
+TP63	chr3	189596745	189897279	Apoptotic signaling, DDR, Oncogene signaling	UP	4
+TP73	chr1	3652564	3736201	Apoptotic signaling	DOWN/UP	4
+TPT1	chr13	45333470	45341284	Apoptotic signaling, CSC, mTOR signaling, Notch signaling, p53 signaling	UP	4
+TRAF2	chr9	136886512	136926615	ER stress response, Immune response	UP	1
+TRAP1	chr16	3658036	3717597	Chaperone, Immune response, Metabolism/OXPHOS	DOWN	4
+TRIB2	chr2	12716871	12742732	Cell cycle, DDR, Oncogene signaling	DOWN	4
+TRIM27	chr6	28903001	28923991	Apoptotic signaling, Immune response, Redox, ubiquitin	UP	5
+TRIM65	chr17	75888959	75897003	Autophagy	UP	4
+TRIP13	chr5	892853	918049	Cell cycle, DDR/HR, DDR/NHEJ	DOWN/UP	5
+TRO	chrX	54920562	54931431	Apoptotic signaling/DR, Oncogene signaling	DOWN	4
+TUBB3	chr16	89922008	89936097	EMT, Oncogene signaling/AKT	UP	3
+TWIST1	chr7	19113047	19117672	CSC, EMT, Oncogene signaling/AKT	UP	5
+TXN	chr9	110243811	110256640	Hypoxia signaling, Redox, TGF-β signaling	DOWN/UP	4
+TXNDC17	chr17	6640901	6644541	Autophagy, mTOR signaling, Redox	UP	1
+TXNL1	chr18	56602821	56638689	Apoptotic signaling, DDR/HR, ubiquitin	DOWN	1
+TXNRD1	chr12	104215778	104350307	Redox	UP	1
+TXNRD2	chr22	19875517	19941992	Redox	UP	1
+TXNRD3	chr3	126607051	126655124	Redox	UP	1
+UBE2S	chr19	55401281	55407957	Cell cycle, Hypoxia signaling, ubiquitin	UP	4
+UBE2T	chr1	202331656	202341966	DDR/FA, DDR/HR	UP	1
+UBR5	chr8	102252273	102412689	Apoptotic signaling, ubiquitin	UP	4
+UCHL1	chr4	41256880	41268429	Oncogene signaling, ubiquitin	DOWN	1
+UCP2	chr11	73974670	73982844	Redox	UP	4
+UGCG	chr9	111896765	111935374	Apoptotic signaling/ceramide, Glycosylation, Platinum efflux	UP	2
+UIMC1	chr5	176905004	177006794	DDR/HR	UP	4
+UNG	chr12	109097593	109110993	DDR, DDR/BER, Redox	DOWN	1
+URI1	chr19	29923643	30016612	Apoptotic signaling, mTOR signaling	UP	5
+USP1	chr1	62436303	62451804	DDR/FA, ubiquitin	UP	1
+USP13	chr3	179653144	179789401	DDR/HR	UP	1
+USP22	chr17	20999592	21043039	DDR, MYC signaling, Transcription	UP	2
+USP35	chr11	78188811	78215232	Immune response, ubiquitin	UP	4
+USP37	chr2	218450250	218568361	Hedgehog signaling	UP	2
+UVRAG	chr11	75815166	76144238	Autophagy, DDR/NER	UP	1
+VCAM1	chr1	100719639	100739046	ECM signaling, NF-kB signaling	UP	2
+VDAC1	chr5	133971874	134005133	Apoptosis, OXPHOS	DOWN/UP	1
+VEGFA	chr6	43770208	43786486	Hypoxia signaling, Oncogene signaling/VEGF, WNT signaling	UP	2
+VHL	chr3	10141634	10153670	Hypoxia signaling, p53 signaling	DOWN	1
+VIM	chr10	17228209	17237597	CSC	DOWN	1
+WDR48	chr3	39051985	39096670	DDR, ubiquitin	UP	1
+WFDC2	chr20	45469753	45481532	Oncogene signaling	UP	4
+WWOX	chr16	78099412	79212667	CSC, DDR/HR, EMT, TGF-β signaling	DOWN	2
+WWP2	chr16	69762283	69941741	Notch signaling	DOWN	5
+WWTR1	chr3	149517228	149724788	Hippo signaling	UP	1
+XAF1	chr17	6755446	6775645	Apoptosis	DOWN	4
+XBP1	chr22	28794559	28800572	ER stress response	DOWN/UP	1
+XIAP	chrX	123859811	123913979	Apoptosis, NF-kB signaling	UP	4
+XPA	chr9	97674908	97697409	DDR/NER	UP	4
+XPC	chr3	14145147	14178672	DDR/NER	UP	1
+XPO1	chr2	61477933	61538283	Cell cycle, NF-kB signaling, Nuclear export, p53 signaling	UP	5
+XRCC1	chr19	43543311	43575578	DDR/BER, DDR/HR	UP	5
+XRCC2	chr7	152646501	152676165	DDR/HR	UP	1
+XRCC3	chr14	103697616	103715486	DDR/HR	UP	1
+XRCC4	chr5	83077408	83353760	DDR/HR	UP	1
+XRCC5	chr2	216109296	216206293	DDR/NHEJ	UP	4
+XRCC6	chr22	41621162	41664048	DDR/NHEJ	DOWN/UP	4
+YAP1	chr11	102110460	102233423	EMT, Hippo signaling, TGF-β signaling, WNT signaling	UP	1
+YBX1	chr1	42682234	42703803	RNA processing	UP	1
+YTHDF1	chr20	63195429	63216186	NF-kB signaling, Redox, Translation, WNT signaling	DOWN	4
+YWHAG	chr7	76326790	76359025	Oncogene signaling/AKT	UP	1
+YWHAH	chr22	31944492	31957603	Oncogene signaling/AKT	UP	1
+YWHAQ	chr2	9583966	9631055	Oncogene signaling/AKT	UP	1
+YWHAZ	chr8	100918575	100953395	EMT, Oncogene signaling/AKT, TGF-β signaling, WNT signaling	UP	5
+YY1	chr14	100238764	100279034	DDR, Oncogene signaling/AKT, Platinum efflux, TGF-β signaling	UP	5
+ZBTB7A	chr19	4043303	4066945	Apoptotic signaling, DDR/NHEJ, Immune response, TGF-β signaling	DOWN/UP	1
+ZEB1	chr10	31318494	31529814	CSC, EMT, Redox/Glutathione, Transcription	UP	2
+ZEB2	chr2	144384374	144520391	EMT, NF-kB signaling	UP	1
+ZNF143	chr11	9460964	9528524	Apoptotic signaling, DDR, Transcription	UP	1
+ZNF93	chr19	19900912	19935573	MYC signaling, Transcription	UP	1

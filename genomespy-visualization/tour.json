@@ -1,0 +1,262 @@
+[
+  {
+    "name": "Welcome to GenomeSpy!",
+    "timestamp": 1653905368322,
+    "actions": [
+      {
+        "type": "sampleView/filterByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "patient"
+          },
+          "values": ["EOC148"]
+        }
+      }
+    ],
+    "scaleDomains": {
+      "genome_x": [
+        {
+          "chrom": "chr11",
+          "pos": 129292424
+        },
+        {
+          "chrom": "chr12",
+          "pos": 51632893
+        }
+      ]
+    },
+    "notes": "Welcome to a short tour that introduces you to GenomeSpy and data from Lahtinen, A., Lavikka, K., Li, Y., *et al.* Evolutionary states and trajectories characterized by distinct pathways stratify ovarian high-grade serous carcinoma patients. (2023)\n\n![Encoding](tour/encoding.svg)\n\nThis visualization displays segmented *copy-number* data and somatic *short variants* for multiple samples. Segments' colors encode LogR values. Heights of the gray, overlaying rectangles encode loss of heterozygosity, which is derived from B-allele frequency using the formula: LOH = abs(BAF − 0.5) × 2. Points represent somatic short variants (SNPs and indels). Their size encodes variant-allele frequency, and color encodes functional category. A tooltip reveals the exact values of all variables in the underlying dataset. Try to move your mouse cursor over the data!\n\nThree annotation tracks are shown below the cohort: RefSeq Gene annotations ([O’Leary et al., 2016](https://doi.org/10.1093/nar/gkv1189)), COSMIC Cancer Gene Census ([Sondka et al., 2018](https://doi.org/10.1038/s41568-018-0060-1)), and genes associated with platinum resistance ([Huang et al., 2021](https://doi.org/10.1038/s41388-021-02055-2))."
+  },
+  {
+    "name": "Navigating around the genome",
+    "timestamp": 1653982759231,
+    "actions": [
+      {
+        "type": "sampleView/filterByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "representative"
+          },
+          "values": ["TRUE"]
+        }
+      }
+    ],
+    "scaleDomains": {
+      "genome_x": [
+        {
+          "chrom": "chr16",
+          "pos": 55423858
+        },
+        {
+          "chrom": "chr20",
+          "pos": 19863463
+        }
+      ]
+    },
+    "notes": "You can navigate along the genome by dragging or by using a touchpad. To zoom, use the mouse wheel or scroll the touchpad up/down using two fingers.\n\n![Using mouse or touchpad](tour/scroll-and-zoom.svg)\n\n**Semantic zooming**\n\nThe short variants have been scored using CADD ([Rentzsch et al., 2021](https://doi.org/10.1186/s13073-021-00835-9)). An approximately constant number of variants are visible at all zoom levels because their filtering threshold updates as you zoom in and out. This data set includes all variants that are pathogenic acording to ClinVar ([Landrum et al., 2018](https://doi.org/10.1093/nar/gkx1153)) or that have CADD at least 10.0."
+  },
+  {
+    "name": "GISTIC copy-number analysis",
+    "timestamp": 1653905679087,
+    "actions": [
+      {
+        "type": "sampleView/filterByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "representative"
+          },
+          "values": ["TRUE"]
+        }
+      },
+      {
+        "type": "sampleView/filterByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "cohort"
+          },
+          "values": ["Discovery"]
+        }
+      }
+    ],
+    "scaleDomains": {
+      "genome_x": [
+        {
+          "chrom": "chr1",
+          "pos": 0
+        },
+        {
+          "chrom": "chrM",
+          "pos": 16569
+        }
+      ]
+    },
+    "viewSettings": {
+      "visibilities": {
+        "blacklist-tracks": true,
+        "gistic-track": true
+      }
+    },
+    "notes": "![GISTIC](tour/gistic.svg)\n\nGISTIC ([Mermel et al., 2011](https://doi.org/10.1186/gb-2011-12-4-r41)) **wide peaks** most likely contain the targeted genes. In this dataset they overlap with typical HGSC drivers such as *MYC*, *MECOM*, and *CCNE1*.\n\nWe chose one sample from each discovery-cohort patient for the GISTIC analysis, indicated by the *representative* metadata attribute. Because the segmented copy-number data contains germ-line CNVs and artifacts caused by alignment errors, we compiled these regions into the *DECIDER* blacklist and excluded them from the GISTIC analysis. The blacklist is shown as an annotation track above the *q-values* track.  \n\nSupplementary notes provide details on the sample selection and blacklist."
+  },
+  {
+    "name": "Comparison of discovery and validation cohorts",
+    "timestamp": 1676291126706,
+    "actions": [
+      {
+        "type": "sampleView/filterByNominal",
+        "payload": {
+          "values": ["TRUE"],
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "representative"
+          },
+          "remove": false
+        }
+      },
+      {
+        "type": "sampleView/groupByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "cohort"
+          }
+        }
+      }
+    ],
+    "scaleDomains": {
+      "genome_x": [
+        {
+          "chrom": "chr1",
+          "pos": 0
+        },
+        {
+          "chrom": "chrM",
+          "pos": 16569
+        }
+      ]
+    },
+    "notes": "Stratifying all representative samples by the cohort (*Discovery* or *Validation*) shows highly similar copy-number landscapes in both groups."
+  },
+  {
+    "name": "Association between CCNE1 amplification and HRD signature",
+    "timestamp": 1653935109667,
+    "actions": [
+      {
+        "type": "sampleView/filterByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "cohort"
+          },
+          "values": ["Discovery"]
+        }
+      },
+      {
+        "type": "sampleView/filterByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "representative"
+          },
+          "values": ["TRUE"]
+        }
+      },
+      {
+        "type": "sampleView/groupByThresholds",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "sig_HRD"
+          },
+          "thresholds": [
+            {
+              "operand": 0,
+              "operator": "lte"
+            }
+          ]
+        }
+      },
+      {
+        "type": "sampleView/sortBy",
+        "payload": {
+          "attribute": {
+            "type": "VALUE_AT_LOCUS",
+            "specifier": {
+              "view": "CNV",
+              "field": "purifiedLogR",
+              "locus": {
+                "chrom": "chr19",
+                "pos": 29818251
+              }
+            }
+          }
+        }
+      }
+    ],
+    "scaleDomains": {
+      "genome_x": [
+        {
+          "chrom": "chr19",
+          "pos": 13937452
+        },
+        {
+          "chrom": "chr20",
+          "pos": 18328037
+        }
+      ]
+    },
+    "notes": "Approximately half of HGSCs tumors exhibit homologous recombination deficiency (HRD), a predictive biomarker for response to platinum and PARP inhibitors ([R. E. Miller et al., 2020](https://doi.org/10.1016/j.annonc.2020.08.2102)). Moreover, *CCNE1* is amplified in 15–20% of HGSC patients and is predictive of HGSC five-year survival ([Stronach et al., 2018](https://doi.org/10.1158/1541-7786.MCR-18-0034)). This bookmark shows that the association between high *CCNE1* amplification and low HRD, as described by Takaya et al. ([2020](https://doi.org/10.1038/s41598-020-59671-3)), is also visible in the DECIDER cohort.\n\nThe representative samples are split into two groups based on the presence of the COSMIC ([Alexandrov et al., 2020](https://doi.org/10.1038/s41586-020-1943-3)) HRD signature. No prominent *CCNE1* amplifications can be seen in the upper HRD group. However, the lower, non-HRD group reveals focal *CCNE1* amplifications in one-third of the samples."
+  },
+  {
+    "name": "Comparison of evolutionary states",
+    "timestamp": 1677839495164,
+    "actions": [
+      {
+        "type": "sampleView/filterByNominal",
+        "payload": {
+          "values": ["TRUE"],
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "representative"
+          },
+          "remove": false
+        }
+      },
+      {
+        "type": "sampleView/groupByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "cohort"
+          }
+        }
+      },
+      {
+        "type": "sampleView/groupByNominal",
+        "payload": {
+          "attribute": {
+            "type": "SAMPLE_ATTRIBUTE",
+            "specifier": "cluster"
+          }
+        }
+      }
+    ],
+    "scaleDomains": {
+      "genome_x": [
+        {
+          "chrom": "chr1",
+          "pos": 0
+        },
+        {
+          "chrom": "chrM",
+          "pos": 16569
+        }
+      ]
+    },
+    "notes": "In this view, the representative samples have been first grouped by cohort (validation or discovery) and then by state (adaptive, evolving, or maintaining)."
+  }
+]
