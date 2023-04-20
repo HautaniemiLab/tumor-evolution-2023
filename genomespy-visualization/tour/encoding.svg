@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 457 153" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g>
+        <rect x="33.886" y="40.221" width="131.596" height="69.529" style="fill:#fc7354;"/>
+        <rect x="33.886" y="85.763" width="131.596" height="23.988" style="fill:#d26046;"/>
+    </g>
+    <g>
+        <rect x="165.482" y="40.221" width="88.156" height="69.529" style="fill:#ebebeb;"/>
+        <rect x="165.482" y="96.147" width="88.156" height="13.603" style="fill:#d4d4d4;"/>
+    </g>
+    <g>
+        <rect x="364.443" y="40.221" width="88.156" height="69.529" style="fill:#ebebeb;"/>
+        <rect x="364.443" y="88.961" width="88.156" height="20.789" style="fill:#d4d4d4;"/>
+    </g>
+    <g>
+        <rect x="253.638" y="40.221" width="110.805" height="69.529" style="fill:#a0bcf7;"/>
+        <rect x="253.638" y="74.986" width="110.805" height="34.765" style="fill:#8197c7;"/>
+    </g>
+    <circle cx="120.136" cy="74.986" r="14.039" style="fill:url(#_Radial1);stroke:#0a0014;stroke-width:1.5px;"/>
+    <circle cx="195.558" cy="74.986" r="6.802" style="fill:url(#_Radial2);stroke:#000;stroke-width:1.5px;"/>
+    <text x="105.519px" y="15.194px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;">Ampliﬁcation (red)</text>
+    <text x="101.279px" y="146.238px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;">Short variant</text>
+    <text x="307.743px" y="15.194px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;">Deletion (blue)</text>
+    <text x="245.596px" y="146.238px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:16px;">Loss of heterozygosity</text>
+    <path d="M75.742,28.783l-4.422,7.913l-3.677,-8.285l8.099,0.372Z"/>
+    <path d="M100.536,9.797c-12.143,-0.011 -26.644,1.309 -28.918,20.42" style="fill:none;stroke:#000;stroke-width:1.5px;"/>
+    <path d="M278.308,28.8l-4.453,7.896l-3.645,-8.3l8.098,0.404Z"/>
+    <path d="M303.071,10.638c-12.099,-0.01 -26.538,1.259 -28.892,19.58" style="fill:none;stroke:#000;stroke-width:1.5px;"/>
+    <path d="M374.58,79.998l-7.923,-4.404l8.277,-3.696l-0.354,8.1Z"/>
+    <path d="M382.114,127.293c0.012,-25.196 21.229,-48.598 -8.977,-51.416" style="fill:none;stroke:#000;stroke-width:1.5px;"/>
+    <path d="M116.979,100.374l3.451,-8.383l4.635,7.791l-8.086,0.592Z"/>
+    <path d="M143.405,130.849c-0.333,-13.19 -19.238,-13.423 -22.501,-32.389" style="fill:none;stroke:#000;stroke-width:1.5px;"/>
+    <path d="M191.459,93.578l4.593,-7.815l3.496,8.363l-8.089,-0.548Z"/>
+    <path d="M153.721,130.849c-0.395,-22.97 37.333,-12.222 41.892,-38.615" style="fill:none;stroke:#000;stroke-width:1.5px;"/>
+    <path d="M23.253,109.75l6.405,0l-0,-69.529l-6.405,0" style="fill:none;stroke:#000;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter;"/>
+    <text x="2.782px" y="44.519px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">1.0</text>
+    <text x="2.782px" y="113.119px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">0.0</text>
+    <g transform="matrix(6.12323e-17,-1,1,6.12323e-17,-1012.15,231.066)">
+        <text x="144.208px" y="1028.41px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">LOH</text>
+    </g>
+    <defs>
+        <radialGradient id="_Radial1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(14.0391,0,0,14.0391,120.136,74.9858)"><stop offset="0" style="stop-color:#ae7de2;stop-opacity:1"/><stop offset="1" style="stop-color:#754ba1;stop-opacity:1"/></radialGradient>
+        <radialGradient id="_Radial2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(5.97739,0,0,5.97739,195.558,74.9858)"><stop offset="0" style="stop-color:#f17c7e;stop-opacity:1"/><stop offset="1" style="stop-color:#e52a2c;stop-opacity:1"/></radialGradient>
+    </defs>
+</svg>

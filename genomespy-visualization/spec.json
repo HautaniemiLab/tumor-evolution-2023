@@ -1,0 +1,632 @@
+{
+  "$schema": "https://unpkg.com/@genome-spy/core/dist/schema.json",
+
+  "genome": {
+    "name": "hg38"
+  },
+
+  "specId": "Tumor evolution 2023",
+
+  "description": "Lahtinen, A., Lavikka, K., Li, Y., et al. (2023) – GenomeSpy Visualization",
+
+  "bookmarks": {
+    "remote": {
+      "url": "tour.json",
+      "tour": true
+    }
+  },
+
+  "resolve": { "scale": { "x": "shared" } },
+
+  "spacing": 7,
+
+  "vconcat": [
+    {
+      "import": { "url": "shared/cytobands.json" }
+    },
+
+    {
+      "name": "blacklist-tracks",
+      "title": "Blacklist tracks",
+      "spacing": 3,
+      "visible": false,
+      "resolve": { "scale": { "x": "shared" } },
+
+      "vconcat": [
+        { "import": { "url": "shared/hg38-blacklist.v2.json" } },
+        { "import": { "url": "shared/hercules-cnv-blacklist.json" } }
+      ]
+    },
+
+    {
+      "import": { "url": "gistic.json" }
+    },
+
+    {
+      "name": "samples",
+      "title": "Evolution samples",
+
+      "baseUrl": "data/",
+
+      "stickySummaries": true,
+
+      "samples": {
+        "data": { "url": "samples.tsv" },
+        "attributes": {
+          "treatmentPhase": {
+            "type": "ordinal",
+            "scale": {
+              "domain": ["Normal", "Diagnostic", "Interval", "Relapse"],
+              "range": ["#e8e8e8", "#facf5a", "#f95959", "#455d7a"]
+            }
+          },
+          "tissue": {
+            "type": "nominal",
+            "visible": false
+          },
+          "representative": {
+            "type": "nominal",
+            "scale": {
+              "domain": ["FALSE", "TRUE"],
+              "range": ["#e0e0e0", "#a0a0a0"]
+            }
+          },
+          "PFI": {
+            "type": "ordinal",
+            "scale": {
+              "domain": ["< 180 days", "180 - 364 days", ">= 365 days"],
+              "scheme": "yellowgreenblue"
+            }
+          },
+          "progression": {
+            "type": "nominal",
+            "scale": {
+              "domain": ["FALSE", "TRUE"],
+              "range": ["#e0e0e0", "#a0a0a0"]
+            }
+          },
+          "HGSOC": {
+            "type": "nominal",
+            "scale": {
+              "domain": ["other", "high grade serous"],
+              "range": ["gray", "lightgray"]
+            }
+          },
+          "sampleType": {
+            "type": "nominal",
+            "scale": {
+              "scheme": "set2"
+            }
+          },
+          "WGD": {
+            "type": "nominal",
+            "scale": {
+              "domain": ["FALSE", "TRUE"],
+              "range": ["#e0e0e0", "#a0a0a0"]
+            }
+          },
+          "heterogeneity": {
+            "type": "quantitative",
+            "visible": false,
+            "scale": {
+              "scheme": "yellowgreenblue"
+            }
+          },
+          "cluster": {
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "no coexistence",
+                "maintaining",
+                "evolving",
+                "adaptive"
+              ],
+              "range": ["black", "#74c476", "#e6550d", "#3182bd"]
+            }
+          },
+          "ploidy": {
+            "type": "quantitative",
+            "scale": {
+              "scheme": "yellowgreenblue"
+            }
+          },
+          "purity": {
+            "type": "quantitative",
+            "scale": {
+              "domain": [0, 1],
+              "scheme": "yellowgreenblue"
+            }
+          },
+          "sig_HRD": {
+            "type": "quantitative",
+            "scale": {
+              "scheme": "yelloworangered"
+            }
+          },
+          "sig_APOBEC": {
+            "type": "quantitative",
+            "visible": false,
+            "scale": {
+              "scheme": "yelloworangered"
+            }
+          },
+          "mutations": {
+            "type": "quantitative",
+            "scale": {
+              "domain": [0, 60000],
+              "scheme": "lightorange"
+            }
+          },
+          "breaks": {
+            "type": "quantitative",
+            "scale": {
+              "scheme": "lightorange"
+            },
+            "barScale": {},
+            "width": 20
+          }
+        }
+      },
+
+      "spec": {
+        "title": "Data layers",
+
+        "data": {
+          "url": "segments.tsv",
+          "format": {
+            "type": "tsv"
+          }
+        },
+
+        "transform": [],
+
+        "encoding": {
+          "sample": { "field": "sample" },
+          "x": {
+            "chrom": "chr",
+            "pos": "startpos",
+            "type": "locus",
+            "axis": null,
+            "scale": {
+              "name": "genome_x"
+            }
+          },
+          "x2": {
+            "chrom": "chr",
+            "pos": "endpos",
+            "offset": 1
+          }
+        },
+
+        "resolve": {
+          "scale": { "color": "independent" }
+        },
+
+        "layer": [
+          {
+            "title": "Copy-number variation",
+            "name": "CNV",
+
+            "configurableVisibility": true,
+
+            "mark": {
+              "type": "rect",
+              "minOpacity": 1.0,
+              "minWidth": 1.0
+            },
+            "transform": [
+              {
+                "type": "formula",
+                "expr": "datum.endpos - datum.startpos",
+                "as": "segment length"
+              }
+            ],
+            "encoding": {
+              "color": {
+                "type": "quantitative",
+                "field": "purifiedLogR",
+                "scale": {
+                  "domain": [-2.5, 0, 2.5],
+                  "range": ["#0050f8", "#f6f6f6", "#ff3000"],
+                  "clamp": true
+                }
+              }
+            },
+
+            "aggregateSamples": [
+              {
+                "name": "cnv-g-score-summary",
+                "title": "G-score",
+                "height": 50,
+                "transform": [
+                  {
+                    "type": "filter",
+                    "expr": "abs(datum.purifiedLogR) > 0.1"
+                  },
+                  {
+                    "type": "project",
+                    "fields": [
+                      "sample",
+                      "chr",
+                      "startpos",
+                      "endpos",
+                      "_linearized_chr_startpos",
+                      "purifiedLogR"
+                    ]
+                  },
+                  {
+                    "type": "formula",
+                    "expr": "min(abs(datum.purifiedLogR), 1.5) * (datum.purifiedLogR < 0 ? -1 : 1)",
+                    "as": "purifiedLogR"
+                  }
+                ],
+                "encoding": {
+                  "y": {
+                    "field": "coverage",
+                    "type": "quantitative",
+                    "axis": {},
+                    "scale": {
+                      "domain": [-1.2, 0, 1.2],
+                      "clamp": true
+                    }
+                  }
+                },
+                "layer": [
+                  {
+                    "name": "amplification",
+                    "transform": [
+                      { "type": "filter", "expr": "datum.purifiedLogR > 0" },
+                      {
+                        "type": "coverage",
+                        "chrom": "chr",
+                        "start": "startpos",
+                        "end": "endpos",
+                        "weight": "purifiedLogR"
+                      },
+                      {
+                        "type": "formula",
+                        "expr": "datum.coverage / sampleCount",
+                        "as": "coverage"
+                      }
+                    ],
+                    "mark": {
+                      "type": "rect",
+                      "minOpacity": 1,
+                      "tooltip": null
+                    },
+                    "encoding": {
+                      "color": { "value": "#e45756" }
+                    }
+                  },
+                  {
+                    "name": "deletion",
+                    "transform": [
+                      { "type": "filter", "expr": "datum.purifiedLogR < 0" },
+                      {
+                        "type": "coverage",
+                        "chrom": "chr",
+                        "start": "startpos",
+                        "end": "endpos",
+                        "weight": "purifiedLogR"
+                      },
+                      {
+                        "type": "formula",
+                        "expr": "datum.coverage / sampleCount",
+                        "as": "coverage"
+                      }
+                    ],
+                    "mark": {
+                      "type": "rect",
+                      "minOpacity": 1,
+                      "tooltip": null
+                    },
+                    "encoding": {
+                      "color": { "value": "#4c78a8" }
+                    }
+                  },
+                  {
+                    "view": {
+                      "stroke": "black"
+                    },
+                    "data": { "values": [{}] },
+                    "mark": {
+                      "type": "text",
+                      "text": "G-score"
+                    },
+                    "encoding": {
+                      "y": null,
+                      "facetIndex": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Loss of heterozygosity",
+            "name": "LOH",
+
+            "configurableVisibility": true,
+
+            "mark": {
+              "type": "rect",
+              "tooltip": null,
+              "minOpacity": 0.4
+            },
+            "encoding": {
+              "y": {
+                "field": "purifiedLoh",
+                "type": "quantitative",
+                "axis": null,
+                "scale": {
+                  "domain": [0, 1],
+                  "clamp": true,
+                  "zoom": false
+                }
+              },
+              "color": { "value": "black" },
+              "opacity": {
+                "expr": "0.10 + 0.09 * min(datum.purifiedLoh, 1)",
+                "type": "quantitative",
+                "scale": { "type": "identity" }
+              }
+            }
+          },
+          {
+            "title": "SNPs and Indels",
+            "name": "mutations",
+
+            "configurableVisibility": true,
+
+            "mark": {
+              "type": "point",
+              "stroke": "black",
+              "strokeWidth": 0.8,
+              "strokeOpacity": 0.65,
+              "sampleFacetPadding": 0.18,
+              "fillGradientStrength": 0.3,
+              "semanticZoomFraction": 0.015
+            },
+            "data": {
+              "url": [
+                "EOC1002.tsv",
+                "EOC1003.tsv",
+                "EOC1005.tsv",
+                "EOC1017.tsv",
+                "EOC103.tsv",
+                "EOC1030.tsv",
+                "EOC1032.tsv",
+                "EOC105.tsv",
+                "EOC1067.tsv",
+                "EOC1077.tsv",
+                "EOC1091.tsv",
+                "EOC1099.tsv",
+                "EOC1107.tsv",
+                "EOC1119.tsv",
+                "EOC1120.tsv",
+                "EOC1122.tsv",
+                "EOC1127.tsv",
+                "EOC1129.tsv",
+                "EOC115.tsv",
+                "EOC124.tsv",
+                "EOC133.tsv",
+                "EOC135.tsv",
+                "EOC136.tsv",
+                "EOC148.tsv",
+                "EOC150.tsv",
+                "EOC151.tsv",
+                "EOC153.tsv",
+                "EOC160.tsv",
+                "EOC165.tsv",
+                "EOC167.tsv",
+                "EOC172.tsv",
+                "EOC175.tsv",
+                "EOC177.tsv",
+                "EOC182.tsv",
+                "EOC183.tsv",
+                "EOC192.tsv",
+                "EOC197.tsv",
+                "EOC198.tsv",
+                "EOC202.tsv",
+                "EOC206.tsv",
+                "EOC207.tsv",
+                "EOC218.tsv",
+                "EOC227.tsv",
+                "EOC25.tsv",
+                "EOC256.tsv",
+                "EOC26.tsv",
+                "EOC286.tsv",
+                "EOC292.tsv",
+                "EOC293.tsv",
+                "EOC294.tsv",
+                "EOC295.tsv",
+                "EOC299.tsv",
+                "EOC3.tsv",
+                "EOC310.tsv",
+                "EOC318.tsv",
+                "EOC319.tsv",
+                "EOC321.tsv",
+                "EOC323.tsv",
+                "EOC351.tsv",
+                "EOC357.tsv",
+                "EOC359.tsv",
+                "EOC363.tsv",
+                "EOC372.tsv",
+                "EOC373.tsv",
+                "EOC378.tsv",
+                "EOC379.tsv",
+                "EOC382.tsv",
+                "EOC386.tsv",
+                "EOC388.tsv",
+                "EOC390.tsv",
+                "EOC41.tsv",
+                "EOC415.tsv",
+                "EOC423.tsv",
+                "EOC434.tsv",
+                "EOC44.tsv",
+                "EOC443.tsv",
+                "EOC448.tsv",
+                "EOC449.tsv",
+                "EOC465.tsv",
+                "EOC471.tsv",
+                "EOC473.tsv",
+                "EOC482.tsv",
+                "EOC49.tsv",
+                "EOC495.tsv",
+                "EOC498.tsv",
+                "EOC50.tsv",
+                "EOC523.tsv",
+                "EOC556.tsv",
+                "EOC558.tsv",
+                "EOC559.tsv",
+                "EOC561.tsv",
+                "EOC568.tsv",
+                "EOC580.tsv",
+                "EOC587.tsv",
+                "EOC598.tsv",
+                "EOC620.tsv",
+                "EOC63.tsv",
+                "EOC634.tsv",
+                "EOC649.tsv",
+                "EOC652.tsv",
+                "EOC658.tsv",
+                "EOC659.tsv",
+                "EOC668.tsv",
+                "EOC677.tsv",
+                "EOC69.tsv",
+                "EOC691.tsv",
+                "EOC702.tsv",
+                "EOC731.tsv",
+                "EOC733.tsv",
+                "EOC736.tsv",
+                "EOC737.tsv",
+                "EOC740.tsv",
+                "EOC742.tsv",
+                "EOC752.tsv",
+                "EOC754.tsv",
+                "EOC762.tsv",
+                "EOC763.tsv",
+                "EOC77.tsv",
+                "EOC779.tsv",
+                "EOC781.tsv",
+                "EOC783.tsv",
+                "EOC809.tsv",
+                "EOC815.tsv",
+                "EOC817.tsv",
+                "EOC820.tsv",
+                "EOC823.tsv",
+                "EOC824.tsv",
+                "EOC825.tsv",
+                "EOC839.tsv",
+                "EOC855.tsv",
+                "EOC863.tsv",
+                "EOC866.tsv",
+                "EOC868.tsv",
+                "EOC87.tsv",
+                "EOC871.tsv",
+                "EOC883.tsv",
+                "EOC888.tsv",
+                "EOC890.tsv",
+                "EOC891.tsv",
+                "EOC912.tsv",
+                "EOC915.tsv",
+                "EOC927.tsv",
+                "EOC933.tsv",
+                "EOC939.tsv",
+                "EOC948.tsv",
+                "EOC984.tsv",
+                "EOC989.tsv",
+                "EOC991.tsv"
+              ],
+              "format": { "type": "tsv" }
+            },
+            "transform": [
+              {
+                "type": "regexFold",
+                "columnRegex": "^(.*)\\.AF$",
+                "asValue": "VAF",
+                "asKey": "sample"
+              },
+              { "type": "filter", "expr": "datum.VAF >= 0.02" }
+            ],
+            "encoding": {
+              "sample": { "field": "sample" },
+              "x": {
+                "chrom": "CHROM",
+                "pos": "POS",
+                "type": "locus",
+                "offset": 1
+              },
+              "color": {
+                "type": "nominal",
+                "field": "Func",
+                "scale": {
+                  "domain": [
+                    "stopgain",
+                    "stoploss",
+                    "frameshift_indel",
+                    "missense",
+                    "splicing",
+                    "inframe_indel",
+                    "synonymous",
+                    "genic_other",
+                    "ncRNA",
+                    "intergenic"
+                  ],
+                  "range": [
+                    "#e31a1c",
+                    "#ff7f00",
+                    "#6a3d9a",
+                    "#1f78b4",
+                    "#b2df8a",
+                    "#cab2d6",
+                    "#33a02c",
+                    "#a6cee3",
+                    "#fdbf6f",
+                    "#c0c0c0"
+                  ]
+                }
+              },
+              "size": {
+                "field": "VAF",
+                "type": "quantitative",
+                "scale": { "range": [0, 350] }
+              },
+              "semanticScore": {
+                "field": "CADD_phred"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "dummy-axis",
+      "configurableVisibility": false,
+      "height": { "grow": 0 },
+      "data": { "values": [] },
+      "mark": "rect",
+      "padding": { "top": -5 },
+      "encoding": {
+        "x": {
+          "chrom": "chr",
+          "pos": "pos",
+          "type": "locus",
+          "title": null,
+          "axis": {
+            "domain": false
+          }
+        }
+      }
+    },
+    {
+      "import": { "url": "shared/genes.json" }
+    },
+    {
+      "import": { "url": "shared/cosmic.json" }
+    },
+    {
+      "import": { "url": "shared/platinum_resistance.json" }
+    }
+  ]
+}

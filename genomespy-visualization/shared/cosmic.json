@@ -1,0 +1,86 @@
+{
+  "$schema": "https://unpkg.com/@genome-spy/core/dist/schema.json",
+
+  "name": "cosmic-census-track",
+  "title": {
+    "text": "COSMIC Cancer Gene Census",
+    "style": "track-title"
+  },
+  "description": "COSMIC Cancer Gene Cencus, https://cancer.sanger.ac.uk/census",
+  "height": 18,
+  "layer": [
+    {
+      "data": { "values": [{}] },
+      "mark": {
+        "type": "rule",
+        "y": 0.5,
+        "color": "lightgray",
+        "strokeDash": [2, 5],
+        "tooltip": null
+      }
+    },
+    {
+      "data": {
+        "url": "Census_allFri Feb 18 13_42_51 2022.tsv"
+      },
+      "transform": [
+        {
+          "type": "regexExtract",
+          "field": "Genome Location",
+          "regex": "^(X|Y|\\d+):(\\d+)-(\\d+)$",
+          "as": ["_chrom", "_startpos", "_endpos"],
+          "skipInvalidInput": true
+        },
+        {
+          "type": "filter",
+          "expr": "datum._startpos !== undefined"
+        },
+        {
+          "type": "flattenDelimited",
+          "field": "Role in Cancer",
+          "separator": ", "
+        },
+        {
+          "type": "stack",
+          "groupby": ["_chrom", "_startpos"],
+          "sort": { "field": "Role in Cancer" },
+          "offset": "normalize",
+          "as": ["_y0", "_y1"]
+        }
+      ],
+      "mark": {
+        "type": "rect",
+        "minWidth": 2.0,
+        "minOpacity": 0.5,
+        "cornerRadius": 3,
+        "yOffset": -0.5
+      },
+      "encoding": {
+        "x": {
+          "chrom": "_chrom",
+          "pos": "_startpos",
+          "type": "locus",
+          "axis": null
+        },
+        "x2": { "chrom": "_chrom", "pos": "_endpos", "offset": 1 },
+        "y": {
+          "field": "_y0",
+          "type": "quantitative",
+          "axis": null,
+          "scale": { "domain": [-0.075, 1.125] }
+        },
+        "y2": { "field": "_y1" },
+        "color": {
+          "field": "Role in Cancer",
+          "type": "nominal",
+          "scale": { "scheme": "category10" }
+        },
+        "opacity": {
+          "expr": "datum.Tier == 2 ? 0.2 : 1",
+          "type": "quantitative",
+          "scale": { "type": "identity" }
+        }
+      }
+    }
+  ]
+}

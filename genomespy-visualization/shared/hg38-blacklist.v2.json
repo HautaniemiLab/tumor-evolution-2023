@@ -1,0 +1,31 @@
+{
+  "name": "encode-blacklist",
+
+  "title": {
+    "text": "ENCODE Blacklist",
+    "style": "track-title"
+  },
+
+  "description": "ENCODE Blacklist for hg38 - https://doi.org/10.1038/s41598-019-45839-z",
+
+  "height": 12,
+
+  "data": {
+    "url": "hg38-blacklist.v2.tsv"
+  },
+
+  "mark": {
+    "type": "rect",
+    "minOpacity": 0.15
+  },
+
+  "encoding": {
+    "x": { "chrom": "chr", "pos": "startpos", "type": "locus", "axis": null },
+    "x2": {
+      "chrom": "chr",
+      "pos": "endpos",
+      "offset": 1
+    },
+    "color": { "value": "black" }
+  }
+}

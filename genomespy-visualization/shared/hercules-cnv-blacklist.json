@@ -1,0 +1,30 @@
+{
+  "name": "hercules-blacklist",
+
+  "title": {
+    "text": "DECIDER Blacklist",
+    "style": "track-title"
+  },
+
+  "description": "Commonly occurring alignment errors and possible germ-line CNVs in the HERCULES cohort.",
+
+  "height": 12,
+
+  "data": {
+    "url": "hercules-cnv-blacklist-v1.tsv"
+  },
+
+  "mark": {
+    "type": "rect",
+    "minOpacity": 0.15,
+    "color": "black"
+  },
+
+  "encoding": {
+    "x": { "chrom": "chrom", "pos": "start", "type": "locus", "axis": null },
+    "x2": {
+      "chrom": "chrom",
+      "pos": "end"
+    }
+  }
+}
