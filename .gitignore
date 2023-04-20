@@ -1,0 +1,10 @@
+**/*.map
+**/*.swp
+**/*.swo
+**/*.pyc
+**/*~
+**/.DS_Store
+**/*.egg-info
+.Rproj.user
+
+.vscode/
