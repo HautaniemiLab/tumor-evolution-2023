@@ -1,4 +1,4 @@
-# Script to prepare data to ClonEvol from Cyclone outputs
+# Script to prepare data to ClonEvol from PyClone outputs
 # Will filter clusters / mutations in them
   # Small clusters (parameter per patient)
   # Unreliable fitting to cluster 
