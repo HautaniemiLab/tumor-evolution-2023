@@ -1,511 +1,511 @@
-sample	displayName	patient	treatmentStrategy	tissueGroup	PFI	progressed	therapyOutcome	treatmentPhase	cohort	cluster	representative	WGD	ploidy	purity	sig_HRD	mutations	breaks
-EOC3_iOme2_DNA1	EOC3_iOme2	EOC3	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Interval	Discovery	adaptive	FALSE	FALSE	1.801	0.426	0	5609	272
-EOC3_iPer1_DNA1	EOC3_iPer1	EOC3	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Interval	Discovery	adaptive	FALSE	FALSE	1.774	0.804	0	6334	338
-EOC3_pOme1_DNA1	EOC3_pOme1	EOC3	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.795	0.61	0	7147	398
-EOC3_pOvaL1_DNA1	EOC3_pOvaL1	EOC3	NACT	Tubo-ovarian	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.792	0.94	0	7333	605
-EOC3_pPer1_DNA1	EOC3_pPer1	EOC3	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.326	0.74	0	5780	394
-EOC25_pOme1_DNA1	EOC25_pOme1	EOC25	NACT	Intra-abdominal		FALSE		Diagnostic	Validation	evolving	TRUE	TRUE	3.313	0.48	0	8423	271
-EOC25_pPer1_DNA1	EOC25_pPer1	EOC25	NACT	Intra-abdominal		FALSE		Diagnostic	Validation	evolving	FALSE	TRUE	3.058	0.415	0	8471	244
-EOC26_iAsc1_CL62_DNA1	EOC26_iAsc1_CL62	EOC26	NACT	Ascites	< 180 days	TRUE	progressive disease	Interval	Discovery	adaptive	FALSE	TRUE	3.892	1	0	10703	207
-EOC26_iAsc1_DNA1	EOC26_iAsc1	EOC26	NACT	Ascites	< 180 days	TRUE	progressive disease	Interval	Discovery	adaptive	FALSE	TRUE	3.928	0.938	0	12002	293
-EOC26_iTubR1_DNA1	EOC26_iTubR1	EOC26	NACT	Tubo-ovarian	< 180 days	TRUE	progressive disease	Interval	Discovery	adaptive	FALSE	TRUE	3.879	0.174	0	12650	99
-EOC26_iUte1_DNA1	EOC26_iUte1	EOC26	NACT	Tubo-ovarian	< 180 days	TRUE	progressive disease	Interval	Discovery	adaptive	FALSE	TRUE	3.876	0.179	0	12828	116
-EOC26_pOme1_CL12_DNA1	EOC26_pOme1_CL12	EOC26	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.813	1	0	10820	218
-EOC26_pOme1_DNA1	EOC26_pOme1	EOC26	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.792	0.953	0	12209	225
-EOC26_pOvaL1_DNA1	EOC26_pOvaL1	EOC26	NACT	Tubo-ovarian	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.878	0.912	0	12316	200
-EOC26_pOvaL2_DNA1	EOC26_pOvaL2	EOC26	NACT	Tubo-ovarian	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.831	0.6	0	12495	197
-EOC26_pPer_CL13_DNA1	EOC26_pPer_CL13	EOC26	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.635	1	0	10983	295
-EOC26_pPer1_DNA1	EOC26_pPer1	EOC26	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.683	0.419	0	12585	187
-EOC26_pPer2_DNA1	EOC26_pPer2	EOC26	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.677	0.518	0	12887	198
-EOC26_rAsc1_DNA1	EOC26_rAsc1	EOC26	NACT	Ascites	< 180 days	TRUE	progressive disease	Relapse	Discovery	adaptive	FALSE	TRUE	3.873	0.968	0	12091	202
-EOC41_p2Ome1_TR	EOC41_p2Ome1_TR	EOC41	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Discovery	evolving	TRUE	TRUE	2.949	0.45	0.392706768128948	14677	220
-EOC41_p2OvaL1_DNA1	EOC41_p2OvaL1	EOC41	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Discovery	evolving	FALSE	TRUE	2.917	0.174	0.382150378199392	14393	152
-EOC44_pAdnL_DNA1	EOC44_pAdnL	EOC44	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.201	0.867	0	10207	288
-EOC44_pLNL_DNA1	EOC44_pLNL	EOC44	PDS	Other	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.328	0.16	0	8941	117
-EOC44_pOme_DNA1	EOC44_pOme	EOC44	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.704	0.4	0	10136	175
-EOC44_pOvaR2_DNA1	EOC44_pOvaR2	EOC44	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.694	0.758	0	11481	244
-EOC44_pOvaR4_DNA1	EOC44_pOvaR4	EOC44	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.778	0.67	0	11523	257
-EOC44_pOvaR5_DNA1	EOC44_pOvaR5	EOC44	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.391	0.44	0	12147	210
-EOC49_pAsc_DNA2	EOC49_pAsc	EOC49	NACT	Ascites	>= 365 days	TRUE	complete response	Diagnostic	Discovery	evolving	TRUE	TRUE	3.22	0.615	0.499976601816056	19481	329
-EOC49_pOme1_DNA3	EOC49_pOme1	EOC49	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	evolving	FALSE	TRUE	3.266	0.21	0.498352654064187	19022	226
-EOC50_pOme1_DNA1	EOC50_pOme1	EOC50	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	4.425	0.6	0	7042	205
-EOC50_pOvaR1_DNA2	EOC50_pOvaR1	EOC50	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	4.202	0.94	0.271894952727494	7539	225
-EOC63_pAsc1_DNA1	EOC63_pAsc1	EOC63	PDS	Ascites	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.891	0.08	0.547591058765655	17819	130
-EOC63_pOme1_DNA1	EOC63_pOme1	EOC63	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.795	0.495	0.525926011906371	24447	565
-EOC63_pOvaR1_DNA1	EOC63_pOvaR1	EOC63	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.736	0.2	0.515367709128857	11587	197
-EOC69_pOme1_DNA1	EOC69_pOme1	EOC69	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	FALSE	1.891	0.475	0.418351223644713	9827	170
-EOC69_pOva1_DNA2	EOC69_pOva1	EOC69	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	FALSE	1.903	0.565	0.408025586434682	10138	179
-EOC69_r1Vag1_DNA1	EOC69_r1Vag1	EOC69	PDS	Other	>= 365 days	TRUE	complete response	Relapse	Validation	evolving	FALSE	TRUE	2.041	0.825	0.476289120554603	10561	255
-EOC77_iAsc1_DNA1	EOC77_iAsc1	EOC77	NACT	Ascites	< 180 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	FALSE	2.204	0.12	0	19354	39
-EOC77_iOme1_DNA1	EOC77_iOme1	EOC77	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	FALSE	2.308	0.49	0	32485	110
-EOC77_iPer1_DNA2	EOC77_iPer1	EOC77	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	FALSE	2.292	0.765	0	24086	201
-EOC77_pAsc1_DNA1	EOC77_pAsc1	EOC77	NACT	Ascites	< 180 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.265	0.58	0	29441	189
-EOC77_pOme1_DNA3	EOC77_pOme1	EOC77	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	2.17	0.74	0	20724	195
-EOC87_iOme1_DNA1	EOC87_iOme1	EOC87	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Interval	Discovery	maintaining	FALSE	TRUE	2.644	0.33	0	8519	150
-EOC87_iOme1_xO_DNA1	EOC87_iOme1_xO	EOC87	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Interval	Discovery	maintaining	FALSE	TRUE	2.621	0.4	0	9213	190
-EOC87_iPer_cO_DNA	EOC87_iPer_cO	EOC87	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Interval	Discovery	maintaining	FALSE	TRUE	2.687	0.25	0	10283	170
-EOC87_pOme1_xO_DNA1	EOC87_pOme1_xO	EOC87	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.725	0.25	0	9872	180
-EOC87_pPer1_cO_DNA1	EOC87_pPer1_cO	EOC87	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.727	0.36	0	9722	199
-EOC103_oPlf1_DNA2	EOC103_oPlf1	EOC103	PDS	Other	< 180 days	TRUE	complete response	NA	Validation	adaptive	FALSE	TRUE	5.03	0.98	0	14976	790
-EOC103_p2Asc1_DNA1	EOC103_p2Asc1	EOC103	PDS	Ascites	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.318	0.275	0	16245	425
-EOC103_p2Ome1_DNA1	EOC103_p2Ome1	EOC103	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.219	0.67	0	14207	631
-EOC103_p2OvaL1_DNA1	EOC103_p2OvaL1	EOC103	PDS	Tubo-ovarian	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.931	0.335	0	12224	193
-EOC103_p2OvaR1_DNA2	EOC103_p2OvaR1	EOC103	PDS	Tubo-ovarian	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.9	0.515	0	11792	270
-EOC103_p2Per2_DNA1	EOC103_p2Per2	EOC103	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.373	0.125	0	13969	203
-EOC105_pAsc1_DNA1	EOC105_pAsc1	EOC105	PDS	Ascites	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.562	0.775	0.60805742147655	10456	165
-EOC105_pOme1_DNA3	EOC105_pOme1	EOC105	PDS	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.942	0.215	0.653741817788945	15190	69
-EOC105_pOvaL1_DNA2	EOC105_pOvaL1	EOC105	PDS	Tubo-ovarian	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.716	0.57	0.634082061072062	12200	114
-EOC105_pPer1_DNA3	EOC105_pPer1	EOC105	PDS	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	FALSE	1.985	0.39	0.669499611919602	14145	98
-EOC105_r1Per2_DNA1	EOC105_r1Per2	EOC105	PDS	Intra-abdominal	180 - 364 days	TRUE	partial response	Relapse	Validation	adaptive	FALSE	FALSE	2.033	0.695	0.735172788127595	11568	196
-EOC115_pAsc1_DNA1	EOC115_pAsc1	EOC115	NACT	Ascites	< 180 days	TRUE	progressive disease	Diagnostic	Validation	evolving	FALSE	TRUE	3.124	0.47	0	6679	81
-EOC115_pPer1_DNA2	EOC115_pPer1	EOC115	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Validation	evolving	TRUE	TRUE	3.101	0.535	0	6759	91
-EOC115_r1Asc1_DNA2	EOC115_r1Asc1	EOC115	NACT	Ascites	< 180 days	TRUE	progressive disease	Relapse	Validation	evolving	FALSE	TRUE	5.008	0.06	0	5367	40
-EOC124_pOvaL1_TR_DNA1	EOC124_pOvaL1_TR	EOC124	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	FALSE	2.04	0.515	0.461354667605063	11907	272
-EOC124_pOvaR1_TR	EOC124_pOvaR1_TR	EOC124	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.49	0.83	0.406569262699163	11809	236
-EOC133_pAsc1_DNA1	EOC133_pAsc1	EOC133	PDS	Ascites	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.911	0.77	0.496617473188264	17166	218
-EOC133_pOme1_TR_DNA	EOC133_pOme1_TR	EOC133	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.097	0.56	0.505563878323725	18063	199
-EOC133_pOvaL1_DNA1	EOC133_pOvaL1	EOC133	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.858	0.585	0.496198513526929	16693	193
-EOC135_p2Asc1_DNA1	EOC135_p2Asc1	EOC135	PDS	Ascites	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.237	0.7	0	15130	272
-EOC135_p2Ome1_DNA1	EOC135_p2Ome1	EOC135	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.735	0.545	0	15011	212
-EOC135_p2OvaL1_DNA1	EOC135_p2OvaL1	EOC135	PDS	Tubo-ovarian	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.372	0.805	0.281767489035194	14316	234
-EOC135_r1Asc1_DNA1	EOC135_r1Asc1	EOC135	PDS	Ascites	< 180 days	TRUE	complete response	Relapse	Validation	adaptive	FALSE	TRUE	2.938	0.87	0.336682350268997	15127	305
-EOC136_iOme_DNA1	EOC136_iOme	EOC136	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Discovery	adaptive	FALSE	FALSE	2.015	0.74	0.316206531249662	8379	171
-EOC136_iOvaR1_DNA4	EOC136_iOvaR1	EOC136	NACT	Tubo-ovarian	>= 365 days	TRUE	complete response	Interval	Discovery	adaptive	FALSE	FALSE	1.972	0.806	0.322915211889081	8883	223
-EOC136_pAsc1_DNA3	EOC136_pAsc1	EOC136	NACT	Ascites	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	2	0.12	0.318360703623392	7732	73
-EOC136_pMes1_DNA1	EOC136_pMes1	EOC136	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.013	0.73	0.315763606986006	8776	173
-EOC136_pPer1_DNA3	EOC136_pPer1	EOC136	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.045	0.678	0.321550502270701	9735	166
-EOC136_pPer2_DNA3	EOC136_pPer2	EOC136	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.995	0.73	0.309098088155656	8973	165
-EOC148_pAdnL1_DNA1	EOC148_pAdnL1	EOC148	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.682	0.812	0.541594046952221	16654	389
-EOC148_pAdnL3_DNA1	EOC148_pAdnL3	EOC148	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	TRUE	TRUE	3.541	0.896	0.538621022697459	16483	357
-EOC148_pOvaL4_DNA1	EOC148_pOvaL4	EOC148	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.746	0.4	0.488225300529355	16284	284
-EOC148_pOvaL5_DNA1	EOC148_pOvaL5	EOC148	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.754	0.62	0.487515494726461	16487	342
-EOC150_iOme1_DNA1	EOC150_iOme1	EOC150	NACT	Intra-abdominal	180 - 364 days	FALSE	complete response	Interval	Validation	adaptive	FALSE	TRUE	3.216	0.49	0	7728	268
-EOC150_pAsc1_DNA1	EOC150_pAsc1	EOC150	NACT	Ascites	180 - 364 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.093	0.255	0	7484	257
-EOC150_pPer1_DNA1	EOC150_pPer1	EOC150	NACT	Intra-abdominal	180 - 364 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.162	0.375	0	7744	239
-EOC150_pTubL1_DNA1	EOC150_pTubL1	EOC150	NACT	Tubo-ovarian	180 - 364 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.93	0.91	0	7764	332
-EOC151_iMes1_DNA1	EOC151_iMes1	EOC151	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	FALSE	1.854	0.155	0	3154	32
-EOC151_pMes1_DNA1	EOC151_pMes1	EOC151	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	FALSE	1.834	0.585	0	3343	222
-EOC151_pPer1_DNA1	EOC151_pPer1	EOC151	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	FALSE	1.811	0.435	0	3337	140
-EOC153_iOme1_DNA4	EOC153_iOme1	EOC153	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Discovery	maintaining	FALSE	TRUE	3.494	0.712	0.465288069877908	21961	189
-EOC153_iOvaR1_DNA1	EOC153_iOvaR1	EOC153	NACT	Tubo-ovarian	>= 365 days	TRUE	complete response	Interval	Discovery	maintaining	FALSE	TRUE	3.518	0.93	0.457798660974156	21412	183
-EOC153_iPer1_DNA4	EOC153_iPer1	EOC153	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Discovery	maintaining	FALSE	TRUE	3.514	0.95	0.457898401022994	20910	212
-EOC153_pAsc1_DNA1	EOC153_pAsc1	EOC153	NACT	Ascites	>= 365 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.56	0.16	0.49356052803411	20398	157
-EOC153_pOme1_DNA3	EOC153_pOme1	EOC153	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.52	0.31	0.489717803829409	22662	253
-EOC153_pPer1_DNA3	EOC153_pPer1	EOC153	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.551	0.27	0.488346437505709	22393	245
-EOC160_pOme1_DNA1	EOC160_pOme1	EOC160	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.656	0.833	0	9411	250
-EOC160_pOva_DNA1	EOC160_pOva	EOC160	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.654	0.81	0	9429	249
-EOC160_rMes1_DNA1	EOC160_rMes1	EOC160	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Relapse	Discovery	maintaining	FALSE	TRUE	2.545	0.46	0	9101	195
-EOC165_pOme1_DNA1	EOC165_pOme1	EOC165	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	evolving	TRUE	TRUE	4.693	0.811	0	20808	355
-EOC165_pOvaL1_DNA1	EOC165_pOvaL1	EOC165	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	evolving	FALSE	TRUE	4.633	0.62	0	21515	258
-EOC167_iAsc1_CL133_DNA1	EOC167_iAsc1_CL133	EOC167	NACT	Ascites	< 180 days	TRUE	progressive disease	Interval	Discovery	adaptive	FALSE	FALSE	2.267	1	0	9739	236
-EOC167_pOme1_DNA1	EOC167_pOme1	EOC167	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.284	0.228	0	9010	109
-EOC167_pOmeOva1_CL109_DNA1	EOC167_pOmeOva1_CL109	EOC167	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.267	0.99	0	8492	196
-EOC167_pOva1_DNA1	EOC167_pOva1	EOC167	NACT	Tubo-ovarian	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	TRUE	FALSE	2.293	0.436	0	10168	185
-EOC167_pPer1_DNA1	EOC167_pPer1	EOC167	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.323	0.38	0	9558	198
-EOC167_r1Asc_DNA1	EOC167_r1Asc	EOC167	NACT	Ascites	< 180 days	TRUE	progressive disease	Relapse	Discovery	adaptive	FALSE	TRUE	2.249	0.443	0	8108	117
-EOC167_r2Asc_DNA1	EOC167_r2Asc	EOC167	NACT	Ascites	< 180 days	TRUE	progressive disease	Relapse	Discovery	adaptive	FALSE	TRUE	2.252	0.4	0	9538	181
-EOC172_p2Ome1_DNA5	EOC172_p2Ome1	EOC172	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.912	0.415	0.495107879275591	11423	136
-EOC172_p2Oth1_DNA1	EOC172_p2Oth1	EOC172	PDS	Other	< 180 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.921	0.284	0.482834639916357	10910	121
-EOC172_pAsc1_DNA1	EOC172_pAsc1	EOC172	PDS	Ascites	< 180 days	TRUE	complete response	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.946	0.73	0.485860093240523	11360	202
-EOC172_pPer1_DNA1	EOC172_pPer1	EOC172	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.014	0.48	0.494384907205643	11204	155
-EOC172_pTubR1_DNA1	EOC172_pTubR1	EOC172	PDS	Tubo-ovarian	< 180 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.936	0.498	0.461839060538778	9973	129
-EOC175_pAsc1_DNA1	EOC175_pAsc1	EOC175	NACT	Ascites		FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.067	0.525	0.392020598170006	12637	401
-EOC175_pOme1_DNA1	EOC175_pOme1	EOC175	NACT	Intra-abdominal		FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.279	0.435	0.38159890024502	12353	380
-EOC175_pPer1_DNA1	EOC175_pPer1	EOC175	NACT	Intra-abdominal		FALSE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.122	0.495	0.389957108828932	12672	355
-EOC177_pAsc1_DNA1	EOC177_pAsc1	EOC177	PDS	Ascites		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.103	0.6	0.554787325452004	29962	399
-EOC177_pOme1_DNA1	EOC177_pOme1	EOC177	PDS	Intra-abdominal		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.093	0.349	0.553826720426083	29685	281
-EOC177_pOme2_DNA1	EOC177_pOme2	EOC177	PDS	Intra-abdominal		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.125	0.32	0.555496059662808	29698	276
-EOC177_pOme3_DNA1	EOC177_pOme3	EOC177	PDS	Intra-abdominal		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.094	0.252	0.554451989591787	29481	233
-EOC177_pOvaL1_CL77_DNA1	EOC177_pOvaL1_CL77	EOC177	PDS	Tubo-ovarian		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.869	0.75	0.762385617796286	16244	229
-EOC177_pOvaL1_DNA1	EOC177_pOvaL1	EOC177	PDS	Tubo-ovarian		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.888	0.782	0.75546240320145	21887	295
-EOC177_pOvaR2_DNA1	EOC177_pOvaR2	EOC177	PDS	Tubo-ovarian		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.366	0.9	0.719693385696334	25982	421
-EOC177_pOvaR3_DNA1	EOC177_pOvaR3	EOC177	PDS	Tubo-ovarian		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.375	0.81	0.711782974867965	26608	410
-EOC177_pPer1_DNA1	EOC177_pPer1	EOC177	PDS	Intra-abdominal		FALSE	died during chemotherapy	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.044	0.24	0.566888537540558	32484	260
-EOC182_pAsc1_DNA1	EOC182_pAsc1	EOC182	PDS	Ascites	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	FALSE	1.85	0.465	0.473903615313719	12942	151
-EOC182_pOme1_DNA1	EOC182_pOme1	EOC182	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	FALSE	1.829	0.205	0.482038235201298	12611	82
-EOC182_pPer1_DNA1	EOC182_pPer1	EOC182	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	FALSE	1.882	0.225	0.475942535412995	12785	105
-EOC183_iMes1_DNA1	EOC183_iMes1	EOC183	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Interval	Discovery	maintaining	FALSE	TRUE	2.841	0.304	0	5787	130
-EOC183_iMes5_DNA1	EOC183_iMes5	EOC183	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Interval	Discovery	maintaining	FALSE	TRUE	2.891	0.78	0	7924	427
-EOC183_pMes_DNA1	EOC183_pMes	EOC183	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.798	0.744	0	7837	405
-EOC183_pOme1_DNA1	EOC183_pOme1	EOC183	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.783	0.382	0	8616	424
-EOC183_pPer_DNA1	EOC183_pPer	EOC183	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.822	0.59	0	7898	384
-EOC192_iOme1_cO_DNA2	EOC192_iOme1_cO	EOC192	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Interval	Discovery	adaptive	FALSE	FALSE	1.751	0.22	0	6271	106
-EOC192_iOme3_x_DNA1	EOC192_iOme3_x	EOC192	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Interval	Discovery	adaptive	FALSE	FALSE	1.712	0.339	0	6637	94
-EOC192_iOvaR1_x_DNA1	EOC192_iOvaR1_x	EOC192	NACT	Tubo-ovarian	180 - 364 days	TRUE	complete response	Interval	Discovery	adaptive	FALSE	FALSE	1.727	0.91	0	6831	171
-EOC192_pAsc1_DNA1	EOC192_pAsc1	EOC192	NACT	Ascites	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.703	0.36	0	6719	148
-EOC192_pOme2_cO_DNA2	EOC192_pOme2_cO	EOC192	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.775	0.8	0	6566	211
-EOC192_pOvaR1_x_DNA1	EOC192_pOvaR1_x	EOC192	NACT	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.726	0.92	0	6243	192
-EOC192_pOvaR1_xO_DNA3	EOC192_pOvaR1_xO	EOC192	NACT	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.727	0.9	0	6491	180
-EOC192_pPer1_xO_DNA2	EOC192_pPer1_xO	EOC192	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.665	0.866	0	6946	261
-EOC192_pPer2_cO_DNA1	EOC192_pPer2_cO	EOC192	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.236	0.971	0	6991	233
-EOC197_iOme1_DNA1	EOC197_iOme1	EOC197	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	FALSE	1.976	0.395	0.41391928882964	6878	52
-EOC197_pPer2_DNA1	EOC197_pPer2	EOC197	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	FALSE	1.972	0.44	0.413451338687082	6870	57
-EOC197_pTubL1_DNA1	EOC197_pTubL1	EOC197	NACT	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	FALSE	1.964	0.51	0.416562303366479	6856	54
-EOC198_pAsc1_DNA1	EOC198_pAsc1	EOC198	NACT	Ascites	< 180 days	TRUE		Diagnostic	Validation	maintaining	FALSE	FALSE	1.983	0.295	0.472080037615835	6943	181
-EOC198_pOme1_DNA3	EOC198_pOme1	EOC198	NACT	Intra-abdominal	< 180 days	TRUE		Diagnostic	Validation	maintaining	TRUE	FALSE	1.986	0.475	0.488496547841299	7853	189
-EOC198_pPer1_DNA1	EOC198_pPer1	EOC198	NACT	Intra-abdominal	< 180 days	TRUE		Diagnostic	Validation	maintaining	FALSE	FALSE	1.968	0.465	0.481205492869881	7121	182
-EOC202_p2OvaR1_TR_DNA	EOC202_p2OvaR1_TR	EOC202	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.844	0.96	0.424509802476209	14232	361
-EOC202_p2Per1_TR_DNA	EOC202_p2Per1_TR	EOC202	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	FALSE	1.889	0.9	0.47708980668363	12912	255
-EOC206_pOvaL1_TR_DNA	EOC206_pOvaL1_TR	EOC206	PDS	Tubo-ovarian		FALSE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.19	0.87	0	15218	312
-EOC206_pOvaR1_TR_DNA	EOC206_pOvaR1_TR	EOC206	PDS	Tubo-ovarian		FALSE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	3.345	0.58	0	10180	230
-EOC207_pOme1_DNA1	EOC207_pOme1	EOC207	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.346	0.885	0.578396721081872	24712	408
-EOC207_pOva1_DNA1	EOC207_pOva1	EOC207	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	2.973	0.45	0.586885655665481	22608	311
-EOC218_iMes3_DNA1	EOC218_iMes3	EOC218	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Discovery	evolving	FALSE	FALSE	1.939	0.54	0.505813878033436	15065	133
-EOC218_iOme4_DNA1	EOC218_iOme4	EOC218	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Discovery	evolving	FALSE	FALSE	1.952	0.559	0.507056012377437	16240	179
-EOC218_iOme4_DNA1_bgiseq	EOC218_iOme4_bgiseq	EOC218	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Discovery	evolving	FALSE	FALSE	1.974	0.42	0.510795069365108	14509	183
-EOC218_iOme6_DNA1	EOC218_iOme6	EOC218	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Discovery	evolving	FALSE	FALSE	1.94	0.613	0.516036880539011	15752	273
-EOC218_pOme3_DNA1	EOC218_pOme3	EOC218	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	evolving	TRUE	FALSE	1.923	0.25	0.50977545820533	15718	107
-EOC227_iOme1_DNA2	EOC227_iOme1	EOC227	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Interval	Validation	maintaining	FALSE	TRUE	2.984	0.27	0	10195	123
-EOC227_pAsc1_DNA2	EOC227_pAsc1	EOC227	NACT	Ascites	180 - 364 days	TRUE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.024	0.355	0	10336	138
-EOC227_pOme1_DNA2	EOC227_pOme1	EOC227	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.012	0.305	0	10361	126
-EOC227_r2Asc1_DNA1	EOC227_r2Asc1	EOC227	NACT	Ascites	180 - 364 days	TRUE	partial response	Relapse	Validation	maintaining	FALSE	TRUE	3.102	0.125	0	8630	50
-EOC227_r3Asc1_DNA1	EOC227_r3Asc1	EOC227	NACT	Ascites	180 - 364 days	TRUE	partial response	Relapse	Validation	maintaining	FALSE	TRUE	2.767	0.14	0	8602	53
-EOC256_p2Ome1_TR_DNA	EOC256_p2Ome1_TR	EOC256	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.459	0.695	0	11433	350
-EOC256_p2Oth1_DNA1	EOC256_p2Oth1	EOC256	PDS	Other	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.384	0.13	0	9882	136
-EOC256_p2Per2_DNA1	EOC256_p2Per2	EOC256	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.42	0.61	0	11402	354
-EOC256_pAsc1_DNA1	EOC256_pAsc1	EOC256	PDS	Ascites	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.466	0.54	0	11452	364
-EOC286_iOme_DNA1	EOC286_iOme	EOC286	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Interval	Discovery		FALSE	FALSE	1.674	0.23	0.461724870209672	12968	157
-EOC286_iOva_DNA1	EOC286_iOva	EOC286	NACT	Tubo-ovarian	>= 365 days	TRUE	partial response	Interval	Discovery		TRUE	FALSE	1.772	0.925	0.467157177284918	15732	345
-EOC292_pAdnL1_DNA3	EOC292_pAdnL1	EOC292	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	3.557	0.475	0	9062	376
-EOC292_pAdnR1_DNA2	EOC292_pAdnR1	EOC292	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	3.615	0.37	0	9340	362
-EOC292_pOme1_DNA2	EOC292_pOme1	EOC292	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.657	0.425	0	9370	351
-EOC293_pAsc_DNA1	EOC293_pAsc	EOC293	PDS	Ascites	>= 365 days	TRUE	partial response	Diagnostic	Discovery	maintaining	TRUE	TRUE	4.766	0.84	0	11075	1624
-EOC293_pAsc1_DNA1	EOC293_pAsc1	EOC293	PDS	Ascites	>= 365 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.763	0.82	0	10990	1436
-EOC293_pOvaR1_DNA2	EOC293_pOvaR1	EOC293	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	FALSE	2.427	0.33	0	8993	711
-EOC293_pPer1_DNA1	EOC293_pPer1	EOC293	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	FALSE	2.395	0.423	0	9362	1084
-EOC294_iAdnL1_DNA1	EOC294_iAdnL1	EOC294	NACT	Tubo-ovarian	< 180 days	FALSE	complete response	Interval	Validation	adaptive	FALSE	TRUE	3.183	0.12	0.548762583350693	18523	99
-EOC294_iOme1_DNA1	EOC294_iOme1	EOC294	NACT	Intra-abdominal	< 180 days	FALSE	complete response	Interval	Validation	adaptive	FALSE	TRUE	3.223	0.175	0.541135013801503	22900	159
-EOC294_p2Ome1_DNA1	EOC294_p2Ome1	EOC294	NACT	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.318	0.475	0.539400646652936	24914	319
-EOC294_p2Per1_DNA1	EOC294_p2Per1	EOC294	NACT	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.319	0.88	0.527657388403149	26059	421
-EOC295_pPer1_DNA1	EOC295_pPer1	EOC295	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	evolving	TRUE	TRUE	3.204	0.812	0	5463	176
-EOC295_rAsc_DNA	EOC295_rAsc	EOC295	NACT	Ascites	180 - 364 days	TRUE	partial response	Relapse	Discovery	evolving	FALSE	TRUE	2.954	0.15	0	5403	111
-EOC299_pOme1_DNA1	EOC299_pOme1	EOC299	PDS	Intra-abdominal	< 180 days	FALSE	partial response	Diagnostic	Validation	evolving	TRUE	TRUE	2.985	0.71	0	5313	104
-EOC299_pOvaR1_DNA1	EOC299_pOvaR1	EOC299	PDS	Tubo-ovarian	< 180 days	FALSE	partial response	Diagnostic	Validation	evolving	FALSE	TRUE	3.108	0.78	0	5500	104
-EOC310_p2OvaL1_DNA1	EOC310_p2OvaL1	EOC310	PDS	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.88	0.49	0	7489	422
-EOC310_p2OvaR1_DNA2	EOC310_p2OvaR1	EOC310	PDS	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.041	0.6	0	7560	442
-EOC310_pPer1_DNA1	EOC310_pPer1	EOC310	PDS	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	TRUE	TRUE	3.664	0.815	0	6583	464
-EOC318_pBow1_DNA1	EOC318_pBow1	EOC318	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.566	0.475	0	8008	978
-EOC318_pOme1_DNA1	EOC318_pOme1	EOC318	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.854	0.91	0	8298	1164
-EOC318_pOvaR1_DNA1	EOC318_pOvaR1	EOC318	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.652	0.725	0	8458	1211
-EOC318_pPer1_DNA1	EOC318_pPer1	EOC318	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.638	0.185	0	7397	438
-EOC319_pAsc1_DNA1	EOC319_pAsc1	EOC319	PDS	Ascites	< 180 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	3.932	0.285	0	6690	143
-EOC319_pOme1_DNA1	EOC319_pOme1	EOC319	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.741	0.135	0	6220	72
-EOC321_pAsc1_DNA1	EOC321_pAsc1	EOC321	NACT	Ascites	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	FALSE	1.784	0.7	0	7633	304
-EOC321_pPer1_DNA1	EOC321_pPer1	EOC321	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	TRUE	FALSE	1.783	0.84	0	7718	309
-EOC323_pOth_DNA1	EOC323_pOth	EOC323	NACT	Other	>= 365 days	FALSE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	2.777	0.49	0.710838470862541	31845	254
-EOC323_pOva_DNA1	EOC323_pOva	EOC323	NACT	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.861	0.525	0.709187918893275	31924	252
-EOC351_pPer_DNA2	EOC351_pPer	EOC351	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	FALSE	1.89	0.59	0	8861	353
-EOC351_pTubR_DNA2	EOC351_pTubR	EOC351	NACT	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	FALSE	2.022	0.3	0	7945	278
-EOC357_pOme_DNA1	EOC357_pOme	EOC357	PDS	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Validation	evolving	TRUE	TRUE	2.909	0.235	0	4115	145
-EOC357_pTubR_DNA1	EOC357_pTubR	EOC357	PDS	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Validation	evolving	FALSE	TRUE	3.298	0.4	0	4353	212
-EOC359_pAsc1_DNA2	EOC359_pAsc1	EOC359	NACT	Ascites	< 180 days	TRUE	progressive disease	Diagnostic	Validation	maintaining	FALSE	TRUE	3.099	0.12	0	3986	66
-EOC359_pOme1_DNA1	EOC359_pOme1	EOC359	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Validation	maintaining	FALSE	TRUE	3.358	0.585	0	4421	242
-EOC359_pPer1_DNA1	EOC359_pPer1	EOC359	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Validation	maintaining	TRUE	TRUE	3.245	0.745	0	4475	279
-EOC359_r1Asc1_DNA1	EOC359_r1Asc1	EOC359	NACT	Ascites	< 180 days	TRUE	progressive disease	Relapse	Validation	maintaining	FALSE	TRUE	2.909	0.315	0	4732	217
-EOC363_pOvaR_DNA1	EOC363_pOvaR	EOC363	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	evolving	TRUE	TRUE	2.81	0.85	0	5012	164
-EOC363_rTum1_DNA1	EOC363_rTum1	EOC363	PDS	Other	>= 365 days	TRUE	complete response	Relapse	Discovery	evolving	FALSE	TRUE	2.527	0.65	0	4516	135
-EOC372_iOme_DNA1	EOC372_iOme	EOC372	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Interval	Discovery	evolving	FALSE	TRUE	2.917	0.793	0.348144301775056	10226	284
-EOC372_iPer1_DNA1	EOC372_iPer1	EOC372	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Interval	Discovery	evolving	FALSE	TRUE	2.946	0.28	0.337865912691169	9650	196
-EOC372_pAsc_DNA1	EOC372_pAsc	EOC372	NACT	Ascites	>= 365 days	TRUE	partial response	Diagnostic	Discovery	evolving	TRUE	TRUE	2.963	0.706	0.346808061314775	10854	265
-EOC372_pPer1_DNA1	EOC372_pPer1	EOC372	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Discovery	evolving	FALSE	TRUE	2.874	0.36	0.345006415258326	9468	201
-EOC373_pAdnL1_DNA1	EOC373_pAdnL1	EOC373	NACT	Tubo-ovarian	< 180 days	TRUE	stable disease after nact	Diagnostic	Validation	maintaining	FALSE	TRUE	3.441	0.74	0	13421	379
-EOC373_pPer1_DNA1	EOC373_pPer1	EOC373	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Diagnostic	Validation	maintaining	TRUE	TRUE	3.286	0.15	0	11096	141
-EOC378_pOva_DNA1	EOC378_pOva	EOC378	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	evolving	TRUE	FALSE	2.003	0.561	0.304348157467239	9056	133
-EOC378_rAsc_DNA1	EOC378_rAsc	EOC378	PDS	Ascites	>= 365 days	TRUE	complete response	Relapse	Discovery	evolving	FALSE	FALSE	1.978	0.2	0.34233125975069	9618	117
-EOC378_rPer_DNA1	EOC378_rPer	EOC378	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Relapse	Discovery	evolving	FALSE	FALSE	1.977	0.29	0.343470352263614	9876	122
-EOC379_pMes1_DNA1	EOC379_pMes1	EOC379	PDS	Intra-abdominal	180 - 364 days	FALSE	partial response	Diagnostic	Validation	adaptive	TRUE	FALSE	1.998	0.67	0.40411100566499	9317	281
-EOC379_pOvaL1_DNA1	EOC379_pOvaL1	EOC379	PDS	Tubo-ovarian	180 - 364 days	FALSE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	2.001	0.255	0.394602991976161	8703	124
-EOC379_pPer1_DNA1	EOC379_pPer1	EOC379	PDS	Intra-abdominal	180 - 364 days	FALSE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.994	0.65	0.412267512976768	9676	322
-EOC382_p2Ome1_DNA1	EOC382_p2Ome1	EOC382	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.651	0.35	0	11472	286
-EOC382_p2OvaL1_DNA2	EOC382_p2OvaL1	EOC382	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	4.1	0.525	0	10170	262
-EOC386_pAsc1_DNA1	EOC386_pAsc1	EOC386	NACT	Ascites	< 180 days	TRUE	progressive disease	Diagnostic	Validation	maintaining	FALSE	TRUE	3.136	0.905	0	8148	342
-EOC386_pOme1_DNA2	EOC386_pOme1	EOC386	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Validation	maintaining	TRUE	TRUE	3.077	0.1	0	6773	80
-EOC388_p2Ome1_DNA2	EOC388_p2Ome1	EOC388	PDS	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.15	0.27	0	6591	95
-EOC388_p2OvaR1_DNA1	EOC388_p2OvaR1	EOC388	PDS	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.181	0.61	0	6460	153
-EOC388_pAsc1_DNA1	EOC388_pAsc1	EOC388	PDS	Ascites	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.149	0.86	0	6896	165
-EOC390_pOvaR1_DNA1	EOC390_pOvaR1	EOC390	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.644	0.425	0.463493365967962	7529	141
-EOC390_pPer1_DNA1	EOC390_pPer1	EOC390	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.955	0.87	0.388035707854281	6336	158
-EOC390_pVag1_DNA2	EOC390_pVag1	EOC390	PDS	Other	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	FALSE	1.954	0.9	0.36651418499441	6051	113
-EOC415_pOvaL1_DNA1	EOC415_pOvaL1	EOC415	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.364	0.555	0.527802445046934	13334	276
-EOC415_pOvaR1_DNA1	EOC415_pOvaR1	EOC415	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.003	0.85	0.530926833133391	11647	343
-EOC415_pPer1_DNA1	EOC415_pPer1	EOC415	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.133	0.465	0.443239477962864	10441	162
-EOC415_r1Asc1_DNA1	EOC415_r1Asc1	EOC415	PDS	Ascites	>= 365 days	TRUE	complete response	Relapse	Validation	adaptive	FALSE	TRUE	2.946	0.85	0.607404255565807	13309	389
-EOC423_iOme2_DNA1	EOC423_iOme2	EOC423	NACT	Intra-abdominal		FALSE	complete response	Interval	Discovery	adaptive	FALSE	TRUE	3.505	0.31	0	15095	618
-EOC423_iOvaR1_DNA1	EOC423_iOvaR1	EOC423	NACT	Tubo-ovarian		FALSE	complete response	Interval	Discovery	adaptive	TRUE	TRUE	2.988	1	0	8003	553
-EOC423_pOme2_DNA1	EOC423_pOme2	EOC423	NACT	Intra-abdominal		FALSE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.507	0.713	0	15170	895
-EOC434_pOme1_TR	EOC434_pOme1_TR	EOC434	PDS	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	evolving	TRUE	TRUE	2.987	0.854	0	8515	183
-EOC434_pOvaR1_DNA1	EOC434_pOvaR1	EOC434	PDS	Tubo-ovarian	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	evolving	FALSE	TRUE	2.866	0.27	0	8210	150
-EOC443_iOvaR1_DNA1	EOC443_iOvaR1	EOC443	NACT	Tubo-ovarian	< 180 days	TRUE	partial response	Interval	Discovery	evolving	FALSE	TRUE	2.858	0.14	0.496703513353462	11290	67
-EOC443_pOme1_DNA1	EOC443_pOme1	EOC443	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	evolving	TRUE	TRUE	2.847	0.659	0.463910241341809	17348	275
-EOC443_pPer2_DNA1	EOC443_pPer2	EOC443	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	evolving	FALSE	TRUE	3.101	0.562	0.488910894049683	16042	208
-EOC448_pOme1_DNA2	EOC448_pOme1	EOC448	NACT	Intra-abdominal		FALSE	partial response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.055	0.86	0.274222298352544	13656	514
-EOC448_pPer1_DNA1	EOC448_pPer1	EOC448	NACT	Intra-abdominal		FALSE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.051	0.85	0.273728071912052	13590	489
-EOC449_iOme1_DNA1	EOC449_iOme1	EOC449	NACT	Intra-abdominal	>= 365 days	FALSE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.01	0.075	0	6408	53
-EOC449_pAsc1_DNA1	EOC449_pAsc1	EOC449	NACT	Ascites	>= 365 days	FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.173	0.95	0	9724	480
-EOC449_pOme1_DNA1	EOC449_pOme1	EOC449	NACT	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.159	0.185	0	8541	189
-EOC449_pPer1_DNA1	EOC449_pPer1	EOC449	NACT	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.264	0.92	0	9409	388
-EOC465_iAsc1_DNA1	EOC465_iAsc1	EOC465	NACT	Ascites	< 180 days	TRUE	stopped due to side effects	Interval	Validation	maintaining	FALSE	TRUE	3.016	0.955	0	10370	337
-EOC465_iOme1_DNA1	EOC465_iOme1	EOC465	NACT	Intra-abdominal	< 180 days	TRUE	stopped due to side effects	Interval	Validation	maintaining	FALSE	TRUE	3.362	0.79	0	8810	199
-EOC465_pAsc1_DNA1	EOC465_pAsc1	EOC465	NACT	Ascites	< 180 days	TRUE	stopped due to side effects	Diagnostic	Validation	maintaining	FALSE	TRUE	2.945	0.91	0	11569	284
-EOC465_pOme1_DNA1	EOC465_pOme1	EOC465	NACT	Intra-abdominal	< 180 days	TRUE	stopped due to side effects	Diagnostic	Validation	maintaining	TRUE	TRUE	3.153	0.535	0	11358	207
-EOC465_pOvaR1_DNA1	EOC465_pOvaR1	EOC465	NACT	Tubo-ovarian	< 180 days	TRUE	stopped due to side effects	Diagnostic	Validation	maintaining	FALSE	TRUE	3.38	0.825	0	10553	197
-EOC465_pPer1_DNA1	EOC465_pPer1	EOC465	NACT	Intra-abdominal	< 180 days	TRUE	stopped due to side effects	Diagnostic	Validation	maintaining	FALSE	TRUE	3.333	0.37	0	10545	174
-EOC471_pOth_DNA4	EOC471_pOth	EOC471	PDS	Other	180 - 364 days	TRUE	partial response	Diagnostic	Validation	evolving	TRUE	TRUE	3.359	0.49	0.356556782699845	10260	244
-EOC471_pOva_DNA2	EOC471_pOva	EOC471	PDS	Tubo-ovarian	180 - 364 days	TRUE	partial response	Diagnostic	Validation	evolving	FALSE	TRUE	3.165	0.54	0.366799476732143	10414	280
-EOC473_pAdnR1_DNA1	EOC473_pAdnR1	EOC473	NACT	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.973	0.72	0.429191480518745	5492	205
-EOC473_pOme1_DNA1	EOC473_pOme1	EOC473	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	FALSE	2.019	0.585	0.440644676064249	5979	181
-EOC473_pOvaL1_DNA1	EOC473_pOvaL1	EOC473	NACT	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.861	0.56	0.500617964668027	6314	196
-EOC473_pPer1_DNA1	EOC473_pPer1	EOC473	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.956	0.57	0.497911105922686	7094	194
-EOC482_iOme1_DNA1	EOC482_iOme1	EOC482	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Interval	Discovery	maintaining	FALSE	TRUE	4.74	0.22	0.399885304960824	14122	133
-EOC482_iOvaL1_DNA2	EOC482_iOvaL1	EOC482	NACT	Tubo-ovarian	< 180 days	TRUE	complete response	Interval	Discovery	maintaining	FALSE	TRUE	2.795	0.2	0.40970192614420903	14679	154
-EOC482_pAsc1_DNA1	EOC482_pAsc1	EOC482	NACT	Ascites	< 180 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.837	0.51	0.400591475088829	15367	260
-EOC482_pOme1_DNA1	EOC482_pOme1	EOC482	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.831	0.51	0.40411867186792	15519	271
-EOC482_pPer1_DNA3	EOC482_pPer1	EOC482	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.826	0.42	0.404603072046758	15394	241
-EOC495_pLNL1_DNA1	EOC495_pLNL1	EOC495	PDS	Other	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.572	0.322	0.503833235452305	9386	178
-EOC495_pLNL2_DNA1	EOC495_pLNL2	EOC495	PDS	Other	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.583	0.3	0.511948135724992	9389	172
-EOC495_pLNR_DNA1	EOC495_pLNR	EOC495	PDS	Other	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.617	0.387	0.51248446077767	9586	139
-EOC495_pOvaL6_DNA1	EOC495_pOvaL6	EOC495	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.025	0.88	0.468555751896226	6211	127
-EOC495_pOvaL7_DNA1	EOC495_pOvaL7	EOC495	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	TRUE	FALSE	2.009	0.9	0.435485274388206	5647	106
-EOC495_pPerL_DNA1	EOC495_pPerL	EOC495	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.981	0.22	0.437614797395014	4765	79
-EOC498_pAdnL1_DNA2	EOC498_pAdnL1	EOC498	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3	0.64	0.38249617537417	13832	322
-EOC498_pAdnR1_DNA2	EOC498_pAdnR1	EOC498	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.011	0.095	0.406878601453611	9174	73
-EOC498_pOme1_DNA2	EOC498_pOme1	EOC498	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	2.913	0.39	0.409387045096546	12345	250
-EOC498_pPer1_DNA2	EOC498_pPer1	EOC498	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.145	0.225	0.389792430210025	12215	188
-EOC523_pOme1_DNA2	EOC523_pOme1	EOC523	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Diagnostic	Validation	evolving	TRUE	TRUE	4.094	0.57	0	5879	151
-EOC523_pOvaR1_DNA2	EOC523_pOvaR1	EOC523	NACT	Tubo-ovarian	< 180 days	TRUE	stable disease after nact	Diagnostic	Validation	evolving	FALSE	TRUE	4.33	0.595	0	5631	122
-EOC556_iBow1_DNA1	EOC556_iBow1	EOC556	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Interval	Discovery	maintaining	FALSE	TRUE	4.38	0.09	0	5691	103
-EOC556_iOme1_DNA1	EOC556_iOme1	EOC556	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Interval	Discovery	maintaining	FALSE	TRUE	4.374	0.09	0	5574	145
-EOC556_iOvaL1_DNA1	EOC556_iOvaL1	EOC556	NACT	Tubo-ovarian	< 180 days	TRUE	partial response	Interval	Discovery	maintaining	FALSE	TRUE	2.481	0.23	0	5649	109
-EOC556_pAsc1_DNA1	EOC556_pAsc1	EOC556	NACT	Ascites	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.379	0.3	0	5770	140
-EOC556_pOme1_DNA1	EOC556_pOme1	EOC556	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.208	0.092	0	5502	102
-EOC556_pPer1_DNA1	EOC556_pPer1	EOC556	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.675	0.27	0	6007	181
-EOC558_pAsc1_DNA2	EOC558_pAsc1	EOC558	NACT	Ascites	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.077	0.37	0	7420	171
-EOC558_pOme1_DNA1	EOC558_pOme1	EOC558	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.028	0.21	0	6617	87
-EOC558_pOvaL1_DNA3	EOC558_pOvaL1	EOC558	NACT	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.669	0.475	0	8530	231
-EOC558_pPer1_DNA1	EOC558_pPer1	EOC558	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.498	0.415	0	8231	167
-EOC558_r1Asc1_DNA1	EOC558_r1Asc1	EOC558	NACT	Ascites	< 180 days	TRUE	partial response	Relapse	Validation	maintaining	FALSE	TRUE	3.082	0.925	0	9686	373
-EOC558_r2Asc1_DNA1	EOC558_r2Asc1	EOC558	NACT	Ascites	< 180 days	TRUE	partial response	Relapse	Validation	maintaining	FALSE	TRUE	3.062	0.91	0	11090	433
-EOC558_r3Asc1_DNA1	EOC558_r3Asc1	EOC558	NACT	Ascites	< 180 days	TRUE	partial response	Relapse	Validation	maintaining	FALSE	TRUE	3.045	0.94	0	12147	426
-EOC559_pMes1_DNA1	EOC559_pMes1	EOC559	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.086	0.77	0	6487	453
-EOC559_pOvaR1_DNA2	EOC559_pOvaR1	EOC559	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	4.305	0.665	0	6290	445
-EOC559_pPer1_DNA1	EOC559_pPer1	EOC559	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	4.631	0.26	0	6279	354
-EOC561_pOme2_DNA1	EOC561_pOme2	EOC561	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	FALSE	2.244	0.18	0.270310123984104	5631	188
-EOC561_pPer1_DNA1	EOC561_pPer1	EOC561	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	maintaining	TRUE	FALSE	2.317	0.61	0.272901798883091	6379	806
-EOC568_pMes1_DNA1	EOC568_pMes1	EOC568	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	evolving	TRUE	TRUE	3.263	0.621	0	4949	388
-EOC568_pTubL1_DNA1	EOC568_pTubL1	EOC568	NACT	Tubo-ovarian	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	evolving	FALSE	TRUE	3.105	0.207	0	3562	70
-EOC580_pOvaL1_DNA1	EOC580_pOvaL1	EOC580	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.348	0.755	0.517015035931923	16299	286
-EOC580_pOvaR1_DNA1	EOC580_pOvaR1	EOC580	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	3.352	0.555	0.531455880169038	16169	245
-EOC587_iTum1_DNA1	EOC587_iTum1	EOC587	NACT	Other	< 180 days	TRUE	progressive disease	Interval	Discovery	evolving	FALSE	TRUE	4.454	0.2	0	7557	257
-EOC587_pAdnL_DNA	EOC587_pAdnL	EOC587	NACT	Tubo-ovarian	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	evolving	TRUE	TRUE	4.369	0.36	0	9222	333
-EOC587_pPer_DNA	EOC587_pPer	EOC587	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Discovery	evolving	FALSE	TRUE	4.136	0.333	0	6954	251
-EOC598_pAdnL1_DNA1	EOC598_pAdnL1	EOC598	PDS	Tubo-ovarian	< 180 days	TRUE	progressive disease	Diagnostic	Validation	adaptive	FALSE	TRUE	3.267	0.6	0	4865	207
-EOC598_pOme1_DNA1	EOC598_pOme1	EOC598	PDS	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Validation	adaptive	TRUE	TRUE	3.047	0.48	0	4743	82
-EOC598_pOvaR1_DNA2	EOC598_pOvaR1	EOC598	PDS	Tubo-ovarian	< 180 days	TRUE	progressive disease	Diagnostic	Validation	adaptive	FALSE	TRUE	3.203	0.755	0	5624	225
-EOC620_pOme2_TR_DNA	EOC620_pOme2_TR	EOC620	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	2.822	0.76	0.360520973169272	6462	299
-EOC620_pOvaL1_TR_DNA	EOC620_pOvaL1_TR	EOC620	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.969	0.98	0.352877494289321	6036	330
-EOC634_pOme1_DNA1	EOC634_pOme1	EOC634	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.164	0.43	0	7779	246
-EOC634_pOvaL1_DNA1	EOC634_pOvaL1	EOC634	PDS	Tubo-ovarian	< 180 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.319	0.755	0	7285	258
-EOC634_pPer1_DNA1	EOC634_pPer1	EOC634	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.3	0.435	0	7786	234
-EOC649_pOme1_DNA1	EOC649_pOme1	EOC649	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Discovery		FALSE	TRUE	3.003	0.274	0	7044	149
-EOC649_pPer1_DNA	EOC649_pPer1	EOC649	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Discovery		TRUE	TRUE	3.838	0.48	0	7944	231
-EOC652_p2Ome1_DNA1	EOC652_p2Ome1	EOC652	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	2.685	0.14	0	10220	76
-EOC652_p2OvaL1_DNA1	EOC652_p2OvaL1	EOC652	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	2.48	0.75	0	10327	100
-EOC652_p2OvaR1_DNA1	EOC652_p2OvaR1	EOC652	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	3.094	0.92	0	11436	215
-EOC658_iOme1_c_DNA1	EOC658_iOme1_c	EOC658	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.437	0.185	0	6677	68
-EOC658_pOme2_c_DNA2	EOC658_pOme2_c	EOC658	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.428	0.34	0	7921	99
-EOC658_pPer1_cO_DNA3	EOC658_pPer1_cO	EOC658	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.25	0.215	0	7357	83
-EOC659_p2Ome1_DNA1	EOC659_p2Ome1	EOC659	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	5.546	0.225	0.482487288478903	24634	314
-EOC659_p2OvaR1_DNA1	EOC659_p2OvaR1	EOC659	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	5.925	0.66	0.494521795368818	26302	369
-EOC668_pAdnL1_TR_DNA	EOC668_pAdnL1_TR	EOC668	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.811	0.895	0	7060	165
-EOC668_pAsc1_DNA1	EOC668_pAsc1	EOC668	PDS	Ascites	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.897	0.075	0	5569	46
-EOC668_pBow1_DNA1	EOC668_pBow1	EOC668	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.853	0.815	0	7118	100
-EOC668_pMes1_DNA1	EOC668_pMes1	EOC668	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.898	0.27	0	6725	81
-EOC668_pOme1_TR_DNA	EOC668_pOme1_TR	EOC668	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.886	0.555	0	6928	146
-EOC677_pAsc_DNA1	EOC677_pAsc	EOC677	NACT	Ascites	< 180 days	TRUE	complete response	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.663	0.473	0	13845	632
-EOC677_pPer1_DNA	EOC677_pPer1	EOC677	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.663	0.33	0	12877	166
-EOC677_r2Asc_DNA	EOC677_r2Asc	EOC677	NACT	Ascites	< 180 days	TRUE	complete response	Relapse	Discovery	maintaining	FALSE	TRUE	2.515	0.683	0	15938	315
-EOC677_rAsc_DNA4	EOC677_rAsc	EOC677	NACT	Ascites	< 180 days	TRUE	complete response	Relapse	Discovery	maintaining	FALSE	TRUE	2.622	0.921	0	16976	535
-EOC691_iOme_DNA2	EOC691_iOme	EOC691	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Interval	Discovery	adaptive	FALSE	TRUE	3.158	0.12	0.674287217939204	19471	124
-EOC691_pPer1_DNA3	EOC691_pPer1	EOC691	NACT	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.209	0.62	0.672694133274779	21397	294
-EOC702_p2OvaL1_DNA1	EOC702_p2OvaL1	EOC702	PDS	Tubo-ovarian	< 180 days	FALSE	complete response	Diagnostic	Validation	evolving	FALSE	FALSE	1.925	0.92	0	7195	728
-EOC702_pOme1_DNA1	EOC702_pOme1	EOC702	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.744	0.155	0	6264	337
-EOC731_pAdnR1_DNA1	EOC731_pAdnR1	EOC731	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	2.637	0.87	0	7685	198
-EOC731_pTubL1_DNA1	EOC731_pTubL1	EOC731	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.558	0.865	0	8461	217
-EOC733_iOme1_DNA4	EOC733_iOme1	EOC733	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Interval	Discovery	maintaining	FALSE	TRUE	3.275	0.534	0.38038567510758	14412	290
-EOC733_pAsc1_DNA2	EOC733_pAsc1	EOC733	NACT	Ascites	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.376	0.915	0.383465194958468	14980	358
-EOC733_pPer_DNA1	EOC733_pPer	EOC733	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	maintaining	TRUE	TRUE	3.194	0.972	0.381394757981569	14637	401
-EOC736_pAdnL1_DNA1	EOC736_pAdnL1	EOC736	NACT	Tubo-ovarian	< 180 days	TRUE	complete response	Diagnostic	Discovery	evolving	TRUE	TRUE	4.041	0.856	0	11694	392
-EOC736_pOme1_DNA2	EOC736_pOme1	EOC736	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Discovery	evolving	FALSE	TRUE	4.14	0.36	0	11241	336
-EOC737_pOme1_DNA2	EOC737_pOme1	EOC737	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.881	0.461	0.493133078165212	10699	182
-EOC737_pOvaR1_DNA1	EOC737_pOvaR1	EOC737	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.866	0.51	0.500145312394862	10446	174
-EOC737_pPerR1_DNA2	EOC737_pPerR1	EOC737	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.886	0.458	0.493889226909525	10744	189
-EOC740_iOvaR1_DNA1	EOC740_iOvaR1	EOC740	NACT	Tubo-ovarian	< 180 days	TRUE	partial response	Interval	Discovery	evolving	FALSE	TRUE	2.932	0.69	0	6905	136
-EOC740_pPer1_DNA1	EOC740_pPer1	EOC740	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	evolving	TRUE	TRUE	2.658	0.68	0	6944	180
-EOC742_pAsc_DNA	EOC742_pAsc	EOC742	PDS	Ascites	>= 365 days	TRUE	partial response	Diagnostic	Discovery	maintaining	TRUE	FALSE	2.012	0.979	0.473285286975153	14894	308
-EOC742_pOme_DNA	EOC742_pOme	EOC742	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Discovery	maintaining	FALSE	FALSE	2.011	0.603	0.487662290680137	13894	213
-EOC742_r3Asc_DNA	EOC742_r3Asc	EOC742	PDS	Ascites	>= 365 days	TRUE	partial response	Relapse	Discovery	maintaining	FALSE	TRUE	4.098	1	0.505444405865411	18479	386
-EOC742_r4Asc_DNA1	EOC742_r4Asc	EOC742	PDS	Ascites	>= 365 days	TRUE	partial response	Relapse	Discovery	maintaining	FALSE	TRUE	4.014	1	0.507216081037062	18565	408
-EOC752_pPer_DNA1	EOC752_pPer	EOC752	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Discovery	evolving	TRUE	FALSE	1.866	0.85	0.389334790659514	11899	256
-EOC752_r2Asc_DNA1	EOC752_r2Asc	EOC752	NACT	Ascites	< 180 days	TRUE	complete response	Relapse	Discovery	evolving	FALSE	FALSE	1.819	0.168	0.385061720674827	12499	142
-EOC754_pOme1_DNA1	EOC754_pOme1	EOC754	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	FALSE	2.042	0.87	0	3236	39
-EOC754_pOvaL1_DNA1	EOC754_pOvaL1	EOC754	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.968	0.92	0	3452	44
-EOC754_pOvaR1_DNA1	EOC754_pOvaR1	EOC754	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	FALSE	2.019	0.93	0	3618	37
-EOC754_pPer1_DNA1	EOC754_pPer1	EOC754	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	FALSE	2.049	0.89	0	3671	47
-EOC762_pOva_DNA1	EOC762_pOva	EOC762	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.896	0.882	0.455482122332375	9892	352
-EOC762_r1Per1_DNA1	EOC762_r1Per1	EOC762	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Relapse	Discovery	adaptive	FALSE	FALSE	1.927	0.64	0.458225473752062	11066	226
-EOC763_p2Ome1_DNA1	EOC763_p2Ome1	EOC763	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.037	0.62	0.449798487223774	22553	387
-EOC763_p2OvaR1_DNA1	EOC763_p2OvaR1	EOC763	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.97	0.31	0.451230579993559	22447	274
-EOC763_p2Per1_DNA1	EOC763_p2Per1	EOC763	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.037	0.62	0.447538122092377	22873	373
-EOC763_pAsc1_DNA1	EOC763_pAsc1	EOC763	PDS	Ascites	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.965	0.23	0.450554371517975	22196	250
-EOC779_pOme1_DNA1	EOC779_pOme1	EOC779	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	evolving	FALSE	FALSE	1.908	0.195	0	28003	68
-EOC779_pOvaL1_DNA1	EOC779_pOvaL1	EOC779	PDS	Tubo-ovarian	< 180 days	FALSE	complete response	Diagnostic	Validation	evolving	FALSE	FALSE	1.934	0.855	0	26333	155
-EOC779_pPer1_DNA1	EOC779_pPer1	EOC779	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	evolving	TRUE	FALSE	1.867	0.325	0	28909	88
-EOC781_pOme1_DNA1	EOC781_pOme1	EOC781	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.976	0.61	0.479943180219183	38774	416
-EOC781_pOme2_DNA1	EOC781_pOme2	EOC781	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	2.971	0.855	0.50917144942285	40396	679
-EOC781_pOvaL1_DNA1	EOC781_pOvaL1	EOC781	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.021	0.67	0.477150642281958	49013	547
-EOC783_pOme1_xO_DNA1	EOC783_pOme1_xO	EOC783	PDS	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.678	0.835	0	7440	113
-EOC783_pOvaL1_xO_DNA1	EOC783_pOvaL1_xO	EOC783	PDS	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.723	0.893	0	7862	196
-EOC783_pOvaR1_xO_DNA1	EOC783_pOvaR1_xO	EOC783	PDS	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.688	1	0	7236	128
-EOC783_pPer1_cO_DNA1	EOC783_pPer1_cO	EOC783	PDS	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.699	0.87	0	8003	125
-EOC809_p2Bow1_c_DNA2	EOC809_p2Bow1_c	EOC809	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.107	0.49	0.392275083403104	18559	308
-EOC809_p2Ome1_c_DNA1	EOC809_p2Ome1_c	EOC809	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.156	0.34	0.409588674682323	18677	166
-EOC809_p2OvaL1_c_DNA6	EOC809_p2OvaL1_c	EOC809	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.114	0.615	0.386535340573238	16639	296
-EOC809_p2Per1_cO_DNA2	EOC809_p2Per1_cO	EOC809	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.479	0.5	0.466877262490948	15781	154
-EOC809_r1Bow1_DNA1	EOC809_r1Bow1	EOC809	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Relapse	Validation	adaptive	FALSE	TRUE	3.322	0.34	0.475402961004497	15539	184
-EOC815_pOme1_DNA1	EOC815_pOme1	EOC815	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.997	0.435	0.531752620472409	14275	246
-EOC815_pOvaR1_DNA2	EOC815_pOvaR1	EOC815	PDS	Tubo-ovarian	< 180 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	FALSE	2.021	0.605	0.564802051109283	15446	256
-EOC815_pPer1_DNA1	EOC815_pPer1	EOC815	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	FALSE	2.019	0.755	0.539089551092916	14440	342
-EOC817_pOme1_DNA1	EOC817_pOme1	EOC817	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.699	0.765	0.401913415469036	20609	380
-EOC817_pOvaL1_DNA1	EOC817_pOvaL1	EOC817	PDS	Tubo-ovarian	< 180 days	FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.77	0.34	0.396735659787904	20484	254
-EOC817_pPer1_DNA1	EOC817_pPer1	EOC817	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.777	0.385	0.393035820491128	21134	307
-EOC820_pBow1_DNA1	EOC820_pBow1	EOC820	NACT	Intra-abdominal	< 180 days	TRUE	stopped due to side effects	Diagnostic	Validation	evolving	TRUE	FALSE	2.104	0.505	0	10788	1004
-EOC820_pOme1_DNA1	EOC820_pOme1	EOC820	NACT	Intra-abdominal	< 180 days	TRUE	stopped due to side effects	Diagnostic	Validation	evolving	FALSE	FALSE	2.163	0.415	0	10407	882
-EOC823_p2AdnR1_TR_DNA	EOC823_p2AdnR1_TR	EOC823	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.884	0.92	0	9268	213
-EOC823_p2Asc1_TR_DNA	EOC823_p2Asc1_TR	EOC823	PDS	Ascites	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.724	0.095	0	7526	142
-EOC823_p2Ome1_TR_DNA	EOC823_p2Ome1_TR	EOC823	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	2.911	0.49	0	9705	160
-EOC824_pOme1_DNA2	EOC824_pOme1	EOC824	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease after nact	Diagnostic	Validation	evolving	FALSE	TRUE	2.572	0.19	0	5484	54
-EOC824_pPer1_DNA2	EOC824_pPer1	EOC824	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease after nact	Diagnostic	Validation	evolving	TRUE	TRUE	2.999	0.625	0	6150	242
-EOC825_pOme1_DNA1	EOC825_pOme1	EOC825	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	2.579	0.745	0	8635	173
-EOC825_pOvaR1_DNA1	EOC825_pOvaR1	EOC825	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.716	0.915	0	6942	139
-EOC825_pPer1_DNA1	EOC825_pPer1	EOC825	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.63	0.705	0	8845	160
-EOC839_pMes1_DNA1	EOC839_pMes1	EOC839	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	2.326	0.94	0.404413428868008	20443	372
-EOC839_pOme1_DNA1	EOC839_pOme1	EOC839	PDS	Intra-abdominal	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.389	0.695	0.484920347914661	22024	447
-EOC839_pOvaL1_DNA1	EOC839_pOvaL1	EOC839	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.424	0.995	0.425145510192553	18615	396
-EOC855_p2Ome1_TR_DNA	EOC855_p2Ome1_TR	EOC855	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	2.811	0.05	0	4285	29
-EOC855_pAsc1_DNA2	EOC855_pAsc1	EOC855	PDS	Ascites	180 - 364 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	3.534	0.275	0	5874	136
-EOC863_pMes1_DNA1	EOC863_pMes1	EOC863	PDS	Intra-abdominal	>= 365 days	FALSE	partial response	Diagnostic	Validation	evolving	TRUE	TRUE	3.42	0.2	0	10858	180
-EOC863_pOva1_DNA1	EOC863_pOva1	EOC863	PDS	Tubo-ovarian	>= 365 days	FALSE	partial response	Diagnostic	Validation	evolving	FALSE	TRUE	3.322	0.77	0	12881	324
-EOC866_p2AdnL1_DNA1	EOC866_p2AdnL1	EOC866	PDS	Tubo-ovarian	< 180 days	FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.971	0.94	0.473861262784287	24924	230
-EOC866_p2Bow1_DNA1	EOC866_p2Bow1	EOC866	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.89	0.595	0.470571274092527	19143	223
-EOC866_p2Ome1_DNA1	EOC866_p2Ome1	EOC866	PDS	Intra-abdominal	< 180 days	FALSE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	2.96	0.91	0.462294435742948	25293	198
-EOC868_pPer	EOC868_pPer	EOC868	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	evolving	TRUE	TRUE	3.876	0.62	0.357866936186615	15352	153
-EOC868_rAsc_CL118_DNA1	EOC868_rAsc_CL118	EOC868	NACT	Ascites	180 - 364 days	TRUE	complete response	Relapse	Discovery	evolving	FALSE	FALSE	1.904	0.77	0.41605630851791	17072	243
-EOC868_rMes1_DNA1	EOC868_rMes1	EOC868	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Relapse	Discovery	evolving	FALSE	FALSE	1.903	0.502	0.420516787673388	16991	132
-EOC868_rMes1_DNA1_bgiseq	EOC868_rMes1_bgiseq	EOC868	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Relapse	Discovery	evolving	FALSE	FALSE	1.978	0.397	0.418227183967229	15023	143
-EOC868_rPer1_DNA1	EOC868_rPer1	EOC868	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Relapse	Discovery	evolving	FALSE	TRUE	3.83	0.644	0.412784540142397	16955	166
-EOC871_pAdnL1_DNA1	EOC871_pAdnL1	EOC871	PDS	Tubo-ovarian	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.961	0.745	0.385242555121466	15784	338
-EOC871_pOme1_DNA1	EOC871_pOme1	EOC871	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	4.404	0.625	0.368527327076493	15432	330
-EOC871_pOth1_DNA1	EOC871_pOth1	EOC871	PDS	Other	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	4.298	0.595	0.375680820493476	14846	318
-EOC871_pPer1_DNA1	EOC871_pPer1	EOC871	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	4.253	0.45	0.365919967190778	15226	261
-EOC883_iAsc_DNA	EOC883_iAsc	EOC883	NACT	Ascites	< 180 days	TRUE	stable disease	Interval	Discovery	evolving	FALSE	TRUE	2.901	0.291	0	8673	161
-EOC883_pAdnR1_DNA1	EOC883_pAdnR1	EOC883	NACT	Tubo-ovarian	< 180 days	TRUE	stable disease	Diagnostic	Discovery	evolving	TRUE	TRUE	2.863	0.289	0	6881	103
-EOC883_pAsc_DNA1	EOC883_pAsc	EOC883	NACT	Ascites	< 180 days	TRUE	stable disease	Diagnostic	Discovery	evolving	FALSE	TRUE	2.929	0.19	0	8829	153
-EOC888_iAdnR1_DNA1	EOC888_iAdnR1	EOC888	NACT	Tubo-ovarian	180 - 364 days	TRUE	partial response	Interval	Validation	adaptive	FALSE	TRUE	3.234	0.33	0	6183	116
-EOC888_iOme1_DNA1	EOC888_iOme1	EOC888	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Interval	Validation	adaptive	FALSE	TRUE	2.639	0.175	0	7559	110
-EOC888_pAdnR1_DNA1	EOC888_pAdnR1	EOC888	NACT	Tubo-ovarian	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.816	0.47	0	7394	295
-EOC888_pAsc1_DNA1	EOC888_pAsc1	EOC888	NACT	Ascites	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.79	0.335	0	6755	182
-EOC888_pOme1_DNA1	EOC888_pOme1	EOC888	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	TRUE	2.889	0.855	0	6863	249
-EOC888_pPer1_DNA1	EOC888_pPer1	EOC888	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.78	0.78	0	7292	193
-EOC890_p2Ome1_DNA2	EOC890_p2Ome1	EOC890	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.518	0.73	0	5467	103
-EOC890_p2Per2_DNA1	EOC890_p2Per2	EOC890	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.556	0.425	0	5393	97
-EOC890_r1LNR1_DNA2	EOC890_r1LNR1	EOC890	PDS	Other	180 - 364 days	TRUE	complete response	Relapse	Validation	maintaining	FALSE	TRUE	3.446	0.715	0	5716	121
-EOC891_pOme1_DNA	EOC891_pOme1	EOC891	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	adaptive	TRUE	TRUE	2.891	0.94	0	7065	205
-EOC891_pOvaR1_DNA	EOC891_pOvaR1	EOC891	NACT	Tubo-ovarian	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.926	0.905	0	7444	200
-EOC891_pPer1_DNA	EOC891_pPer1	EOC891	NACT	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.948	0.85	0	6988	184
-EOC891_r1Asc_DNA2	EOC891_r1Asc	EOC891	NACT	Ascites	180 - 364 days	TRUE	partial response	Relapse	Discovery	adaptive	FALSE	TRUE	2.82	0.324	0.355646309869034	9286	198
-EOC891_r2Asc_DNA2	EOC891_r2Asc	EOC891	NACT	Ascites	180 - 364 days	TRUE	partial response	Relapse	Discovery	adaptive	FALSE	TRUE	2.82	0.24	0.364967861868882	9324	228
-EOC912_p2Bow2_DNA1	EOC912_p2Bow2	EOC912	PDS	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	evolving	TRUE	TRUE	3.288	0.53	0	8308	302
-EOC912_pAsc1_DNA1	EOC912_pAsc1	EOC912	PDS	Ascites	< 180 days	TRUE	complete response	Diagnostic	Validation	evolving	FALSE	TRUE	3.273	0.91	0	8777	330
-EOC915_pLNL1_DNA1	EOC915_pLNL1	EOC915	PDS	Other	180 - 364 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.528	0.385	0	8616	114
-EOC915_pMes1_DNA1	EOC915_pMes1	EOC915	PDS	Intra-abdominal	180 - 364 days	FALSE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	2.341	0.755	0	9004	171
-EOC915_pOvaL1_DNA1	EOC915_pOvaL1	EOC915	PDS	Tubo-ovarian	180 - 364 days	FALSE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	2.39	0.835	0	10412	182
-EOC927_p2Ome1_DNA1	EOC927_p2Ome1	EOC927	PDS	Intra-abdominal	>= 365 days	FALSE	partial response	Diagnostic	Validation	adaptive	TRUE	FALSE	1.909	0.82	0.538382717420294	13742	276
-EOC927_p2OvaL1_DNA1	EOC927_p2OvaL1	EOC927	PDS	Tubo-ovarian	>= 365 days	FALSE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.917	0.8	0.492604517766194	11731	269
-EOC927_p2Per1_DNA1	EOC927_p2Per1	EOC927	PDS	Intra-abdominal	>= 365 days	FALSE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.833	0.44	0.540404406855239	13979	272
-EOC933_pOme1_DNA1	EOC933_pOme1	EOC933	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.668	1	0.548304148428578	21307	220
-EOC933_pOvaL1_DNA1	EOC933_pOvaL1	EOC933	NACT	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.672	0.99	0.499677964421309	22522	203
-EOC933_pPer1_DNA1	EOC933_pPer1	EOC933	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.912	0.891	0.540951058275982	21898	275
-EOC939_p2Ome1_TR	EOC939_p2Ome1_TR	EOC939	PDS	Intra-abdominal	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	FALSE	1.87	0.745	0.424130443098938	7455	197
-EOC939_p2OvaR1_TR_DNA2	EOC939_p2OvaR1_TR	EOC939	PDS	Tubo-ovarian	180 - 364 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.858	0.845	0.415327686655495	7081	158
-EOC948_iAdnL1_DNA1	EOC948_iAdnL1	EOC948	NACT	Tubo-ovarian	< 180 days	TRUE	partial response	Interval	Validation	maintaining	FALSE	TRUE	3.042	0.83	0	8416	333
-EOC948_iOvaR1_DNA1	EOC948_iOvaR1	EOC948	NACT	Tubo-ovarian	< 180 days	TRUE	partial response	Interval	Validation	maintaining	FALSE	TRUE	3	0.84	0	8142	331
-EOC948_pOme1_DNA1	EOC948_pOme1	EOC948	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.991	0.52	0	11304	188
-EOC948_pPer1_DNA1	EOC948_pPer1	EOC948	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	TRUE	TRUE	2.988	0.525	0	10881	204
-EOC948_pPlf1_DNA1	EOC948_pPlf1	EOC948	NACT	Other	< 180 days	TRUE	partial response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.67	0.715	0	9977	274
-EOC984_pOme1_DNA1	EOC984_pOme1	EOC984	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Diagnostic	Validation	maintaining	TRUE	FALSE	1.829	0.715	0	3601	98
-EOC984_pPer1_DNA1	EOC984_pPer1	EOC984	NACT	Intra-abdominal	< 180 days	TRUE	stable disease after nact	Diagnostic	Validation	maintaining	FALSE	FALSE	1.833	0.685	0	3593	107
-EOC989_pOme1_DNA2	EOC989_pOme1	EOC989	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.758	0.273	0	5431	92
-EOC989_r1Asc_DNA1	EOC989_r1Asc	EOC989	NACT	Ascites	< 180 days	TRUE	complete response	Relapse	Discovery	adaptive	FALSE	TRUE	2.976	0.911	0.292380005154003	8471	174
-EOC991_iAdnR1_DNA1	EOC991_iAdnR1	EOC991	NACT	Tubo-ovarian	>= 365 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.507	0.335	0.403111298085733	14333	207
-EOC991_iMes1_DNA1	EOC991_iMes1	EOC991	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.587	0.44	0.405916775681032	14494	226
-EOC991_pOme1_DNA1	EOC991_pOme1	EOC991	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.913	0.53	0.365499697200595	12324	189
-EOC991_pOvaL1_DNA1	EOC991_pOvaL1	EOC991	NACT	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.451	0.085	0.3476594732171	11803	66
-EOC1002_iOme1_DNA1	EOC1002_iOme1	EOC1002	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.55	0.175	0	4102	93
-EOC1002_pAsc1_DNA1	EOC1002_pAsc1	EOC1002	NACT	Ascites	< 180 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.591	0.155	0	3988	66
-EOC1002_pOme1_DNA1	EOC1002_pOme1	EOC1002	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.587	0.25	0	4161	148
-EOC1002_pPer1_DNA1	EOC1002_pPer1	EOC1002	NACT	Intra-abdominal	< 180 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.611	0.3	0	4095	151
-EOC1002_pTubR1_DNA1	EOC1002_pTubR1	EOC1002	NACT	Tubo-ovarian	< 180 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.537	0.685	0	4346	217
-EOC1003_p2Ome1_TR_DNA	EOC1003_p2Ome1_TR	EOC1003	PDS	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.533	0.87	0	7112	251
-EOC1003_p2OvaL1_TR_DNA	EOC1003_p2OvaL1_TR	EOC1003	PDS	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.419	0.665	0	6869	265
-EOC1003_p2OvaR1_DNA1	EOC1003_p2OvaR1	EOC1003	PDS	Tubo-ovarian	< 180 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.712	0.445	0	6581	218
-EOC1005_pAsc1_DNA1	EOC1005_pAsc1	EOC1005	NACT	Ascites	< 180 days	TRUE	partial response	Diagnostic	Discovery	adaptive	TRUE	TRUE	2.587	0.634	0	6404	147
-EOC1005_pOme1_DNA1	EOC1005_pOme1	EOC1005	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.716	0.245	0	5996	111
-EOC1005_pPer1_DNA	EOC1005_pPer1	EOC1005	NACT	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.778	0.448	0	6264	152
-EOC1017_iOme1_DNA1	EOC1017_iOme1	EOC1017	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.066	0.35	0	5550	89
-EOC1017_pAsc1_DNA1	EOC1017_pAsc1	EOC1017	NACT	Ascites	180 - 364 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	2.896	0.62	0	5665	416
-EOC1017_pOme1_DNA1	EOC1017_pOme1	EOC1017	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.065	0.345	0	5611	104
-EOC1030_pOvaR1_DNA1	EOC1030_pOvaR1	EOC1030	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Discovery	evolving	TRUE	TRUE	2.602	0.77	0.637366975203756	14992	438
-EOC1030_pOvaR2_DNA3	EOC1030_pOvaR2	EOC1030	PDS	Tubo-ovarian	>= 365 days	FALSE	complete response	Diagnostic	Discovery	evolving	FALSE	TRUE	2.864	0.55	0.625567621637182	15157	380
-EOC1032_pAsc1_DNA1	EOC1032_pAsc1	EOC1032	NACT	Ascites	< 180 days	TRUE	progressive disease after nact	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.726	0.878	0	15123	388
-EOC1032_pPer_DNA1	EOC1032_pPer	EOC1032	NACT	Intra-abdominal	< 180 days	TRUE	progressive disease after nact	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.646	0.74	0	15159	398
-EOC1067_pOme1_DNA3	EOC1067_pOme1	EOC1067	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	3.566	0.94	0	8902	228
-EOC1067_pOvaR1_DNA1	EOC1067_pOvaR1	EOC1067	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.85	0.805	0	11315	473
-EOC1067_pPerR1_DNA1	EOC1067_pPerR1	EOC1067	PDS	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.737	0.615	0	9694	233
-EOC1067_pTubL1_DNA1	EOC1067_pTubL1	EOC1067	PDS	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	3.836	0.695	0	10831	291
-EOC1077_pOth1_DNA1	EOC1077_pOth1	EOC1077	PDS	Other	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	TRUE	FALSE	1.835	0.805	0.393830148155765	8318	315
-EOC1077_pOvaR1_DNA1	EOC1077_pOvaR1	EOC1077	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.938	0.895	0.416587210965664	10745	376
-EOC1077_pOvaR1_TR_DNA	EOC1077_pOvaR1_TR	EOC1077	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.883	0.75	0.401613772506556	11195	361
-EOC1077_pTubL1_DNA1	EOC1077_pTubL1	EOC1077	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	adaptive	FALSE	FALSE	1.876	0.84	0.410603425474904	15151	319
-EOC1091_pOme1_TR_DNA	EOC1091_pOme1_TR	EOC1091	PDS	Intra-abdominal	< 180 days	TRUE	progressive disease	Diagnostic	Validation	evolving	TRUE	TRUE	4.885	0.81	0	11357	400
-EOC1091_pOvaR1_TR_DNA	EOC1091_pOvaR1_TR	EOC1091	PDS	Tubo-ovarian	< 180 days	TRUE	progressive disease	Diagnostic	Validation	evolving	FALSE	TRUE	3.462	0.77	0	11874	360
-EOC1099_pAsc2_DNA3	EOC1099_pAsc2	EOC1099	PDS	Ascites	>= 365 days	TRUE	partial response	Diagnostic	Validation	evolving	FALSE	TRUE	3.318	0.2	0	8277	142
-EOC1099_pOme1_DNA1	EOC1099_pOme1	EOC1099	PDS	Intra-abdominal	>= 365 days	TRUE	partial response	Diagnostic	Validation	evolving	TRUE	TRUE	3.237	0.345	0	8498	131
-EOC1099_pOvaR1_DNA3	EOC1099_pOvaR1	EOC1099	PDS	Tubo-ovarian	>= 365 days	TRUE	partial response	Diagnostic	Validation	evolving	FALSE	TRUE	3.08	0.925	0	9362	175
-EOC1107_iAdnR1_DNA2	EOC1107_iAdnR1	EOC1107	NACT	Tubo-ovarian	>= 365 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.055	0.7	0	4632	213
-EOC1107_iAsc1_DNA2	EOC1107_iAsc1	EOC1107	NACT	Ascites	>= 365 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.143	0.345	0.430947137433361	8016	186
-EOC1107_iOme1_DNA1	EOC1107_iOme1	EOC1107	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.144	0.415	0.423945845006523	8145	192
-EOC1107_iPer2_DNA1	EOC1107_iPer2	EOC1107	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.675	0.065	0.383078286757685	6073	33
-EOC1107_pAsc1_DNA1_novaseq	EOC1107_pAsc1_novaseq	EOC1107	NACT	Ascites	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.193	0.98	0.424932774156225	8120	389
-EOC1107_pAsc1_DNA2	EOC1107_pAsc1	EOC1107	NACT	Ascites	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.186	0.975	0.422850328141601	8192	353
-EOC1107_pOme1_DNA1	EOC1107_pOme1	EOC1107	NACT	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.197	0.75	0.421855072457241	8100	313
-EOC1119_p2Ome1_TR_DNA	EOC1119_p2Ome1_TR	EOC1119	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	5.063	0.72	0	16914	702
-EOC1119_p2OvaR1_TR_DNA	EOC1119_p2OvaR1_TR	EOC1119	PDS	Tubo-ovarian	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	FALSE	TRUE	5.149	0.81	0	16349	653
-EOC1119_p2Per1_TR_DNA	EOC1119_p2Per1_TR	EOC1119	PDS	Intra-abdominal	>= 365 days	TRUE	complete response	Diagnostic	Validation	adaptive	TRUE	TRUE	4.871	0.945	0	16084	635
-EOC1120_pAsc2_DNA1	EOC1120_pAsc2	EOC1120	PDS	Ascites	< 180 days	TRUE	partial response	Diagnostic	Discovery	evolving	FALSE	TRUE	2.872	0.188	0	5220	110
-EOC1120_pPer1_DNA1	EOC1120_pPer1	EOC1120	PDS	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	evolving	FALSE	TRUE	2.757	0.49	0	5713	224
-EOC1120_pPer1_DNA1_bgiseq	EOC1120_pPer1_bgiseq	EOC1120	PDS	Intra-abdominal	< 180 days	TRUE	partial response	Diagnostic	Discovery	evolving	TRUE	TRUE	3.106	0.536	0	5816	287
-EOC1120_rAsc1_DNA2	EOC1120_rAsc1	EOC1120	PDS	Ascites	< 180 days	TRUE	partial response	Relapse	Discovery	evolving	FALSE	TRUE	2.676	0.8	0	6052	294
-EOC1122_iOvaL1_DNA1	EOC1122_iOvaL1	EOC1122	NACT	Tubo-ovarian	180 - 364 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	TRUE	3.692	0.5	0.302552790287686	5700	80
-EOC1122_iPer3_DNA2	EOC1122_iPer3	EOC1122	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Interval	Validation	maintaining	FALSE	FALSE	2.018	0.385	0.309166270813329	5721	78
-EOC1122_pAsc1_DNA1	EOC1122_pAsc1	EOC1122	NACT	Ascites	180 - 364 days	TRUE	complete response	Diagnostic	Validation	maintaining	FALSE	TRUE	3.644	0.96	0.312506462530919	5690	93
-EOC1122_pOme1_DNA1	EOC1122_pOme1	EOC1122	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Validation	maintaining	TRUE	TRUE	3.846	0.47	0.303291739029313	5777	84
-EOC1127_pAsc1_DNA1	EOC1127_pAsc1	EOC1127	NACT	Ascites	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.442	0.47	0	5484	250
-EOC1127_pOme1_DNA3	EOC1127_pOme1	EOC1127	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.458	0.478	0	5733	259
-EOC1127_pPer1_DNA1	EOC1127_pPer1	EOC1127	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.444	0.38	0	5584	229
-EOC1129_iAsc1_DNA1	EOC1129_iAsc1	EOC1129	NACT	Ascites	180 - 364 days	TRUE	complete response	Interval	Discovery	maintaining	FALSE	TRUE	3.549	0.11	0	8099	98
-EOC1129_iMes1_DNA	EOC1129_iMes1	EOC1129	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Interval	Discovery	maintaining	FALSE	TRUE	3.865	0.319	0	10554	221
-EOC1129_pAsc1_DNA1	EOC1129_pAsc1	EOC1129	NACT	Ascites	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.813	0.29	0	10858	232
-EOC1129_pOme1_DNA1	EOC1129_pOme1	EOC1129	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.273	0.31	0	13811	212
-EOC1129_pOme1_DNA1_hiseq	EOC1129_pOme1_hiseq	EOC1129	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.189	0.32	0	11343	148
-EOC1129_pOvaR1_DNA1	EOC1129_pOvaR1	EOC1129	NACT	Tubo-ovarian	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	TRUE	TRUE	3.605	0.63	0	9224	219
-EOC1129_pPer2_DNA1	EOC1129_pPer2	EOC1129	NACT	Intra-abdominal	180 - 364 days	TRUE	complete response	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.763	0.1	0	7145	54
+sample	displayName	patient	treatmentStrategy	tissueGroup	treatmentPhase	cohort	cluster	representative	WGD	ploidy	purity	sig_HRD	mutations	breaks
+EOC3_iOme2_DNA1	EOC3_iOme2	EOC3	NACT	Intra-abdominal	Interval	Discovery	adaptive	FALSE	FALSE	1.801	0.426	0	5609	272
+EOC3_iPer1_DNA1	EOC3_iPer1	EOC3	NACT	Intra-abdominal	Interval	Discovery	adaptive	FALSE	FALSE	1.774	0.804	0	6334	338
+EOC3_pOme1_DNA1	EOC3_pOme1	EOC3	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.795	0.61	0	7147	398
+EOC3_pOvaL1_DNA1	EOC3_pOvaL1	EOC3	NACT	Tubo-ovarian	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.792	0.94	0	7333	605
+EOC3_pPer1_DNA1	EOC3_pPer1	EOC3	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.326	0.74	0	5780	394
+EOC25_pOme1_DNA1	EOC25_pOme1	EOC25	NACT	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.313	0.48	0	8423	271
+EOC25_pPer1_DNA1	EOC25_pPer1	EOC25	NACT	Intra-abdominal	Diagnostic	Validation	evolving	FALSE	TRUE	3.058	0.415	0	8471	244
+EOC26_iAsc1_CL62_DNA1	EOC26_iAsc1_CL62	EOC26	NACT	Ascites	Interval	Discovery	adaptive	FALSE	TRUE	3.892	1	0	10703	207
+EOC26_iAsc1_DNA1	EOC26_iAsc1	EOC26	NACT	Ascites	Interval	Discovery	adaptive	FALSE	TRUE	3.928	0.938	0	12002	293
+EOC26_iTubR1_DNA1	EOC26_iTubR1	EOC26	NACT	Tubo-ovarian	Interval	Discovery	adaptive	FALSE	TRUE	3.879	0.174	0	12650	99
+EOC26_iUte1_DNA1	EOC26_iUte1	EOC26	NACT	Tubo-ovarian	Interval	Discovery	adaptive	FALSE	TRUE	3.876	0.179	0	12828	116
+EOC26_pOme1_CL12_DNA1	EOC26_pOme1_CL12	EOC26	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.813	1	0	10820	218
+EOC26_pOme1_DNA1	EOC26_pOme1	EOC26	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.792	0.953	0	12209	225
+EOC26_pOvaL1_DNA1	EOC26_pOvaL1	EOC26	NACT	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.878	0.912	0	12316	200
+EOC26_pOvaL2_DNA1	EOC26_pOvaL2	EOC26	NACT	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.831	0.6	0	12495	197
+EOC26_pPer_CL13_DNA1	EOC26_pPer_CL13	EOC26	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.635	1	0	10983	295
+EOC26_pPer1_DNA1	EOC26_pPer1	EOC26	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.683	0.419	0	12585	187
+EOC26_pPer2_DNA1	EOC26_pPer2	EOC26	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.677	0.518	0	12887	198
+EOC26_rAsc1_DNA1	EOC26_rAsc1	EOC26	NACT	Ascites	Relapse	Discovery	adaptive	FALSE	TRUE	3.873	0.968	0	12091	202
+EOC41_p2Ome1_TR	EOC41_p2Ome1_TR	EOC41	PDS	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	2.949	0.45	0.392706768128948	14677	220
+EOC41_p2OvaL1_DNA1	EOC41_p2OvaL1	EOC41	PDS	Tubo-ovarian	Diagnostic	Discovery	evolving	FALSE	TRUE	2.917	0.174	0.382150378199392	14393	152
+EOC44_pAdnL_DNA1	EOC44_pAdnL	EOC44	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.201	0.867	0	10207	288
+EOC44_pLNL_DNA1	EOC44_pLNL	EOC44	PDS	Other	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.328	0.16	0	8941	117
+EOC44_pOme_DNA1	EOC44_pOme	EOC44	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.704	0.4	0	10136	175
+EOC44_pOvaR2_DNA1	EOC44_pOvaR2	EOC44	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.694	0.758	0	11481	244
+EOC44_pOvaR4_DNA1	EOC44_pOvaR4	EOC44	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.778	0.67	0	11523	257
+EOC44_pOvaR5_DNA1	EOC44_pOvaR5	EOC44	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.391	0.44	0	12147	210
+EOC49_pAsc_DNA2	EOC49_pAsc	EOC49	NACT	Ascites	Diagnostic	Discovery	evolving	TRUE	TRUE	3.22	0.615	0.499976601816056	19481	329
+EOC49_pOme1_DNA3	EOC49_pOme1	EOC49	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	FALSE	TRUE	3.266	0.21	0.498352654064187	19022	226
+EOC50_pOme1_DNA1	EOC50_pOme1	EOC50	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	4.425	0.6	0	7042	205
+EOC50_pOvaR1_DNA2	EOC50_pOvaR1	EOC50	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	4.202	0.94	0.271894952727494	7539	225
+EOC63_pAsc1_DNA1	EOC63_pAsc1	EOC63	PDS	Ascites	Diagnostic	Validation	adaptive	FALSE	TRUE	3.891	0.08	0.547591058765655	17819	130
+EOC63_pOme1_DNA1	EOC63_pOme1	EOC63	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.795	0.495	0.525926011906371	24447	565
+EOC63_pOvaR1_DNA1	EOC63_pOvaR1	EOC63	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.736	0.2	0.515367709128857	11587	197
+EOC69_pOme1_DNA1	EOC69_pOme1	EOC69	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	FALSE	1.891	0.475	0.418351223644713	9827	170
+EOC69_pOva1_DNA2	EOC69_pOva1	EOC69	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	FALSE	1.903	0.565	0.408025586434682	10138	179
+EOC69_r1Vag1_DNA1	EOC69_r1Vag1	EOC69	PDS	Other	Relapse	Validation	evolving	FALSE	TRUE	2.041	0.825	0.476289120554603	10561	255
+EOC77_iAsc1_DNA1	EOC77_iAsc1	EOC77	NACT	Ascites	Interval	Validation	maintaining	FALSE	FALSE	2.204	0.12	0	19354	39
+EOC77_iOme1_DNA1	EOC77_iOme1	EOC77	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	FALSE	2.308	0.49	0	32485	110
+EOC77_iPer1_DNA2	EOC77_iPer1	EOC77	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	FALSE	2.292	0.765	0	24086	201
+EOC77_pAsc1_DNA1	EOC77_pAsc1	EOC77	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	2.265	0.58	0	29441	189
+EOC77_pOme1_DNA3	EOC77_pOme1	EOC77	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	2.17	0.74	0	20724	195
+EOC87_iOme1_DNA1	EOC87_iOme1	EOC87	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	2.644	0.33	0	8519	150
+EOC87_iOme1_xO_DNA1	EOC87_iOme1_xO	EOC87	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	2.621	0.4	0	9213	190
+EOC87_iPer_cO_DNA	EOC87_iPer_cO	EOC87	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	2.687	0.25	0	10283	170
+EOC87_pOme1_xO_DNA1	EOC87_pOme1_xO	EOC87	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.725	0.25	0	9872	180
+EOC87_pPer1_cO_DNA1	EOC87_pPer1_cO	EOC87	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.727	0.36	0	9722	199
+EOC103_oPlf1_DNA2	EOC103_oPlf1	EOC103	PDS	Other		Validation	adaptive	FALSE	TRUE	5.03	0.98	0	14976	790
+EOC103_p2Asc1_DNA1	EOC103_p2Asc1	EOC103	PDS	Ascites	Diagnostic	Validation	adaptive	FALSE	TRUE	3.318	0.275	0	16245	425
+EOC103_p2Ome1_DNA1	EOC103_p2Ome1	EOC103	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.219	0.67	0	14207	631
+EOC103_p2OvaL1_DNA1	EOC103_p2OvaL1	EOC103	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.931	0.335	0	12224	193
+EOC103_p2OvaR1_DNA2	EOC103_p2OvaR1	EOC103	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.9	0.515	0	11792	270
+EOC103_p2Per2_DNA1	EOC103_p2Per2	EOC103	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.373	0.125	0	13969	203
+EOC105_pAsc1_DNA1	EOC105_pAsc1	EOC105	PDS	Ascites	Diagnostic	Validation	adaptive	FALSE	FALSE	1.562	0.775	0.60805742147655	10456	165
+EOC105_pOme1_DNA3	EOC105_pOme1	EOC105	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	FALSE	1.942	0.215	0.653741817788945	15190	69
+EOC105_pOvaL1_DNA2	EOC105_pOvaL1	EOC105	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.716	0.57	0.634082061072062	12200	114
+EOC105_pPer1_DNA3	EOC105_pPer1	EOC105	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	FALSE	1.985	0.39	0.669499611919602	14145	98
+EOC105_r1Per2_DNA1	EOC105_r1Per2	EOC105	PDS	Intra-abdominal	Relapse	Validation	adaptive	FALSE	FALSE	2.033	0.695	0.735172788127595	11568	196
+EOC115_pAsc1_DNA1	EOC115_pAsc1	EOC115	NACT	Ascites	Diagnostic	Validation	evolving	FALSE	TRUE	3.124	0.47	0	6679	81
+EOC115_pPer1_DNA2	EOC115_pPer1	EOC115	NACT	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.101	0.535	0	6759	91
+EOC115_r1Asc1_DNA2	EOC115_r1Asc1	EOC115	NACT	Ascites	Relapse	Validation	evolving	FALSE	TRUE	5.008	0.06	0	5367	40
+EOC124_pOvaL1_TR_DNA1	EOC124_pOvaL1_TR	EOC124	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	FALSE	2.04	0.515	0.461354667605063	11907	272
+EOC124_pOvaR1_TR	EOC124_pOvaR1_TR	EOC124	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	TRUE	TRUE	3.49	0.83	0.406569262699163	11809	236
+EOC133_pAsc1_DNA1	EOC133_pAsc1	EOC133	PDS	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	2.911	0.77	0.496617473188264	17166	218
+EOC133_pOme1_TR_DNA	EOC133_pOme1_TR	EOC133	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.097	0.56	0.505563878323725	18063	199
+EOC133_pOvaL1_DNA1	EOC133_pOvaL1	EOC133	PDS	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	2.858	0.585	0.496198513526929	16693	193
+EOC135_p2Asc1_DNA1	EOC135_p2Asc1	EOC135	PDS	Ascites	Diagnostic	Validation	adaptive	FALSE	TRUE	3.237	0.7	0	15130	272
+EOC135_p2Ome1_DNA1	EOC135_p2Ome1	EOC135	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.735	0.545	0	15011	212
+EOC135_p2OvaL1_DNA1	EOC135_p2OvaL1	EOC135	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.372	0.805	0.281767489035194	14316	234
+EOC135_r1Asc1_DNA1	EOC135_r1Asc1	EOC135	PDS	Ascites	Relapse	Validation	adaptive	FALSE	TRUE	2.938	0.87	0.336682350268997	15127	305
+EOC136_iOme_DNA1	EOC136_iOme	EOC136	NACT	Intra-abdominal	Interval	Discovery	adaptive	FALSE	FALSE	2.015	0.74	0.316206531249662	8379	171
+EOC136_iOvaR1_DNA4	EOC136_iOvaR1	EOC136	NACT	Tubo-ovarian	Interval	Discovery	adaptive	FALSE	FALSE	1.972	0.806	0.322915211889081	8883	223
+EOC136_pAsc1_DNA3	EOC136_pAsc1	EOC136	NACT	Ascites	Diagnostic	Discovery	adaptive	FALSE	FALSE	2	0.12	0.318360703623392	7732	73
+EOC136_pMes1_DNA1	EOC136_pMes1	EOC136	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.013	0.73	0.315763606986006	8776	173
+EOC136_pPer1_DNA3	EOC136_pPer1	EOC136	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.045	0.678	0.321550502270701	9735	166
+EOC136_pPer2_DNA3	EOC136_pPer2	EOC136	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.995	0.73	0.309098088155656	8973	165
+EOC148_pAdnL1_DNA1	EOC148_pAdnL1	EOC148	PDS	Tubo-ovarian	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.682	0.812	0.541594046952221	16654	389
+EOC148_pAdnL3_DNA1	EOC148_pAdnL3	EOC148	PDS	Tubo-ovarian	Diagnostic	Discovery	maintaining	TRUE	TRUE	3.541	0.896	0.538621022697459	16483	357
+EOC148_pOvaL4_DNA1	EOC148_pOvaL4	EOC148	PDS	Tubo-ovarian	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.746	0.4	0.488225300529355	16284	284
+EOC148_pOvaL5_DNA1	EOC148_pOvaL5	EOC148	PDS	Tubo-ovarian	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.754	0.62	0.487515494726461	16487	342
+EOC150_iOme1_DNA1	EOC150_iOme1	EOC150	NACT	Intra-abdominal	Interval	Validation	adaptive	FALSE	TRUE	3.216	0.49	0	7728	268
+EOC150_pAsc1_DNA1	EOC150_pAsc1	EOC150	NACT	Ascites	Diagnostic	Validation	adaptive	FALSE	TRUE	3.093	0.255	0	7484	257
+EOC150_pPer1_DNA1	EOC150_pPer1	EOC150	NACT	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.162	0.375	0	7744	239
+EOC150_pTubL1_DNA1	EOC150_pTubL1	EOC150	NACT	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	2.93	0.91	0	7764	332
+EOC151_iMes1_DNA1	EOC151_iMes1	EOC151	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	FALSE	1.854	0.155	0	3154	32
+EOC151_pMes1_DNA1	EOC151_pMes1	EOC151	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	FALSE	1.834	0.585	0	3343	222
+EOC151_pPer1_DNA1	EOC151_pPer1	EOC151	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	FALSE	1.811	0.435	0	3337	140
+EOC153_iOme1_DNA4	EOC153_iOme1	EOC153	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	3.494	0.712	0.465288069877908	21961	189
+EOC153_iOvaR1_DNA1	EOC153_iOvaR1	EOC153	NACT	Tubo-ovarian	Interval	Discovery	maintaining	FALSE	TRUE	3.518	0.93	0.457798660974156	21412	183
+EOC153_iPer1_DNA4	EOC153_iPer1	EOC153	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	3.514	0.95	0.457898401022994	20910	212
+EOC153_pAsc1_DNA1	EOC153_pAsc1	EOC153	NACT	Ascites	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.56	0.16	0.49356052803411	20398	157
+EOC153_pOme1_DNA3	EOC153_pOme1	EOC153	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.52	0.31	0.489717803829409	22662	253
+EOC153_pPer1_DNA3	EOC153_pPer1	EOC153	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.551	0.27	0.488346437505709	22393	245
+EOC160_pOme1_DNA1	EOC160_pOme1	EOC160	PDS	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.656	0.833	0	9411	250
+EOC160_pOva_DNA1	EOC160_pOva	EOC160	PDS	Tubo-ovarian	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.654	0.81	0	9429	249
+EOC160_rMes1_DNA1	EOC160_rMes1	EOC160	PDS	Intra-abdominal	Relapse	Discovery	maintaining	FALSE	TRUE	2.545	0.46	0	9101	195
+EOC165_pOme1_DNA1	EOC165_pOme1	EOC165	PDS	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	4.693	0.811	0	20808	355
+EOC165_pOvaL1_DNA1	EOC165_pOvaL1	EOC165	PDS	Tubo-ovarian	Diagnostic	Discovery	evolving	FALSE	TRUE	4.633	0.62	0	21515	258
+EOC167_iAsc1_CL133_DNA1	EOC167_iAsc1_CL133	EOC167	NACT	Ascites	Interval	Discovery	adaptive	FALSE	FALSE	2.267	1	0	9739	236
+EOC167_pOme1_DNA1	EOC167_pOme1	EOC167	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.284	0.228	0	9010	109
+EOC167_pOmeOva1_CL109_DNA1	EOC167_pOmeOva1_CL109	EOC167	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.267	0.99	0	8492	196
+EOC167_pOva1_DNA1	EOC167_pOva1	EOC167	NACT	Tubo-ovarian	Diagnostic	Discovery	adaptive	TRUE	FALSE	2.293	0.436	0	10168	185
+EOC167_pPer1_DNA1	EOC167_pPer1	EOC167	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.323	0.38	0	9558	198
+EOC167_r1Asc_DNA1	EOC167_r1Asc	EOC167	NACT	Ascites	Relapse	Discovery	adaptive	FALSE	TRUE	2.249	0.443	0	8108	117
+EOC167_r2Asc_DNA1	EOC167_r2Asc	EOC167	NACT	Ascites	Relapse	Discovery	adaptive	FALSE	TRUE	2.252	0.4	0	9538	181
+EOC172_p2Ome1_DNA5	EOC172_p2Ome1	EOC172	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.912	0.415	0.495107879275591	11423	136
+EOC172_p2Oth1_DNA1	EOC172_p2Oth1	EOC172	PDS	Other	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.921	0.284	0.482834639916357	10910	121
+EOC172_pAsc1_DNA1	EOC172_pAsc1	EOC172	PDS	Ascites	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.946	0.73	0.485860093240523	11360	202
+EOC172_pPer1_DNA1	EOC172_pPer1	EOC172	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.014	0.48	0.494384907205643	11204	155
+EOC172_pTubR1_DNA1	EOC172_pTubR1	EOC172	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.936	0.498	0.461839060538778	9973	129
+EOC175_pAsc1_DNA1	EOC175_pAsc1	EOC175	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.067	0.525	0.392020598170006	12637	401
+EOC175_pOme1_DNA1	EOC175_pOme1	EOC175	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.279	0.435	0.38159890024502	12353	380
+EOC175_pPer1_DNA1	EOC175_pPer1	EOC175	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.122	0.495	0.389957108828932	12672	355
+EOC177_pAsc1_DNA1	EOC177_pAsc1	EOC177	PDS	Ascites	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.103	0.6	0.554787325452004	29962	399
+EOC177_pOme1_DNA1	EOC177_pOme1	EOC177	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.093	0.349	0.553826720426083	29685	281
+EOC177_pOme2_DNA1	EOC177_pOme2	EOC177	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.125	0.32	0.555496059662808	29698	276
+EOC177_pOme3_DNA1	EOC177_pOme3	EOC177	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.094	0.252	0.554451989591787	29481	233
+EOC177_pOvaL1_CL77_DNA1	EOC177_pOvaL1_CL77	EOC177	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.869	0.75	0.762385617796286	16244	229
+EOC177_pOvaL1_DNA1	EOC177_pOvaL1	EOC177	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.888	0.782	0.75546240320145	21887	295
+EOC177_pOvaR2_DNA1	EOC177_pOvaR2	EOC177	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.366	0.9	0.719693385696334	25982	421
+EOC177_pOvaR3_DNA1	EOC177_pOvaR3	EOC177	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.375	0.81	0.711782974867965	26608	410
+EOC177_pPer1_DNA1	EOC177_pPer1	EOC177	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.044	0.24	0.566888537540558	32484	260
+EOC182_pAsc1_DNA1	EOC182_pAsc1	EOC182	PDS	Ascites	Diagnostic	Validation	evolving	FALSE	FALSE	1.85	0.465	0.473903615313719	12942	151
+EOC182_pOme1_DNA1	EOC182_pOme1	EOC182	PDS	Intra-abdominal	Diagnostic	Validation	evolving	FALSE	FALSE	1.829	0.205	0.482038235201298	12611	82
+EOC182_pPer1_DNA1	EOC182_pPer1	EOC182	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	FALSE	1.882	0.225	0.475942535412995	12785	105
+EOC183_iMes1_DNA1	EOC183_iMes1	EOC183	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	2.841	0.304	0	5787	130
+EOC183_iMes5_DNA1	EOC183_iMes5	EOC183	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	2.891	0.78	0	7924	427
+EOC183_pMes_DNA1	EOC183_pMes	EOC183	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.798	0.744	0	7837	405
+EOC183_pOme1_DNA1	EOC183_pOme1	EOC183	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.783	0.382	0	8616	424
+EOC183_pPer_DNA1	EOC183_pPer	EOC183	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.822	0.59	0	7898	384
+EOC192_iOme1_cO_DNA2	EOC192_iOme1_cO	EOC192	NACT	Intra-abdominal	Interval	Discovery	adaptive	FALSE	FALSE	1.751	0.22	0	6271	106
+EOC192_iOme3_x_DNA1	EOC192_iOme3_x	EOC192	NACT	Intra-abdominal	Interval	Discovery	adaptive	FALSE	FALSE	1.712	0.339	0	6637	94
+EOC192_iOvaR1_x_DNA1	EOC192_iOvaR1_x	EOC192	NACT	Tubo-ovarian	Interval	Discovery	adaptive	FALSE	FALSE	1.727	0.91	0	6831	171
+EOC192_pAsc1_DNA1	EOC192_pAsc1	EOC192	NACT	Ascites	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.703	0.36	0	6719	148
+EOC192_pOme2_cO_DNA2	EOC192_pOme2_cO	EOC192	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.775	0.8	0	6566	211
+EOC192_pOvaR1_x_DNA1	EOC192_pOvaR1_x	EOC192	NACT	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.726	0.92	0	6243	192
+EOC192_pOvaR1_xO_DNA3	EOC192_pOvaR1_xO	EOC192	NACT	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.727	0.9	0	6491	180
+EOC192_pPer1_xO_DNA2	EOC192_pPer1_xO	EOC192	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.665	0.866	0	6946	261
+EOC192_pPer2_cO_DNA1	EOC192_pPer2_cO	EOC192	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.236	0.971	0	6991	233
+EOC197_iOme1_DNA1	EOC197_iOme1	EOC197	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	FALSE	1.976	0.395	0.41391928882964	6878	52
+EOC197_pPer2_DNA1	EOC197_pPer2	EOC197	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	FALSE	1.972	0.44	0.413451338687082	6870	57
+EOC197_pTubL1_DNA1	EOC197_pTubL1	EOC197	NACT	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	FALSE	1.964	0.51	0.416562303366479	6856	54
+EOC198_pAsc1_DNA1	EOC198_pAsc1	EOC198	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	FALSE	1.983	0.295	0.472080037615835	6943	181
+EOC198_pOme1_DNA3	EOC198_pOme1	EOC198	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	FALSE	1.986	0.475	0.488496547841299	7853	189
+EOC198_pPer1_DNA1	EOC198_pPer1	EOC198	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	FALSE	1.968	0.465	0.481205492869881	7121	182
+EOC202_p2OvaR1_TR_DNA	EOC202_p2OvaR1_TR	EOC202	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.844	0.96	0.424509802476209	14232	361
+EOC202_p2Per1_TR_DNA	EOC202_p2Per1_TR	EOC202	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	FALSE	1.889	0.9	0.47708980668363	12912	255
+EOC206_pOvaL1_TR_DNA	EOC206_pOvaL1_TR	EOC206	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	TRUE	TRUE	3.19	0.87	0	15218	312
+EOC206_pOvaR1_TR_DNA	EOC206_pOvaR1_TR	EOC206	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.345	0.58	0	10180	230
+EOC207_pOme1_DNA1	EOC207_pOme1	EOC207	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.346	0.885	0.578396721081872	24712	408
+EOC207_pOva1_DNA1	EOC207_pOva1	EOC207	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	2.973	0.45	0.586885655665481	22608	311
+EOC218_iMes3_DNA1	EOC218_iMes3	EOC218	NACT	Intra-abdominal	Interval	Discovery	evolving	FALSE	FALSE	1.939	0.54	0.505813878033436	15065	133
+EOC218_iOme4_DNA1	EOC218_iOme4	EOC218	NACT	Intra-abdominal	Interval	Discovery	evolving	FALSE	FALSE	1.952	0.559	0.507056012377437	16240	179
+EOC218_iOme4_DNA1_bgiseq	EOC218_iOme4_bgiseq	EOC218	NACT	Intra-abdominal	Interval	Discovery	evolving	FALSE	FALSE	1.974	0.42	0.510795069365108	14509	183
+EOC218_iOme6_DNA1	EOC218_iOme6	EOC218	NACT	Intra-abdominal	Interval	Discovery	evolving	FALSE	FALSE	1.94	0.613	0.516036880539011	15752	273
+EOC218_pOme3_DNA1	EOC218_pOme3	EOC218	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	FALSE	1.923	0.25	0.50977545820533	15718	107
+EOC227_iOme1_DNA2	EOC227_iOme1	EOC227	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	2.984	0.27	0	10195	123
+EOC227_pAsc1_DNA2	EOC227_pAsc1	EOC227	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.024	0.355	0	10336	138
+EOC227_pOme1_DNA2	EOC227_pOme1	EOC227	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.012	0.305	0	10361	126
+EOC227_r2Asc1_DNA1	EOC227_r2Asc1	EOC227	NACT	Ascites	Relapse	Validation	maintaining	FALSE	TRUE	3.102	0.125	0	8630	50
+EOC227_r3Asc1_DNA1	EOC227_r3Asc1	EOC227	NACT	Ascites	Relapse	Validation	maintaining	FALSE	TRUE	2.767	0.14	0	8602	53
+EOC256_p2Ome1_TR_DNA	EOC256_p2Ome1_TR	EOC256	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.459	0.695	0	11433	350
+EOC256_p2Oth1_DNA1	EOC256_p2Oth1	EOC256	PDS	Other	Diagnostic	Validation	maintaining	FALSE	TRUE	3.384	0.13	0	9882	136
+EOC256_p2Per2_DNA1	EOC256_p2Per2	EOC256	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.42	0.61	0	11402	354
+EOC256_pAsc1_DNA1	EOC256_pAsc1	EOC256	PDS	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.466	0.54	0	11452	364
+EOC286_iOme_DNA1	EOC286_iOme	EOC286	NACT	Intra-abdominal	Interval	Discovery		FALSE	FALSE	1.674	0.23	0.461724870209672	12968	157
+EOC286_iOva_DNA1	EOC286_iOva	EOC286	NACT	Tubo-ovarian	Interval	Discovery		TRUE	FALSE	1.772	0.925	0.467157177284918	15732	345
+EOC292_pAdnL1_DNA3	EOC292_pAdnL1	EOC292	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.557	0.475	0	9062	376
+EOC292_pAdnR1_DNA2	EOC292_pAdnR1	EOC292	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.615	0.37	0	9340	362
+EOC292_pOme1_DNA2	EOC292_pOme1	EOC292	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.657	0.425	0	9370	351
+EOC293_pAsc_DNA1	EOC293_pAsc	EOC293	PDS	Ascites	Diagnostic	Discovery	maintaining	TRUE	TRUE	4.766	0.84	0	11075	1624
+EOC293_pAsc1_DNA1	EOC293_pAsc1	EOC293	PDS	Ascites	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.763	0.82	0	10990	1436
+EOC293_pOvaR1_DNA2	EOC293_pOvaR1	EOC293	PDS	Tubo-ovarian	Diagnostic	Discovery	maintaining	FALSE	FALSE	2.427	0.33	0	8993	711
+EOC293_pPer1_DNA1	EOC293_pPer1	EOC293	PDS	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	FALSE	2.395	0.423	0	9362	1084
+EOC294_iAdnL1_DNA1	EOC294_iAdnL1	EOC294	NACT	Tubo-ovarian	Interval	Validation	adaptive	FALSE	TRUE	3.183	0.12	0.548762583350693	18523	99
+EOC294_iOme1_DNA1	EOC294_iOme1	EOC294	NACT	Intra-abdominal	Interval	Validation	adaptive	FALSE	TRUE	3.223	0.175	0.541135013801503	22900	159
+EOC294_p2Ome1_DNA1	EOC294_p2Ome1	EOC294	NACT	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.318	0.475	0.539400646652936	24914	319
+EOC294_p2Per1_DNA1	EOC294_p2Per1	EOC294	NACT	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.319	0.88	0.527657388403149	26059	421
+EOC295_pPer1_DNA1	EOC295_pPer1	EOC295	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	3.204	0.812	0	5463	176
+EOC295_rAsc_DNA	EOC295_rAsc	EOC295	NACT	Ascites	Relapse	Discovery	evolving	FALSE	TRUE	2.954	0.15	0	5403	111
+EOC299_pOme1_DNA1	EOC299_pOme1	EOC299	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	2.985	0.71	0	5313	104
+EOC299_pOvaR1_DNA1	EOC299_pOvaR1	EOC299	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.108	0.78	0	5500	104
+EOC310_p2OvaL1_DNA1	EOC310_p2OvaL1	EOC310	PDS	Tubo-ovarian	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.88	0.49	0	7489	422
+EOC310_p2OvaR1_DNA2	EOC310_p2OvaR1	EOC310	PDS	Tubo-ovarian	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.041	0.6	0	7560	442
+EOC310_pPer1_DNA1	EOC310_pPer1	EOC310	PDS	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	TRUE	3.664	0.815	0	6583	464
+EOC318_pBow1_DNA1	EOC318_pBow1	EOC318	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.566	0.475	0	8008	978
+EOC318_pOme1_DNA1	EOC318_pOme1	EOC318	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.854	0.91	0	8298	1164
+EOC318_pOvaR1_DNA1	EOC318_pOvaR1	EOC318	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.652	0.725	0	8458	1211
+EOC318_pPer1_DNA1	EOC318_pPer1	EOC318	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.638	0.185	0	7397	438
+EOC319_pAsc1_DNA1	EOC319_pAsc1	EOC319	PDS	Ascites	Diagnostic	Validation	evolving	FALSE	TRUE	3.932	0.285	0	6690	143
+EOC319_pOme1_DNA1	EOC319_pOme1	EOC319	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.741	0.135	0	6220	72
+EOC321_pAsc1_DNA1	EOC321_pAsc1	EOC321	NACT	Ascites	Diagnostic	Discovery	maintaining	FALSE	FALSE	1.784	0.7	0	7633	304
+EOC321_pPer1_DNA1	EOC321_pPer1	EOC321	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	FALSE	1.783	0.84	0	7718	309
+EOC323_pOth_DNA1	EOC323_pOth	EOC323	NACT	Other	Diagnostic	Validation	maintaining	TRUE	TRUE	2.777	0.49	0.710838470862541	31845	254
+EOC323_pOva_DNA1	EOC323_pOva	EOC323	NACT	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	2.861	0.525	0.709187918893275	31924	252
+EOC351_pPer_DNA2	EOC351_pPer	EOC351	NACT	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	FALSE	1.89	0.59	0	8861	353
+EOC351_pTubR_DNA2	EOC351_pTubR	EOC351	NACT	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	FALSE	2.022	0.3	0	7945	278
+EOC357_pOme_DNA1	EOC357_pOme	EOC357	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	2.909	0.235	0	4115	145
+EOC357_pTubR_DNA1	EOC357_pTubR	EOC357	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.298	0.4	0	4353	212
+EOC359_pAsc1_DNA2	EOC359_pAsc1	EOC359	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.099	0.12	0	3986	66
+EOC359_pOme1_DNA1	EOC359_pOme1	EOC359	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.358	0.585	0	4421	242
+EOC359_pPer1_DNA1	EOC359_pPer1	EOC359	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.245	0.745	0	4475	279
+EOC359_r1Asc1_DNA1	EOC359_r1Asc1	EOC359	NACT	Ascites	Relapse	Validation	maintaining	FALSE	TRUE	2.909	0.315	0	4732	217
+EOC363_pOvaR_DNA1	EOC363_pOvaR	EOC363	PDS	Tubo-ovarian	Diagnostic	Discovery	evolving	TRUE	TRUE	2.81	0.85	0	5012	164
+EOC363_rTum1_DNA1	EOC363_rTum1	EOC363	PDS	Other	Relapse	Discovery	evolving	FALSE	TRUE	2.527	0.65	0	4516	135
+EOC372_iOme_DNA1	EOC372_iOme	EOC372	NACT	Intra-abdominal	Interval	Discovery	evolving	FALSE	TRUE	2.917	0.793	0.348144301775056	10226	284
+EOC372_iPer1_DNA1	EOC372_iPer1	EOC372	NACT	Intra-abdominal	Interval	Discovery	evolving	FALSE	TRUE	2.946	0.28	0.337865912691169	9650	196
+EOC372_pAsc_DNA1	EOC372_pAsc	EOC372	NACT	Ascites	Diagnostic	Discovery	evolving	TRUE	TRUE	2.963	0.706	0.346808061314775	10854	265
+EOC372_pPer1_DNA1	EOC372_pPer1	EOC372	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	FALSE	TRUE	2.874	0.36	0.345006415258326	9468	201
+EOC373_pAdnL1_DNA1	EOC373_pAdnL1	EOC373	NACT	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3.441	0.74	0	13421	379
+EOC373_pPer1_DNA1	EOC373_pPer1	EOC373	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.286	0.15	0	11096	141
+EOC378_pOva_DNA1	EOC378_pOva	EOC378	PDS	Tubo-ovarian	Diagnostic	Discovery	evolving	TRUE	FALSE	2.003	0.561	0.304348157467239	9056	133
+EOC378_rAsc_DNA1	EOC378_rAsc	EOC378	PDS	Ascites	Relapse	Discovery	evolving	FALSE	FALSE	1.978	0.2	0.34233125975069	9618	117
+EOC378_rPer_DNA1	EOC378_rPer	EOC378	PDS	Intra-abdominal	Relapse	Discovery	evolving	FALSE	FALSE	1.977	0.29	0.343470352263614	9876	122
+EOC379_pMes1_DNA1	EOC379_pMes1	EOC379	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	FALSE	1.998	0.67	0.40411100566499	9317	281
+EOC379_pOvaL1_DNA1	EOC379_pOvaL1	EOC379	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	2.001	0.255	0.394602991976161	8703	124
+EOC379_pPer1_DNA1	EOC379_pPer1	EOC379	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	FALSE	1.994	0.65	0.412267512976768	9676	322
+EOC382_p2Ome1_DNA1	EOC382_p2Ome1	EOC382	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.651	0.35	0	11472	286
+EOC382_p2OvaL1_DNA2	EOC382_p2OvaL1	EOC382	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	4.1	0.525	0	10170	262
+EOC386_pAsc1_DNA1	EOC386_pAsc1	EOC386	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.136	0.905	0	8148	342
+EOC386_pOme1_DNA2	EOC386_pOme1	EOC386	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.077	0.1	0	6773	80
+EOC388_p2Ome1_DNA2	EOC388_p2Ome1	EOC388	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.15	0.27	0	6591	95
+EOC388_p2OvaR1_DNA1	EOC388_p2OvaR1	EOC388	PDS	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3.181	0.61	0	6460	153
+EOC388_pAsc1_DNA1	EOC388_pAsc1	EOC388	PDS	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.149	0.86	0	6896	165
+EOC390_pOvaR1_DNA1	EOC390_pOvaR1	EOC390	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.644	0.425	0.463493365967962	7529	141
+EOC390_pPer1_DNA1	EOC390_pPer1	EOC390	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	FALSE	1.955	0.87	0.388035707854281	6336	158
+EOC390_pVag1_DNA2	EOC390_pVag1	EOC390	PDS	Other	Diagnostic	Validation	adaptive	TRUE	FALSE	1.954	0.9	0.36651418499441	6051	113
+EOC415_pOvaL1_DNA1	EOC415_pOvaL1	EOC415	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.364	0.555	0.527802445046934	13334	276
+EOC415_pOvaR1_DNA1	EOC415_pOvaR1	EOC415	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.003	0.85	0.530926833133391	11647	343
+EOC415_pPer1_DNA1	EOC415_pPer1	EOC415	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.133	0.465	0.443239477962864	10441	162
+EOC415_r1Asc1_DNA1	EOC415_r1Asc1	EOC415	PDS	Ascites	Relapse	Validation	adaptive	FALSE	TRUE	2.946	0.85	0.607404255565807	13309	389
+EOC423_iOme2_DNA1	EOC423_iOme2	EOC423	NACT	Intra-abdominal	Interval	Discovery	adaptive	FALSE	TRUE	3.505	0.31	0	15095	618
+EOC423_iOvaR1_DNA1	EOC423_iOvaR1	EOC423	NACT	Tubo-ovarian	Interval	Discovery	adaptive	TRUE	TRUE	2.988	1	0	8003	553
+EOC423_pOme2_DNA1	EOC423_pOme2	EOC423	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.507	0.713	0	15170	895
+EOC434_pOme1_TR	EOC434_pOme1_TR	EOC434	PDS	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	2.987	0.854	0	8515	183
+EOC434_pOvaR1_DNA1	EOC434_pOvaR1	EOC434	PDS	Tubo-ovarian	Diagnostic	Discovery	evolving	FALSE	TRUE	2.866	0.27	0	8210	150
+EOC443_iOvaR1_DNA1	EOC443_iOvaR1	EOC443	NACT	Tubo-ovarian	Interval	Discovery	evolving	FALSE	TRUE	2.858	0.14	0.496703513353462	11290	67
+EOC443_pOme1_DNA1	EOC443_pOme1	EOC443	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	2.847	0.659	0.463910241341809	17348	275
+EOC443_pPer2_DNA1	EOC443_pPer2	EOC443	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	FALSE	TRUE	3.101	0.562	0.488910894049683	16042	208
+EOC448_pOme1_DNA2	EOC448_pOme1	EOC448	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.055	0.86	0.274222298352544	13656	514
+EOC448_pPer1_DNA1	EOC448_pPer1	EOC448	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.051	0.85	0.273728071912052	13590	489
+EOC449_iOme1_DNA1	EOC449_iOme1	EOC449	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	3.01	0.075	0	6408	53
+EOC449_pAsc1_DNA1	EOC449_pAsc1	EOC449	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.173	0.95	0	9724	480
+EOC449_pOme1_DNA1	EOC449_pOme1	EOC449	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.159	0.185	0	8541	189
+EOC449_pPer1_DNA1	EOC449_pPer1	EOC449	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.264	0.92	0	9409	388
+EOC465_iAsc1_DNA1	EOC465_iAsc1	EOC465	NACT	Ascites	Interval	Validation	maintaining	FALSE	TRUE	3.016	0.955	0	10370	337
+EOC465_iOme1_DNA1	EOC465_iOme1	EOC465	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	3.362	0.79	0	8810	199
+EOC465_pAsc1_DNA1	EOC465_pAsc1	EOC465	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	2.945	0.91	0	11569	284
+EOC465_pOme1_DNA1	EOC465_pOme1	EOC465	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.153	0.535	0	11358	207
+EOC465_pOvaR1_DNA1	EOC465_pOvaR1	EOC465	NACT	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3.38	0.825	0	10553	197
+EOC465_pPer1_DNA1	EOC465_pPer1	EOC465	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.333	0.37	0	10545	174
+EOC471_pOth_DNA4	EOC471_pOth	EOC471	PDS	Other	Diagnostic	Validation	evolving	TRUE	TRUE	3.359	0.49	0.356556782699845	10260	244
+EOC471_pOva_DNA2	EOC471_pOva	EOC471	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.165	0.54	0.366799476732143	10414	280
+EOC473_pAdnR1_DNA1	EOC473_pAdnR1	EOC473	NACT	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.973	0.72	0.429191480518745	5492	205
+EOC473_pOme1_DNA1	EOC473_pOme1	EOC473	NACT	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	FALSE	2.019	0.585	0.440644676064249	5979	181
+EOC473_pOvaL1_DNA1	EOC473_pOvaL1	EOC473	NACT	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.861	0.56	0.500617964668027	6314	196
+EOC473_pPer1_DNA1	EOC473_pPer1	EOC473	NACT	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.956	0.57	0.497911105922686	7094	194
+EOC482_iOme1_DNA1	EOC482_iOme1	EOC482	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	4.74	0.22	0.399885304960824	14122	133
+EOC482_iOvaL1_DNA2	EOC482_iOvaL1	EOC482	NACT	Tubo-ovarian	Interval	Discovery	maintaining	FALSE	TRUE	2.795	0.2	0.40970192614420903	14679	154
+EOC482_pAsc1_DNA1	EOC482_pAsc1	EOC482	NACT	Ascites	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.837	0.51	0.400591475088829	15367	260
+EOC482_pOme1_DNA1	EOC482_pOme1	EOC482	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.831	0.51	0.40411867186792	15519	271
+EOC482_pPer1_DNA3	EOC482_pPer1	EOC482	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.826	0.42	0.404603072046758	15394	241
+EOC495_pLNL1_DNA1	EOC495_pLNL1	EOC495	PDS	Other	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.572	0.322	0.503833235452305	9386	178
+EOC495_pLNL2_DNA1	EOC495_pLNL2	EOC495	PDS	Other	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.583	0.3	0.511948135724992	9389	172
+EOC495_pLNR_DNA1	EOC495_pLNR	EOC495	PDS	Other	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.617	0.387	0.51248446077767	9586	139
+EOC495_pOvaL6_DNA1	EOC495_pOvaL6	EOC495	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	FALSE	2.025	0.88	0.468555751896226	6211	127
+EOC495_pOvaL7_DNA1	EOC495_pOvaL7	EOC495	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	TRUE	FALSE	2.009	0.9	0.435485274388206	5647	106
+EOC495_pPerL_DNA1	EOC495_pPerL	EOC495	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.981	0.22	0.437614797395014	4765	79
+EOC498_pAdnL1_DNA2	EOC498_pAdnL1	EOC498	PDS	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3	0.64	0.38249617537417	13832	322
+EOC498_pAdnR1_DNA2	EOC498_pAdnR1	EOC498	PDS	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3.011	0.095	0.406878601453611	9174	73
+EOC498_pOme1_DNA2	EOC498_pOme1	EOC498	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	2.913	0.39	0.409387045096546	12345	250
+EOC498_pPer1_DNA2	EOC498_pPer1	EOC498	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.145	0.225	0.389792430210025	12215	188
+EOC523_pOme1_DNA2	EOC523_pOme1	EOC523	NACT	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	4.094	0.57	0	5879	151
+EOC523_pOvaR1_DNA2	EOC523_pOvaR1	EOC523	NACT	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	4.33	0.595	0	5631	122
+EOC556_iBow1_DNA1	EOC556_iBow1	EOC556	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	4.38	0.09	0	5691	103
+EOC556_iOme1_DNA1	EOC556_iOme1	EOC556	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	4.374	0.09	0	5574	145
+EOC556_iOvaL1_DNA1	EOC556_iOvaL1	EOC556	NACT	Tubo-ovarian	Interval	Discovery	maintaining	FALSE	TRUE	2.481	0.23	0	5649	109
+EOC556_pAsc1_DNA1	EOC556_pAsc1	EOC556	NACT	Ascites	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.379	0.3	0	5770	140
+EOC556_pOme1_DNA1	EOC556_pOme1	EOC556	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.208	0.092	0	5502	102
+EOC556_pPer1_DNA1	EOC556_pPer1	EOC556	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.675	0.27	0	6007	181
+EOC558_pAsc1_DNA2	EOC558_pAsc1	EOC558	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.077	0.37	0	7420	171
+EOC558_pOme1_DNA1	EOC558_pOme1	EOC558	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.028	0.21	0	6617	87
+EOC558_pOvaL1_DNA3	EOC558_pOvaL1	EOC558	NACT	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3.669	0.475	0	8530	231
+EOC558_pPer1_DNA1	EOC558_pPer1	EOC558	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.498	0.415	0	8231	167
+EOC558_r1Asc1_DNA1	EOC558_r1Asc1	EOC558	NACT	Ascites	Relapse	Validation	maintaining	FALSE	TRUE	3.082	0.925	0	9686	373
+EOC558_r2Asc1_DNA1	EOC558_r2Asc1	EOC558	NACT	Ascites	Relapse	Validation	maintaining	FALSE	TRUE	3.062	0.91	0	11090	433
+EOC558_r3Asc1_DNA1	EOC558_r3Asc1	EOC558	NACT	Ascites	Relapse	Validation	maintaining	FALSE	TRUE	3.045	0.94	0	12147	426
+EOC559_pMes1_DNA1	EOC559_pMes1	EOC559	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.086	0.77	0	6487	453
+EOC559_pOvaR1_DNA2	EOC559_pOvaR1	EOC559	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	4.305	0.665	0	6290	445
+EOC559_pPer1_DNA1	EOC559_pPer1	EOC559	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	4.631	0.26	0	6279	354
+EOC561_pOme2_DNA1	EOC561_pOme2	EOC561	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	FALSE	2.244	0.18	0.270310123984104	5631	188
+EOC561_pPer1_DNA1	EOC561_pPer1	EOC561	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	FALSE	2.317	0.61	0.272901798883091	6379	806
+EOC568_pMes1_DNA1	EOC568_pMes1	EOC568	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	3.263	0.621	0	4949	388
+EOC568_pTubL1_DNA1	EOC568_pTubL1	EOC568	NACT	Tubo-ovarian	Diagnostic	Discovery	evolving	FALSE	TRUE	3.105	0.207	0	3562	70
+EOC580_pOvaL1_DNA1	EOC580_pOvaL1	EOC580	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	TRUE	TRUE	3.348	0.755	0.517015035931923	16299	286
+EOC580_pOvaR1_DNA1	EOC580_pOvaR1	EOC580	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.352	0.555	0.531455880169038	16169	245
+EOC587_iTum1_DNA1	EOC587_iTum1	EOC587	NACT	Other	Interval	Discovery	evolving	FALSE	TRUE	4.454	0.2	0	7557	257
+EOC587_pAdnL_DNA	EOC587_pAdnL	EOC587	NACT	Tubo-ovarian	Diagnostic	Discovery	evolving	TRUE	TRUE	4.369	0.36	0	9222	333
+EOC587_pPer_DNA	EOC587_pPer	EOC587	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	FALSE	TRUE	4.136	0.333	0	6954	251
+EOC598_pAdnL1_DNA1	EOC598_pAdnL1	EOC598	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.267	0.6	0	4865	207
+EOC598_pOme1_DNA1	EOC598_pOme1	EOC598	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.047	0.48	0	4743	82
+EOC598_pOvaR1_DNA2	EOC598_pOvaR1	EOC598	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.203	0.755	0	5624	225
+EOC620_pOme2_TR_DNA	EOC620_pOme2_TR	EOC620	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	2.822	0.76	0.360520973169272	6462	299
+EOC620_pOvaL1_TR_DNA	EOC620_pOvaL1_TR	EOC620	PDS	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	2.969	0.98	0.352877494289321	6036	330
+EOC634_pOme1_DNA1	EOC634_pOme1	EOC634	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.164	0.43	0	7779	246
+EOC634_pOvaL1_DNA1	EOC634_pOvaL1	EOC634	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.319	0.755	0	7285	258
+EOC634_pPer1_DNA1	EOC634_pPer1	EOC634	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.3	0.435	0	7786	234
+EOC649_pOme1_DNA1	EOC649_pOme1	EOC649	NACT	Intra-abdominal	Diagnostic	Discovery		FALSE	TRUE	3.003	0.274	0	7044	149
+EOC649_pPer1_DNA	EOC649_pPer1	EOC649	NACT	Intra-abdominal	Diagnostic	Discovery		TRUE	TRUE	3.838	0.48	0	7944	231
+EOC652_p2Ome1_DNA1	EOC652_p2Ome1	EOC652	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	2.685	0.14	0	10220	76
+EOC652_p2OvaL1_DNA1	EOC652_p2OvaL1	EOC652	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	2.48	0.75	0	10327	100
+EOC652_p2OvaR1_DNA1	EOC652_p2OvaR1	EOC652	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.094	0.92	0	11436	215
+EOC658_iOme1_c_DNA1	EOC658_iOme1_c	EOC658	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	3.437	0.185	0	6677	68
+EOC658_pOme2_c_DNA2	EOC658_pOme2_c	EOC658	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.428	0.34	0	7921	99
+EOC658_pPer1_cO_DNA3	EOC658_pPer1_cO	EOC658	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.25	0.215	0	7357	83
+EOC659_p2Ome1_DNA1	EOC659_p2Ome1	EOC659	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	5.546	0.225	0.482487288478903	24634	314
+EOC659_p2OvaR1_DNA1	EOC659_p2OvaR1	EOC659	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	5.925	0.66	0.494521795368818	26302	369
+EOC668_pAdnL1_TR_DNA	EOC668_pAdnL1_TR	EOC668	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.811	0.895	0	7060	165
+EOC668_pAsc1_DNA1	EOC668_pAsc1	EOC668	PDS	Ascites	Diagnostic	Validation	adaptive	FALSE	TRUE	3.897	0.075	0	5569	46
+EOC668_pBow1_DNA1	EOC668_pBow1	EOC668	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.853	0.815	0	7118	100
+EOC668_pMes1_DNA1	EOC668_pMes1	EOC668	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.898	0.27	0	6725	81
+EOC668_pOme1_TR_DNA	EOC668_pOme1_TR	EOC668	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.886	0.555	0	6928	146
+EOC677_pAsc_DNA1	EOC677_pAsc	EOC677	NACT	Ascites	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.663	0.473	0	13845	632
+EOC677_pPer1_DNA	EOC677_pPer1	EOC677	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.663	0.33	0	12877	166
+EOC677_r2Asc_DNA	EOC677_r2Asc	EOC677	NACT	Ascites	Relapse	Discovery	maintaining	FALSE	TRUE	2.515	0.683	0	15938	315
+EOC677_rAsc_DNA4	EOC677_rAsc	EOC677	NACT	Ascites	Relapse	Discovery	maintaining	FALSE	TRUE	2.622	0.921	0	16976	535
+EOC691_iOme_DNA2	EOC691_iOme	EOC691	NACT	Intra-abdominal	Interval	Discovery	adaptive	FALSE	TRUE	3.158	0.12	0.674287217939204	19471	124
+EOC691_pPer1_DNA3	EOC691_pPer1	EOC691	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.209	0.62	0.672694133274779	21397	294
+EOC702_p2OvaL1_DNA1	EOC702_p2OvaL1	EOC702	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	FALSE	1.925	0.92	0	7195	728
+EOC702_pOme1_DNA1	EOC702_pOme1	EOC702	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.744	0.155	0	6264	337
+EOC731_pAdnR1_DNA1	EOC731_pAdnR1	EOC731	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	TRUE	TRUE	2.637	0.87	0	7685	198
+EOC731_pTubL1_DNA1	EOC731_pTubL1	EOC731	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	2.558	0.865	0	8461	217
+EOC733_iOme1_DNA4	EOC733_iOme1	EOC733	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	3.275	0.534	0.38038567510758	14412	290
+EOC733_pAsc1_DNA2	EOC733_pAsc1	EOC733	NACT	Ascites	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.376	0.915	0.383465194958468	14980	358
+EOC733_pPer_DNA1	EOC733_pPer	EOC733	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	TRUE	3.194	0.972	0.381394757981569	14637	401
+EOC736_pAdnL1_DNA1	EOC736_pAdnL1	EOC736	NACT	Tubo-ovarian	Diagnostic	Discovery	evolving	TRUE	TRUE	4.041	0.856	0	11694	392
+EOC736_pOme1_DNA2	EOC736_pOme1	EOC736	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	FALSE	TRUE	4.14	0.36	0	11241	336
+EOC737_pOme1_DNA2	EOC737_pOme1	EOC737	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.881	0.461	0.493133078165212	10699	182
+EOC737_pOvaR1_DNA1	EOC737_pOvaR1	EOC737	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.866	0.51	0.500145312394862	10446	174
+EOC737_pPerR1_DNA2	EOC737_pPerR1	EOC737	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.886	0.458	0.493889226909525	10744	189
+EOC740_iOvaR1_DNA1	EOC740_iOvaR1	EOC740	NACT	Tubo-ovarian	Interval	Discovery	evolving	FALSE	TRUE	2.932	0.69	0	6905	136
+EOC740_pPer1_DNA1	EOC740_pPer1	EOC740	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	2.658	0.68	0	6944	180
+EOC742_pAsc_DNA	EOC742_pAsc	EOC742	PDS	Ascites	Diagnostic	Discovery	maintaining	TRUE	FALSE	2.012	0.979	0.473285286975153	14894	308
+EOC742_pOme_DNA	EOC742_pOme	EOC742	PDS	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	FALSE	2.011	0.603	0.487662290680137	13894	213
+EOC742_r3Asc_DNA	EOC742_r3Asc	EOC742	PDS	Ascites	Relapse	Discovery	maintaining	FALSE	TRUE	4.098	1	0.505444405865411	18479	386
+EOC742_r4Asc_DNA1	EOC742_r4Asc	EOC742	PDS	Ascites	Relapse	Discovery	maintaining	FALSE	TRUE	4.014	1	0.507216081037062	18565	408
+EOC752_pPer_DNA1	EOC752_pPer	EOC752	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	FALSE	1.866	0.85	0.389334790659514	11899	256
+EOC752_r2Asc_DNA1	EOC752_r2Asc	EOC752	NACT	Ascites	Relapse	Discovery	evolving	FALSE	FALSE	1.819	0.168	0.385061720674827	12499	142
+EOC754_pOme1_DNA1	EOC754_pOme1	EOC754	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	FALSE	2.042	0.87	0	3236	39
+EOC754_pOvaL1_DNA1	EOC754_pOvaL1	EOC754	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.968	0.92	0	3452	44
+EOC754_pOvaR1_DNA1	EOC754_pOvaR1	EOC754	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	2.019	0.93	0	3618	37
+EOC754_pPer1_DNA1	EOC754_pPer1	EOC754	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	FALSE	2.049	0.89	0	3671	47
+EOC762_pOva_DNA1	EOC762_pOva	EOC762	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.896	0.882	0.455482122332375	9892	352
+EOC762_r1Per1_DNA1	EOC762_r1Per1	EOC762	PDS	Intra-abdominal	Relapse	Discovery	adaptive	FALSE	FALSE	1.927	0.64	0.458225473752062	11066	226
+EOC763_p2Ome1_DNA1	EOC763_p2Ome1	EOC763	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.037	0.62	0.449798487223774	22553	387
+EOC763_p2OvaR1_DNA1	EOC763_p2OvaR1	EOC763	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	2.97	0.31	0.451230579993559	22447	274
+EOC763_p2Per1_DNA1	EOC763_p2Per1	EOC763	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.037	0.62	0.447538122092377	22873	373
+EOC763_pAsc1_DNA1	EOC763_pAsc1	EOC763	PDS	Ascites	Diagnostic	Validation	adaptive	FALSE	TRUE	2.965	0.23	0.450554371517975	22196	250
+EOC779_pOme1_DNA1	EOC779_pOme1	EOC779	PDS	Intra-abdominal	Diagnostic	Validation	evolving	FALSE	FALSE	1.908	0.195	0	28003	68
+EOC779_pOvaL1_DNA1	EOC779_pOvaL1	EOC779	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	FALSE	1.934	0.855	0	26333	155
+EOC779_pPer1_DNA1	EOC779_pPer1	EOC779	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	FALSE	1.867	0.325	0	28909	88
+EOC781_pOme1_DNA1	EOC781_pOme1	EOC781	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	2.976	0.61	0.479943180219183	38774	416
+EOC781_pOme2_DNA1	EOC781_pOme2	EOC781	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	2.971	0.855	0.50917144942285	40396	679
+EOC781_pOvaL1_DNA1	EOC781_pOvaL1	EOC781	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.021	0.67	0.477150642281958	49013	547
+EOC783_pOme1_xO_DNA1	EOC783_pOme1_xO	EOC783	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.678	0.835	0	7440	113
+EOC783_pOvaL1_xO_DNA1	EOC783_pOvaL1_xO	EOC783	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.723	0.893	0	7862	196
+EOC783_pOvaR1_xO_DNA1	EOC783_pOvaR1_xO	EOC783	PDS	Tubo-ovarian	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.688	1	0	7236	128
+EOC783_pPer1_cO_DNA1	EOC783_pPer1_cO	EOC783	PDS	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.699	0.87	0	8003	125
+EOC809_p2Bow1_c_DNA2	EOC809_p2Bow1_c	EOC809	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.107	0.49	0.392275083403104	18559	308
+EOC809_p2Ome1_c_DNA1	EOC809_p2Ome1_c	EOC809	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.156	0.34	0.409588674682323	18677	166
+EOC809_p2OvaL1_c_DNA6	EOC809_p2OvaL1_c	EOC809	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.114	0.615	0.386535340573238	16639	296
+EOC809_p2Per1_cO_DNA2	EOC809_p2Per1_cO	EOC809	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.479	0.5	0.466877262490948	15781	154
+EOC809_r1Bow1_DNA1	EOC809_r1Bow1	EOC809	PDS	Intra-abdominal	Relapse	Validation	adaptive	FALSE	TRUE	3.322	0.34	0.475402961004497	15539	184
+EOC815_pOme1_DNA1	EOC815_pOme1	EOC815	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	FALSE	1.997	0.435	0.531752620472409	14275	246
+EOC815_pOvaR1_DNA2	EOC815_pOvaR1	EOC815	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	2.021	0.605	0.564802051109283	15446	256
+EOC815_pPer1_DNA1	EOC815_pPer1	EOC815	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	FALSE	2.019	0.755	0.539089551092916	14440	342
+EOC817_pOme1_DNA1	EOC817_pOme1	EOC817	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.699	0.765	0.401913415469036	20609	380
+EOC817_pOvaL1_DNA1	EOC817_pOvaL1	EOC817	PDS	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3.77	0.34	0.396735659787904	20484	254
+EOC817_pPer1_DNA1	EOC817_pPer1	EOC817	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.777	0.385	0.393035820491128	21134	307
+EOC820_pBow1_DNA1	EOC820_pBow1	EOC820	NACT	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	FALSE	2.104	0.505	0	10788	1004
+EOC820_pOme1_DNA1	EOC820_pOme1	EOC820	NACT	Intra-abdominal	Diagnostic	Validation	evolving	FALSE	FALSE	2.163	0.415	0	10407	882
+EOC823_p2AdnR1_TR_DNA	EOC823_p2AdnR1_TR	EOC823	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	2.884	0.92	0	9268	213
+EOC823_p2Asc1_TR_DNA	EOC823_p2Asc1_TR	EOC823	PDS	Ascites	Diagnostic	Validation	adaptive	FALSE	TRUE	2.724	0.095	0	7526	142
+EOC823_p2Ome1_TR_DNA	EOC823_p2Ome1_TR	EOC823	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	2.911	0.49	0	9705	160
+EOC824_pOme1_DNA2	EOC824_pOme1	EOC824	NACT	Intra-abdominal	Diagnostic	Validation	evolving	FALSE	TRUE	2.572	0.19	0	5484	54
+EOC824_pPer1_DNA2	EOC824_pPer1	EOC824	NACT	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	2.999	0.625	0	6150	242
+EOC825_pOme1_DNA1	EOC825_pOme1	EOC825	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	2.579	0.745	0	8635	173
+EOC825_pOvaR1_DNA1	EOC825_pOvaR1	EOC825	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	2.716	0.915	0	6942	139
+EOC825_pPer1_DNA1	EOC825_pPer1	EOC825	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	2.63	0.705	0	8845	160
+EOC839_pMes1_DNA1	EOC839_pMes1	EOC839	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	2.326	0.94	0.404413428868008	20443	372
+EOC839_pOme1_DNA1	EOC839_pOme1	EOC839	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	2.389	0.695	0.484920347914661	22024	447
+EOC839_pOvaL1_DNA1	EOC839_pOvaL1	EOC839	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	2.424	0.995	0.425145510192553	18615	396
+EOC855_p2Ome1_TR_DNA	EOC855_p2Ome1_TR	EOC855	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	2.811	0.05	0	4285	29
+EOC855_pAsc1_DNA2	EOC855_pAsc1	EOC855	PDS	Ascites	Diagnostic	Validation	evolving	FALSE	TRUE	3.534	0.275	0	5874	136
+EOC863_pMes1_DNA1	EOC863_pMes1	EOC863	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.42	0.2	0	10858	180
+EOC863_pOva1_DNA1	EOC863_pOva1	EOC863	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.322	0.77	0	12881	324
+EOC866_p2AdnL1_DNA1	EOC866_p2AdnL1	EOC866	PDS	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	2.971	0.94	0.473861262784287	24924	230
+EOC866_p2Bow1_DNA1	EOC866_p2Bow1	EOC866	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	2.89	0.595	0.470571274092527	19143	223
+EOC866_p2Ome1_DNA1	EOC866_p2Ome1	EOC866	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	2.96	0.91	0.462294435742948	25293	198
+EOC868_pPer	EOC868_pPer	EOC868	NACT	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	3.876	0.62	0.357866936186615	15352	153
+EOC868_rAsc_CL118_DNA1	EOC868_rAsc_CL118	EOC868	NACT	Ascites	Relapse	Discovery	evolving	FALSE	FALSE	1.904	0.77	0.41605630851791	17072	243
+EOC868_rMes1_DNA1	EOC868_rMes1	EOC868	NACT	Intra-abdominal	Relapse	Discovery	evolving	FALSE	FALSE	1.903	0.502	0.420516787673388	16991	132
+EOC868_rMes1_DNA1_bgiseq	EOC868_rMes1_bgiseq	EOC868	NACT	Intra-abdominal	Relapse	Discovery	evolving	FALSE	FALSE	1.978	0.397	0.418227183967229	15023	143
+EOC868_rPer1_DNA1	EOC868_rPer1	EOC868	NACT	Intra-abdominal	Relapse	Discovery	evolving	FALSE	TRUE	3.83	0.644	0.412784540142397	16955	166
+EOC871_pAdnL1_DNA1	EOC871_pAdnL1	EOC871	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.961	0.745	0.385242555121466	15784	338
+EOC871_pOme1_DNA1	EOC871_pOme1	EOC871	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	4.404	0.625	0.368527327076493	15432	330
+EOC871_pOth1_DNA1	EOC871_pOth1	EOC871	PDS	Other	Diagnostic	Validation	adaptive	FALSE	TRUE	4.298	0.595	0.375680820493476	14846	318
+EOC871_pPer1_DNA1	EOC871_pPer1	EOC871	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	4.253	0.45	0.365919967190778	15226	261
+EOC883_iAsc_DNA	EOC883_iAsc	EOC883	NACT	Ascites	Interval	Discovery	evolving	FALSE	TRUE	2.901	0.291	0	8673	161
+EOC883_pAdnR1_DNA1	EOC883_pAdnR1	EOC883	NACT	Tubo-ovarian	Diagnostic	Discovery	evolving	TRUE	TRUE	2.863	0.289	0	6881	103
+EOC883_pAsc_DNA1	EOC883_pAsc	EOC883	NACT	Ascites	Diagnostic	Discovery	evolving	FALSE	TRUE	2.929	0.19	0	8829	153
+EOC888_iAdnR1_DNA1	EOC888_iAdnR1	EOC888	NACT	Tubo-ovarian	Interval	Validation	adaptive	FALSE	TRUE	3.234	0.33	0	6183	116
+EOC888_iOme1_DNA1	EOC888_iOme1	EOC888	NACT	Intra-abdominal	Interval	Validation	adaptive	FALSE	TRUE	2.639	0.175	0	7559	110
+EOC888_pAdnR1_DNA1	EOC888_pAdnR1	EOC888	NACT	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	2.816	0.47	0	7394	295
+EOC888_pAsc1_DNA1	EOC888_pAsc1	EOC888	NACT	Ascites	Diagnostic	Validation	adaptive	FALSE	TRUE	2.79	0.335	0	6755	182
+EOC888_pOme1_DNA1	EOC888_pOme1	EOC888	NACT	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	2.889	0.855	0	6863	249
+EOC888_pPer1_DNA1	EOC888_pPer1	EOC888	NACT	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	2.78	0.78	0	7292	193
+EOC890_p2Ome1_DNA2	EOC890_p2Ome1	EOC890	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.518	0.73	0	5467	103
+EOC890_p2Per2_DNA1	EOC890_p2Per2	EOC890	PDS	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.556	0.425	0	5393	97
+EOC890_r1LNR1_DNA2	EOC890_r1LNR1	EOC890	PDS	Other	Relapse	Validation	maintaining	FALSE	TRUE	3.446	0.715	0	5716	121
+EOC891_pOme1_DNA	EOC891_pOme1	EOC891	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	TRUE	TRUE	2.891	0.94	0	7065	205
+EOC891_pOvaR1_DNA	EOC891_pOvaR1	EOC891	NACT	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.926	0.905	0	7444	200
+EOC891_pPer1_DNA	EOC891_pPer1	EOC891	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.948	0.85	0	6988	184
+EOC891_r1Asc_DNA2	EOC891_r1Asc	EOC891	NACT	Ascites	Relapse	Discovery	adaptive	FALSE	TRUE	2.82	0.324	0.355646309869034	9286	198
+EOC891_r2Asc_DNA2	EOC891_r2Asc	EOC891	NACT	Ascites	Relapse	Discovery	adaptive	FALSE	TRUE	2.82	0.24	0.364967861868882	9324	228
+EOC912_p2Bow2_DNA1	EOC912_p2Bow2	EOC912	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.288	0.53	0	8308	302
+EOC912_pAsc1_DNA1	EOC912_pAsc1	EOC912	PDS	Ascites	Diagnostic	Validation	evolving	FALSE	TRUE	3.273	0.91	0	8777	330
+EOC915_pLNL1_DNA1	EOC915_pLNL1	EOC915	PDS	Other	Diagnostic	Validation	adaptive	FALSE	TRUE	2.528	0.385	0	8616	114
+EOC915_pMes1_DNA1	EOC915_pMes1	EOC915	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	2.341	0.755	0	9004	171
+EOC915_pOvaL1_DNA1	EOC915_pOvaL1	EOC915	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	2.39	0.835	0	10412	182
+EOC927_p2Ome1_DNA1	EOC927_p2Ome1	EOC927	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	FALSE	1.909	0.82	0.538382717420294	13742	276
+EOC927_p2OvaL1_DNA1	EOC927_p2OvaL1	EOC927	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.917	0.8	0.492604517766194	11731	269
+EOC927_p2Per1_DNA1	EOC927_p2Per1	EOC927	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.833	0.44	0.540404406855239	13979	272
+EOC933_pOme1_DNA1	EOC933_pOme1	EOC933	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	TRUE	TRUE	3.668	1	0.548304148428578	21307	220
+EOC933_pOvaL1_DNA1	EOC933_pOvaL1	EOC933	NACT	Tubo-ovarian	Diagnostic	Discovery	adaptive	FALSE	TRUE	3.672	0.99	0.499677964421309	22522	203
+EOC933_pPer1_DNA1	EOC933_pPer1	EOC933	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	FALSE	1.912	0.891	0.540951058275982	21898	275
+EOC939_p2Ome1_TR	EOC939_p2Ome1_TR	EOC939	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	FALSE	1.87	0.745	0.424130443098938	7455	197
+EOC939_p2OvaR1_TR_DNA2	EOC939_p2OvaR1_TR	EOC939	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.858	0.845	0.415327686655495	7081	158
+EOC948_iAdnL1_DNA1	EOC948_iAdnL1	EOC948	NACT	Tubo-ovarian	Interval	Validation	maintaining	FALSE	TRUE	3.042	0.83	0	8416	333
+EOC948_iOvaR1_DNA1	EOC948_iOvaR1	EOC948	NACT	Tubo-ovarian	Interval	Validation	maintaining	FALSE	TRUE	3	0.84	0	8142	331
+EOC948_pOme1_DNA1	EOC948_pOme1	EOC948	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	2.991	0.52	0	11304	188
+EOC948_pPer1_DNA1	EOC948_pPer1	EOC948	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	2.988	0.525	0	10881	204
+EOC948_pPlf1_DNA1	EOC948_pPlf1	EOC948	NACT	Other	Diagnostic	Validation	maintaining	FALSE	TRUE	2.67	0.715	0	9977	274
+EOC984_pOme1_DNA1	EOC984_pOme1	EOC984	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	FALSE	1.829	0.715	0	3601	98
+EOC984_pPer1_DNA1	EOC984_pPer1	EOC984	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	FALSE	1.833	0.685	0	3593	107
+EOC989_pOme1_DNA2	EOC989_pOme1	EOC989	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	TRUE	FALSE	1.758	0.273	0	5431	92
+EOC989_r1Asc_DNA1	EOC989_r1Asc	EOC989	NACT	Ascites	Relapse	Discovery	adaptive	FALSE	TRUE	2.976	0.911	0.292380005154003	8471	174
+EOC991_iAdnR1_DNA1	EOC991_iAdnR1	EOC991	NACT	Tubo-ovarian	Interval	Validation	maintaining	FALSE	TRUE	3.507	0.335	0.403111298085733	14333	207
+EOC991_iMes1_DNA1	EOC991_iMes1	EOC991	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	3.587	0.44	0.405916775681032	14494	226
+EOC991_pOme1_DNA1	EOC991_pOme1	EOC991	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.913	0.53	0.365499697200595	12324	189
+EOC991_pOvaL1_DNA1	EOC991_pOvaL1	EOC991	NACT	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3.451	0.085	0.3476594732171	11803	66
+EOC1002_iOme1_DNA1	EOC1002_iOme1	EOC1002	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	3.55	0.175	0	4102	93
+EOC1002_pAsc1_DNA1	EOC1002_pAsc1	EOC1002	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.591	0.155	0	3988	66
+EOC1002_pOme1_DNA1	EOC1002_pOme1	EOC1002	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	FALSE	TRUE	3.587	0.25	0	4161	148
+EOC1002_pPer1_DNA1	EOC1002_pPer1	EOC1002	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.611	0.3	0	4095	151
+EOC1002_pTubR1_DNA1	EOC1002_pTubR1	EOC1002	NACT	Tubo-ovarian	Diagnostic	Validation	maintaining	FALSE	TRUE	3.537	0.685	0	4346	217
+EOC1003_p2Ome1_TR_DNA	EOC1003_p2Ome1_TR	EOC1003	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.533	0.87	0	7112	251
+EOC1003_p2OvaL1_TR_DNA	EOC1003_p2OvaL1_TR	EOC1003	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.419	0.665	0	6869	265
+EOC1003_p2OvaR1_DNA1	EOC1003_p2OvaR1	EOC1003	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.712	0.445	0	6581	218
+EOC1005_pAsc1_DNA1	EOC1005_pAsc1	EOC1005	NACT	Ascites	Diagnostic	Discovery	adaptive	TRUE	TRUE	2.587	0.634	0	6404	147
+EOC1005_pOme1_DNA1	EOC1005_pOme1	EOC1005	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.716	0.245	0	5996	111
+EOC1005_pPer1_DNA	EOC1005_pPer1	EOC1005	NACT	Intra-abdominal	Diagnostic	Discovery	adaptive	FALSE	TRUE	2.778	0.448	0	6264	152
+EOC1017_iOme1_DNA1	EOC1017_iOme1	EOC1017	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	3.066	0.35	0	5550	89
+EOC1017_pAsc1_DNA1	EOC1017_pAsc1	EOC1017	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	2.896	0.62	0	5665	416
+EOC1017_pOme1_DNA1	EOC1017_pOme1	EOC1017	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.065	0.345	0	5611	104
+EOC1030_pOvaR1_DNA1	EOC1030_pOvaR1	EOC1030	PDS	Tubo-ovarian	Diagnostic	Discovery	evolving	TRUE	TRUE	2.602	0.77	0.637366975203756	14992	438
+EOC1030_pOvaR2_DNA3	EOC1030_pOvaR2	EOC1030	PDS	Tubo-ovarian	Diagnostic	Discovery	evolving	FALSE	TRUE	2.864	0.55	0.625567621637182	15157	380
+EOC1032_pAsc1_DNA1	EOC1032_pAsc1	EOC1032	NACT	Ascites	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.726	0.878	0	15123	388
+EOC1032_pPer_DNA1	EOC1032_pPer	EOC1032	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.646	0.74	0	15159	398
+EOC1067_pOme1_DNA3	EOC1067_pOme1	EOC1067	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	3.566	0.94	0	8902	228
+EOC1067_pOvaR1_DNA1	EOC1067_pOvaR1	EOC1067	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.85	0.805	0	11315	473
+EOC1067_pPerR1_DNA1	EOC1067_pPerR1	EOC1067	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	3.737	0.615	0	9694	233
+EOC1067_pTubL1_DNA1	EOC1067_pTubL1	EOC1067	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	3.836	0.695	0	10831	291
+EOC1077_pOth1_DNA1	EOC1077_pOth1	EOC1077	PDS	Other	Diagnostic	Validation	adaptive	TRUE	FALSE	1.835	0.805	0.393830148155765	8318	315
+EOC1077_pOvaR1_DNA1	EOC1077_pOvaR1	EOC1077	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.938	0.895	0.416587210965664	10745	376
+EOC1077_pOvaR1_TR_DNA	EOC1077_pOvaR1_TR	EOC1077	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.883	0.75	0.401613772506556	11195	361
+EOC1077_pTubL1_DNA1	EOC1077_pTubL1	EOC1077	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	FALSE	1.876	0.84	0.410603425474904	15151	319
+EOC1091_pOme1_TR_DNA	EOC1091_pOme1_TR	EOC1091	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	4.885	0.81	0	11357	400
+EOC1091_pOvaR1_TR_DNA	EOC1091_pOvaR1_TR	EOC1091	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.462	0.77	0	11874	360
+EOC1099_pAsc2_DNA3	EOC1099_pAsc2	EOC1099	PDS	Ascites	Diagnostic	Validation	evolving	FALSE	TRUE	3.318	0.2	0	8277	142
+EOC1099_pOme1_DNA1	EOC1099_pOme1	EOC1099	PDS	Intra-abdominal	Diagnostic	Validation	evolving	TRUE	TRUE	3.237	0.345	0	8498	131
+EOC1099_pOvaR1_DNA3	EOC1099_pOvaR1	EOC1099	PDS	Tubo-ovarian	Diagnostic	Validation	evolving	FALSE	TRUE	3.08	0.925	0	9362	175
+EOC1107_iAdnR1_DNA2	EOC1107_iAdnR1	EOC1107	NACT	Tubo-ovarian	Interval	Validation	maintaining	FALSE	TRUE	3.055	0.7	0	4632	213
+EOC1107_iAsc1_DNA2	EOC1107_iAsc1	EOC1107	NACT	Ascites	Interval	Validation	maintaining	FALSE	TRUE	3.143	0.345	0.430947137433361	8016	186
+EOC1107_iOme1_DNA1	EOC1107_iOme1	EOC1107	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	3.144	0.415	0.423945845006523	8145	192
+EOC1107_iPer2_DNA1	EOC1107_iPer2	EOC1107	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	TRUE	3.675	0.065	0.383078286757685	6073	33
+EOC1107_pAsc1_DNA1_novaseq	EOC1107_pAsc1_novaseq	EOC1107	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.193	0.98	0.424932774156225	8120	389
+EOC1107_pAsc1_DNA2	EOC1107_pAsc1	EOC1107	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.186	0.975	0.422850328141601	8192	353
+EOC1107_pOme1_DNA1	EOC1107_pOme1	EOC1107	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.197	0.75	0.421855072457241	8100	313
+EOC1119_p2Ome1_TR_DNA	EOC1119_p2Ome1_TR	EOC1119	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	FALSE	TRUE	5.063	0.72	0	16914	702
+EOC1119_p2OvaR1_TR_DNA	EOC1119_p2OvaR1_TR	EOC1119	PDS	Tubo-ovarian	Diagnostic	Validation	adaptive	FALSE	TRUE	5.149	0.81	0	16349	653
+EOC1119_p2Per1_TR_DNA	EOC1119_p2Per1_TR	EOC1119	PDS	Intra-abdominal	Diagnostic	Validation	adaptive	TRUE	TRUE	4.871	0.945	0	16084	635
+EOC1120_pAsc2_DNA1	EOC1120_pAsc2	EOC1120	PDS	Ascites	Diagnostic	Discovery	evolving	FALSE	TRUE	2.872	0.188	0	5220	110
+EOC1120_pPer1_DNA1	EOC1120_pPer1	EOC1120	PDS	Intra-abdominal	Diagnostic	Discovery	evolving	FALSE	TRUE	2.757	0.49	0	5713	224
+EOC1120_pPer1_DNA1_bgiseq	EOC1120_pPer1_bgiseq	EOC1120	PDS	Intra-abdominal	Diagnostic	Discovery	evolving	TRUE	TRUE	3.106	0.536	0	5816	287
+EOC1120_rAsc1_DNA2	EOC1120_rAsc1	EOC1120	PDS	Ascites	Relapse	Discovery	evolving	FALSE	TRUE	2.676	0.8	0	6052	294
+EOC1122_iOvaL1_DNA1	EOC1122_iOvaL1	EOC1122	NACT	Tubo-ovarian	Interval	Validation	maintaining	FALSE	TRUE	3.692	0.5	0.302552790287686	5700	80
+EOC1122_iPer3_DNA2	EOC1122_iPer3	EOC1122	NACT	Intra-abdominal	Interval	Validation	maintaining	FALSE	FALSE	2.018	0.385	0.309166270813329	5721	78
+EOC1122_pAsc1_DNA1	EOC1122_pAsc1	EOC1122	NACT	Ascites	Diagnostic	Validation	maintaining	FALSE	TRUE	3.644	0.96	0.312506462530919	5690	93
+EOC1122_pOme1_DNA1	EOC1122_pOme1	EOC1122	NACT	Intra-abdominal	Diagnostic	Validation	maintaining	TRUE	TRUE	3.846	0.47	0.303291739029313	5777	84
+EOC1127_pAsc1_DNA1	EOC1127_pAsc1	EOC1127	NACT	Ascites	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.442	0.47	0	5484	250
+EOC1127_pOme1_DNA3	EOC1127_pOme1	EOC1127	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	TRUE	TRUE	2.458	0.478	0	5733	259
+EOC1127_pPer1_DNA1	EOC1127_pPer1	EOC1127	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.444	0.38	0	5584	229
+EOC1129_iAsc1_DNA1	EOC1129_iAsc1	EOC1129	NACT	Ascites	Interval	Discovery	maintaining	FALSE	TRUE	3.549	0.11	0	8099	98
+EOC1129_iMes1_DNA	EOC1129_iMes1	EOC1129	NACT	Intra-abdominal	Interval	Discovery	maintaining	FALSE	TRUE	3.865	0.319	0	10554	221
+EOC1129_pAsc1_DNA1	EOC1129_pAsc1	EOC1129	NACT	Ascites	Diagnostic	Discovery	maintaining	FALSE	TRUE	3.813	0.29	0	10858	232
+EOC1129_pOme1_DNA1	EOC1129_pOme1	EOC1129	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.273	0.31	0	13811	212
+EOC1129_pOme1_DNA1_hiseq	EOC1129_pOme1_hiseq	EOC1129	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	4.189	0.32	0	11343	148
+EOC1129_pOvaR1_DNA1	EOC1129_pOvaR1	EOC1129	NACT	Tubo-ovarian	Diagnostic	Discovery	maintaining	TRUE	TRUE	3.605	0.63	0	9224	219
+EOC1129_pPer2_DNA1	EOC1129_pPer2	EOC1129	NACT	Intra-abdominal	Diagnostic	Discovery	maintaining	FALSE	TRUE	2.763	0.1	0	7145	54
