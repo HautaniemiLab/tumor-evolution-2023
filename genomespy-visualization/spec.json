@@ -50,6 +50,11 @@
 
       "stickySummaries": true,
 
+      "view": {
+        "stroke": "lightgray",
+        "fill": "#fafafa"
+      },
+
       "samples": {
         "data": { "url": "samples.tsv" },
         "attributes": {
@@ -60,10 +65,6 @@
               "range": ["#e8e8e8", "#facf5a", "#f95959", "#455d7a"]
             }
           },
-          "tissue": {
-            "type": "nominal",
-            "visible": false
-          },
           "representative": {
             "type": "nominal",
             "scale": {
@@ -71,45 +72,11 @@
               "range": ["#e0e0e0", "#a0a0a0"]
             }
           },
-          "PFI": {
-            "type": "ordinal",
-            "scale": {
-              "domain": ["< 180 days", "180 - 364 days", ">= 365 days"],
-              "scheme": "yellowgreenblue"
-            }
-          },
-          "progression": {
-            "type": "nominal",
-            "scale": {
-              "domain": ["FALSE", "TRUE"],
-              "range": ["#e0e0e0", "#a0a0a0"]
-            }
-          },
-          "HGSOC": {
-            "type": "nominal",
-            "scale": {
-              "domain": ["other", "high grade serous"],
-              "range": ["gray", "lightgray"]
-            }
-          },
-          "sampleType": {
-            "type": "nominal",
-            "scale": {
-              "scheme": "set2"
-            }
-          },
           "WGD": {
             "type": "nominal",
             "scale": {
               "domain": ["FALSE", "TRUE"],
               "range": ["#e0e0e0", "#a0a0a0"]
-            }
-          },
-          "heterogeneity": {
-            "type": "quantitative",
-            "visible": false,
-            "scale": {
-              "scheme": "yellowgreenblue"
             }
           },
           "cluster": {
@@ -139,13 +106,6 @@
           },
           "sig_HRD": {
             "type": "quantitative",
-            "scale": {
-              "scheme": "yelloworangered"
-            }
-          },
-          "sig_APOBEC": {
-            "type": "quantitative",
-            "visible": false,
             "scale": {
               "scheme": "yelloworangered"
             }
@@ -186,7 +146,11 @@
             "chrom": "chr",
             "pos": "startpos",
             "type": "locus",
-            "axis": null,
+            "axis": {
+              "chromGrid": true,
+              "chromGridDash": [3, 3],
+              "chromGridColor": "lightgray"
+            },
             "scale": {
               "name": "genome_x"
             }
@@ -236,7 +200,12 @@
             "aggregateSamples": [
               {
                 "name": "cnv-g-score-summary",
-                "title": "G-score",
+                "view": { "stroke": "lightgray" },
+                "padding": { "bottom": 5 },
+                "title": {
+                  "text": "G-score",
+                  "style": "overlay"
+                },
                 "height": 50,
                 "transform": [
                   {
@@ -264,14 +233,28 @@
                   "y": {
                     "field": "coverage",
                     "type": "quantitative",
-                    "axis": {},
+                    "axis": null,
                     "scale": {
                       "domain": [-1.2, 0, 1.2],
                       "clamp": true
-                    }
+                    },
+                    "title": null
                   }
                 },
                 "layer": [
+                  {
+                    "data": { "values": [{}] },
+                    "mark": {
+                      "type": "rule",
+                      "strokeDash": [1, 3]
+                    },
+                    "encoding": {
+                      "y": { "datum": 0, "type": "quantitative" },
+                      "x": null,
+                      "x2": null,
+                      "color": { "value": "lightgray" }
+                    }
+                  },
                   {
                     "name": "amplification",
                     "transform": [
@@ -598,25 +581,6 @@
             }
           }
         ]
-      }
-    },
-    {
-      "name": "dummy-axis",
-      "configurableVisibility": false,
-      "height": { "grow": 0 },
-      "data": { "values": [] },
-      "mark": "rect",
-      "padding": { "top": -5 },
-      "encoding": {
-        "x": {
-          "chrom": "chr",
-          "pos": "pos",
-          "type": "locus",
-          "title": null,
-          "axis": {
-            "domain": false
-          }
-        }
       }
     },
     {

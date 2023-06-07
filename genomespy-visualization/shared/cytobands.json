@@ -1,5 +1,6 @@
 {
   "name": "ideogram-track",
+  "view": { "stroke": "black" },
   "title": {
     "text": "Chromosome Ideogram",
     "style": "track-title"

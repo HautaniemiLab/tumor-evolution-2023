@@ -6,13 +6,17 @@
 
   "visible": false,
 
-  "resolve": { "scale": { "x": "shared" } },
+  "resolve": { "scale": { "x": "shared" }, "axis": { "x": "independent" } },
+
+  "spacing": 5,
 
   "vconcat": [
     {
       "name": "gistic-q-value",
       "title": { "text": "Q-values", "orient": "none" },
       "height": 100,
+
+      "view": { "stroke": "lightgray" },
 
       "layer": [
         {
@@ -58,7 +62,17 @@
               "chrom": "Chromosome",
               "pos": "Start",
               "type": "locus",
-              "axis": null
+              "axis": {
+                "chromGrid": true,
+                "chromGridColor": "lightgray",
+                "chromGridDash": [3, 3],
+                "domain": false,
+                "ticks": false,
+                "labels": false,
+                "chromTicks": false,
+                "chromLabels": false,
+                "minExtent": 0
+              }
             },
             "x2": { "chrom": "Chromosome", "pos": "End" }
           },
@@ -110,6 +124,8 @@
       "title": { "text": "Regions and peaks", "orient": "none" },
 
       "height": 30,
+
+      "view": { "fill": "#f8f8f8" },
 
       "data": {
         "url": "data/all_lesions.conf_75.txt",
